@@ -88,8 +88,6 @@ $(O)/linuxxdoom:	$(OBJS) $(O)/i_main.o
 	-o $(O)/linuxxdoom $(LIBS)
 
 $(O)/%.o:	%.s
-#	$(CC) $(CFLAGS) -S -fverbose-asm $< -o $(patsubst %.o,%.s,$@)
-#	echo $(patsubst %.o,%.s,$@)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 #############################################################
