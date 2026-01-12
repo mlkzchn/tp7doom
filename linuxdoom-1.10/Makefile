@@ -86,8 +86,10 @@ clean:
 $(O)/linuxxdoom:	$(OBJS) $(O)/i_main.o
 	$(CC) $(CFLAGS) $(LDFLAGS) $(OBJS) $(O)/i_main.o \
 	-o $(O)/linuxxdoom $(LIBS)
+	cp -f doom1.wad $(O)
 
 $(O)/%.o:	%.s
+	@mkdir -p $(O)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 #############################################################

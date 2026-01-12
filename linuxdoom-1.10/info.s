@@ -1,12 +1,5 @@
 	.file	"info.c"
-# GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
-#	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
-
-# GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-# options passed: -mtune=generic -march=x86-64 -g -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection
 	.text
-.Ltext0:
-	.file 0 "/home/astrid/Documents/enseignements/DOOM/linuxdoom-1.10" "info.c"
 	.section	.rodata
 	.align 32
 	.type	rcsid, @object
@@ -439,16444 +432,8708 @@ sprnames:
 	.type	states, @object
 	.size	states, 54152
 states:
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	1
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	0
-# action:
-# acp1:
 	.quad	A_Light0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	2
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_WeaponReady
-# nextstate:
 	.long	2
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	2
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Lower
-# nextstate:
 	.long	3
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	2
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Raise
-# nextstate:
 	.long	4
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	2
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	6
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	2
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Punch
-# nextstate:
 	.long	7
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	2
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	8
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	2
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	9
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	2
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_ReFire
-# nextstate:
 	.long	2
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	3
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_WeaponReady
-# nextstate:
 	.long	10
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	3
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Lower
-# nextstate:
 	.long	11
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	3
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Raise
-# nextstate:
 	.long	12
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	3
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	14
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	3
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_FirePistol
-# nextstate:
 	.long	15
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	3
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	16
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	3
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_ReFire
-# nextstate:
 	.long	10
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	4
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	A_Light1
-# nextstate:
 	.long	1
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	1
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_WeaponReady
-# nextstate:
 	.long	18
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	1
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Lower
-# nextstate:
 	.long	19
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	1
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Raise
-# nextstate:
 	.long	20
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	1
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	22
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	1
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	A_FireShotgun
-# nextstate:
 	.long	23
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	1
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	24
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	1
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	25
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	1
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	26
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	1
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	27
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	1
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	28
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	1
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	29
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	1
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	A_ReFire
-# nextstate:
 	.long	18
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	5
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Light1
-# nextstate:
 	.long	31
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	5
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Light2
-# nextstate:
 	.long	1
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_WeaponReady
-# nextstate:
 	.long	32
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Lower
-# nextstate:
 	.long	33
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Raise
-# nextstate:
 	.long	34
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	36
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	A_FireShotgun2
-# nextstate:
 	.long	37
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	38
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	A_CheckReload
-# nextstate:
 	.long	39
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	A_OpenShotgun2
-# nextstate:
 	.long	40
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	41
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	A_LoadShotgun2
-# nextstate:
 	.long	42
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	43
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_CloseShotgun2
-# nextstate:
 	.long	44
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_ReFire
-# nextstate:
 	.long	32
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	46
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	33
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	32776
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Light1
-# nextstate:
 	.long	48
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	6
-# frame:
 	.zero	4
 	.quad	32777
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Light2
-# nextstate:
 	.long	1
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	7
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_WeaponReady
-# nextstate:
 	.long	49
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	7
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Lower
-# nextstate:
 	.long	50
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	7
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Raise
-# nextstate:
 	.long	51
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	7
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_FireCGun
-# nextstate:
 	.long	53
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	7
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_FireCGun
-# nextstate:
 	.long	54
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	7
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	0
-# action:
-# acp1:
 	.quad	A_ReFire
-# nextstate:
 	.long	49
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	8
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Light1
-# nextstate:
 	.long	1
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	8
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Light2
-# nextstate:
 	.long	1
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	9
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_WeaponReady
-# nextstate:
 	.long	57
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	9
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Lower
-# nextstate:
 	.long	58
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	9
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Raise
-# nextstate:
 	.long	59
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	9
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_GunFlash
-# nextstate:
 	.long	61
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	9
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	12
-# action:
-# acp1:
 	.quad	A_FireMissile
-# nextstate:
 	.long	62
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	9
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	0
-# action:
-# acp1:
 	.quad	A_ReFire
-# nextstate:
 	.long	57
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	10
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Light1
-# nextstate:
 	.long	64
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	10
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	65
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	10
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Light2
-# nextstate:
 	.long	66
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	10
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Light2
-# nextstate:
 	.long	1
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	11
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_WeaponReady
-# nextstate:
 	.long	68
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	11
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_WeaponReady
-# nextstate:
 	.long	67
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	11
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Lower
-# nextstate:
 	.long	69
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	11
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Raise
-# nextstate:
 	.long	70
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	11
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Saw
-# nextstate:
 	.long	72
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	11
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Saw
-# nextstate:
 	.long	73
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	11
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	0
-# action:
-# acp1:
 	.quad	A_ReFire
-# nextstate:
 	.long	67
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	12
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_WeaponReady
-# nextstate:
 	.long	74
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	12
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Lower
-# nextstate:
 	.long	75
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	12
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Raise
-# nextstate:
 	.long	76
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	12
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_FirePlasma
-# nextstate:
 	.long	78
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	12
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	20
-# action:
-# acp1:
 	.quad	A_ReFire
-# nextstate:
 	.long	74
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	13
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Light1
-# nextstate:
 	.long	1
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	13
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Light1
-# nextstate:
 	.long	1
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	14
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_WeaponReady
-# nextstate:
 	.long	81
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	14
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Lower
-# nextstate:
 	.long	82
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	14
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_Raise
-# nextstate:
 	.long	83
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	14
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	20
-# action:
-# acp1:
 	.quad	A_BFGsound
-# nextstate:
 	.long	85
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	14
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_GunFlash
-# nextstate:
 	.long	86
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	14
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_FireBFG
-# nextstate:
 	.long	87
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	14
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	20
-# action:
-# acp1:
 	.quad	A_ReFire
-# nextstate:
 	.long	81
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	15
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	11
-# action:
-# acp1:
 	.quad	A_Light1
-# nextstate:
 	.long	89
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	15
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_Light2
-# nextstate:
 	.long	1
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	16
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	91
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	16
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	92
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	16
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	17
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	94
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	17
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	95
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	17
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	96
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	17
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	18
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	98
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	18
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	97
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	18
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	100
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	18
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	101
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	18
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	19
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	103
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	19
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	102
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	19
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	105
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	19
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	106
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	19
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	20
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	108
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	20
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	107
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	21
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	110
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	21
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	111
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	21
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	112
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	21
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	113
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	21
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	22
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	114
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	23
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	116
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	23
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	115
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	24
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	118
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	24
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	119
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	24
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_BFGSpray
-# nextstate:
 	.long	120
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	24
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	121
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	24
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	122
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	24
-# frame:
 	.zero	4
 	.quad	32773
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	25
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	124
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	25
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	125
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	25
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	126
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	25
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	22
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_Explode
-# nextstate:
 	.long	128
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	22
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	129
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	22
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	26
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	131
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	26
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	132
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	26
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	133
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	26
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	134
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	26
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	135
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	26
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	136
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	26
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	137
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	26
-# frame:
 	.zero	4
 	.quad	32773
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	138
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	26
-# frame:
 	.zero	4
 	.quad	32774
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	139
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	26
-# frame:
 	.zero	4
 	.quad	32775
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	140
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	26
-# frame:
 	.zero	4
 	.quad	32776
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	141
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	26
-# frame:
 	.zero	4
 	.quad	32777
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	27
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	143
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	27
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	144
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	27
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	145
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	27
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	146
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	27
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	147
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	27
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	148
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	27
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	151
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	152
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	153
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	150
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	12
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	149
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	32773
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	154
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	157
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	149
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	159
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_PlayerScream
-# nextstate:
 	.long	160
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	161
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	162
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	163
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	164
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	166
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	15
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_XScream
-# nextstate:
 	.long	167
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	16
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	168
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	17
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	169
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	18
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	170
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	19
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	171
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	20
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	172
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	21
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	173
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	22
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	175
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	174
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	177
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	178
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	179
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	180
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	181
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	182
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	183
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	176
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	185
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_PosAttack
-# nextstate:
 	.long	186
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	176
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	188
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	176
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	190
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	191
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	192
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	193
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	195
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_XScream
-# nextstate:
 	.long	196
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	197
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	15
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	198
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	16
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	199
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	17
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	200
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	18
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	201
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	19
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	202
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	20
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	204
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	205
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	206
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	29
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	176
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	208
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	207
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	210
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	211
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	212
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	213
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	214
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	215
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	216
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	209
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	218
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	32773
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_SPosAttack
-# nextstate:
 	.long	219
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	209
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	221
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	209
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	223
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	224
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	225
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	226
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	228
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_XScream
-# nextstate:
 	.long	229
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	230
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	15
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	231
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	16
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	232
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	17
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	233
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	18
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	234
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	19
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	235
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	20
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	237
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	238
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	239
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	240
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	30
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	209
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	242
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	241
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_VileChase
-# nextstate:
 	.long	244
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_VileChase
-# nextstate:
 	.long	245
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_VileChase
-# nextstate:
 	.long	246
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_VileChase
-# nextstate:
 	.long	247
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_VileChase
-# nextstate:
 	.long	248
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_VileChase
-# nextstate:
 	.long	249
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_VileChase
-# nextstate:
 	.long	250
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_VileChase
-# nextstate:
 	.long	251
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_VileChase
-# nextstate:
 	.long	252
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_VileChase
-# nextstate:
 	.long	253
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_VileChase
-# nextstate:
 	.long	254
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_VileChase
-# nextstate:
 	.long	243
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	32774
-# tics:
 	.quad	0
-# action:
-# acp1:
 	.quad	A_VileStart
-# nextstate:
 	.long	256
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	32774
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	257
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	32775
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_VileTarget
-# nextstate:
 	.long	258
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	32776
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	259
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	32777
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	260
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	32778
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	261
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	32779
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	262
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	32780
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	263
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	32781
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	264
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	32782
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_VileAttack
-# nextstate:
 	.long	265
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	32783
-# tics:
 	.quad	20
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	243
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	32794
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	267
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	32795
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	268
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	32796
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	243
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	16
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	270
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	16
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	243
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	16
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	272
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	17
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	273
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	18
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	274
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	19
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	275
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	20
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	276
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	21
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	277
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	22
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	278
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	23
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	279
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	24
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	280
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	31
-# frame:
 	.zero	4
 	.quad	25
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_StartFire
-# nextstate:
 	.long	282
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	283
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	284
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	285
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_FireCrackle
-# nextstate:
 	.long	286
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	287
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	288
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	289
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	290
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	291
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	292
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	293
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	294
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	295
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	296
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	297
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	298
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	299
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_FireCrackle
-# nextstate:
 	.long	300
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32773
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	301
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	302
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32773
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	303
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	304
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32773
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	305
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32774
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	306
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32775
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	307
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32774
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	308
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32775
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	309
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32774
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	310
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32775
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	17
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	312
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	17
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	313
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	17
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	314
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	17
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	315
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	17
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	33
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Tracer
-# nextstate:
 	.long	317
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	33
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Tracer
-# nextstate:
 	.long	316
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	34
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	319
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	34
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	320
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	34
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	322
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	321
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	324
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	325
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	326
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	327
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	328
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	329
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	330
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	331
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	332
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	333
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	334
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	323
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	0
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	336
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_SkelWhoosh
-# nextstate:
 	.long	337
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	338
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_SkelFist
-# nextstate:
 	.long	323
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	32777
-# tics:
 	.quad	0
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	340
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	32777
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	341
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_SkelMissile
-# nextstate:
 	.long	342
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	323
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	344
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	323
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	346
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	347
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	348
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	349
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	15
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	350
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	16
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	16
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	352
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	15
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	353
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	354
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	355
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	356
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	35
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	323
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	36
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	358
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	36
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	357
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	22
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	360
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	22
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	361
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	22
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	15
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	363
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	15
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	362
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	365
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	366
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	367
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	368
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	369
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	370
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	371
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	372
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	373
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	374
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	375
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	364
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	20
-# action:
-# acp1:
 	.quad	A_FatRaise
-# nextstate:
 	.long	377
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	32775
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_FatAttack1
-# nextstate:
 	.long	378
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	379
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	380
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	32775
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_FatAttack2
-# nextstate:
 	.long	381
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	382
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	383
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	32775
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_FatAttack3
-# nextstate:
 	.long	384
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	385
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	364
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	387
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	364
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	389
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	390
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	391
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	392
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	393
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	15
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	394
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	16
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	395
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	17
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	396
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	18
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	397
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	19
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	A_BossDeath
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	17
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	399
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	16
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	400
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	15
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	401
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	402
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	403
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	404
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	405
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	37
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	364
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	407
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	406
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	409
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	410
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	411
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	412
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	413
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	414
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	415
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	408
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	417
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	32773
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_CPosAttack
-# nextstate:
 	.long	418
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_CPosAttack
-# nextstate:
 	.long	419
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_CPosRefire
-# nextstate:
 	.long	417
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	421
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	408
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	423
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	424
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	425
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	426
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	427
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	428
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	430
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	15
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_XScream
-# nextstate:
 	.long	431
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	16
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	432
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	17
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	433
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	18
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	434
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	19
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	436
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	437
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	438
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	439
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	440
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	441
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	38
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	408
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	443
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	442
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	445
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	446
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	447
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	448
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	449
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	450
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	451
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	444
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	453
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	454
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_TroopAttack
-# nextstate:
 	.long	444
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	456
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	444
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	458
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	459
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	460
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	461
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	463
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_XScream
-# nextstate:
 	.long	464
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	15
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	465
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	16
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	466
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	17
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	467
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	18
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	468
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	19
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	469
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	20
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	471
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	472
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	473
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	474
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	0
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	444
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	476
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	475
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	478
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	479
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	480
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	481
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	482
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	483
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	484
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	477
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	486
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	487
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_SargAttack
-# nextstate:
 	.long	477
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	489
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	477
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	491
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	492
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	493
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	494
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	495
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	497
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	498
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	499
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	500
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	501
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	39
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	477
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	502
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	503
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	505
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	506
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_HeadAttack
-# nextstate:
 	.long	503
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	508
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	509
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	503
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	511
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	512
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	513
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	514
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	515
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	517
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	518
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	519
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	520
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	521
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	40
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	503
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	41
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	523
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	41
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	522
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	41
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	525
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	41
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	526
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	41
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	528
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	527
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	530
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	531
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	532
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	533
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	534
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	535
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	536
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	529
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	538
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	539
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_BruisAttack
-# nextstate:
 	.long	529
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	541
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	529
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	543
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	544
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	545
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	546
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	547
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	548
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	A_BossDeath
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	550
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	551
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	552
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	553
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	554
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	555
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	42
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	529
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	557
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	556
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	559
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	560
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	561
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	562
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	563
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	564
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	565
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	558
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	567
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	568
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_BruisAttack
-# nextstate:
 	.long	558
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	570
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	2
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	558
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	572
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	573
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	574
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	575
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	576
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	577
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	579
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	580
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	581
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	582
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	583
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	584
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	43
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	558
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	44
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	586
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	44
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	585
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	44
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	588
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	44
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	587
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	44
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	590
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	44
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_SkullAttack
-# nextstate:
 	.long	591
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	44
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	592
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	44
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	591
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	44
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	594
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	44
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	587
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	44
-# frame:
 	.zero	4
 	.quad	32773
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	596
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	44
-# frame:
 	.zero	4
 	.quad	32774
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	597
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	44
-# frame:
 	.zero	4
 	.quad	32775
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	598
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	44
-# frame:
 	.zero	4
 	.quad	32776
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	599
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	44
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	600
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	44
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	602
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	601
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Metal
-# nextstate:
 	.long	604
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	605
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	606
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	607
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Metal
-# nextstate:
 	.long	608
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	609
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	610
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	611
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Metal
-# nextstate:
 	.long	612
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	613
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	614
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	603
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	20
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	616
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	32774
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_SPosAttack
-# nextstate:
 	.long	617
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	32775
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_SPosAttack
-# nextstate:
 	.long	618
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	32775
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_SpidRefire
-# nextstate:
 	.long	616
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	620
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	603
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	20
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	622
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	623
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	624
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	625
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	626
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	627
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	15
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	628
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	16
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	629
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	17
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	630
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	18
-# tics:
 	.quad	30
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	631
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	45
-# frame:
 	.zero	4
 	.quad	18
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	A_BossDeath
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	633
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	632
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	20
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	635
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_BabyMetal
-# nextstate:
 	.long	636
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	637
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	638
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	639
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	640
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	641
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_BabyMetal
-# nextstate:
 	.long	642
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	643
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	644
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	645
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	646
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	635
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	20
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	648
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	32774
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_BspiAttack
-# nextstate:
 	.long	649
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	32775
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	650
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	32775
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_SpidRefire
-# nextstate:
 	.long	648
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	652
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	635
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	20
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	654
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	655
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	656
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	657
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	658
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	659
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	15
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	A_BossDeath
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	15
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	661
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	662
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	663
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	664
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	665
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	666
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	46
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	635
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	47
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	668
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	47
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	667
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	48
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	670
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	48
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	671
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	48
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	672
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	48
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	673
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	48
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	675
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	674
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Hoof
-# nextstate:
 	.long	677
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	678
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	679
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	680
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	681
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	682
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Metal
-# nextstate:
 	.long	683
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	676
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	685
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	12
-# action:
-# acp1:
 	.quad	A_CyberAttack
-# nextstate:
 	.long	686
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	12
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	687
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	12
-# action:
-# acp1:
 	.quad	A_CyberAttack
-# nextstate:
 	.long	688
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	12
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	689
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	12
-# action:
-# acp1:
 	.quad	A_CyberAttack
-# nextstate:
 	.long	676
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	676
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	692
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	693
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	694
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	695
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	696
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	697
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	698
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	699
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	15
-# tics:
 	.quad	30
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	700
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	49
-# frame:
 	.zero	4
 	.quad	15
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	A_BossDeath
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	701
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	703
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	704
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	705
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	706
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	707
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	702
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	709
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	710
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	32773
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	711
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	32773
-# tics:
 	.quad	0
-# action:
-# acp1:
 	.quad	A_PainAttack
-# nextstate:
 	.long	702
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	713
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	702
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	32775
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	715
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	32776
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	716
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	32777
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	717
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	32778
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	718
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	32779
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_PainDie
-# nextstate:
 	.long	719
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	32780
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	721
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	722
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	723
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	724
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	725
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	50
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	702
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	727
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	726
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	729
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	730
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	731
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	732
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	733
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	734
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	735
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Chase
-# nextstate:
 	.long	728
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	737
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	738
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	32774
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_CPosAttack
-# nextstate:
 	.long	739
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_FaceTarget
-# nextstate:
 	.long	740
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	32774
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_CPosAttack
-# nextstate:
 	.long	741
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	1
-# action:
-# acp1:
 	.quad	A_CPosRefire
-# nextstate:
 	.long	737
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	743
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	728
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	745
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	746
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	747
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	748
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	750
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	14
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_XScream
-# nextstate:
 	.long	751
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	15
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Fall
-# nextstate:
 	.long	752
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	16
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	753
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	17
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	754
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	18
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	755
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	19
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	756
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	20
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	757
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	21
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	759
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	760
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	761
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	762
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	728
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	52
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	763
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	52
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	765
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	52
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	766
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	52
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	767
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	52
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	768
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	52
-# frame:
 	.zero	4
 	.quad	4
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	769
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	52
-# frame:
 	.zero	4
 	.quad	5
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	770
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	52
-# frame:
 	.zero	4
 	.quad	6
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	771
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	52
-# frame:
 	.zero	4
 	.quad	7
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	772
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	52
-# frame:
 	.zero	4
 	.quad	8
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	773
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	52
-# frame:
 	.zero	4
 	.quad	9
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	774
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	52
-# frame:
 	.zero	4
 	.quad	10
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	A_KeenDie
-# nextstate:
 	.long	775
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	52
-# frame:
 	.zero	4
 	.quad	11
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	52
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	777
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	52
-# frame:
 	.zero	4
 	.quad	12
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	A_Pain
-# nextstate:
 	.long	763
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	53
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	53
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	36
-# action:
-# acp1:
 	.quad	A_BrainPain
-# nextstate:
 	.long	778
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	53
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	100
-# action:
-# acp1:
 	.quad	A_BrainScream
-# nextstate:
 	.long	781
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	53
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	782
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	53
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	783
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	53
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	A_BrainDie
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Look
-# nextstate:
 	.long	784
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	181
-# action:
-# acp1:
 	.quad	A_BrainAwake
-# nextstate:
 	.long	786
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	51
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	150
-# action:
-# acp1:
 	.quad	A_BrainSpit
-# nextstate:
 	.long	786
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	54
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_SpawnSound
-# nextstate:
 	.long	788
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	54
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_SpawnFly
-# nextstate:
 	.long	789
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	54
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_SpawnFly
-# nextstate:
 	.long	790
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	54
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	3
-# action:
-# acp1:
 	.quad	A_SpawnFly
-# nextstate:
 	.long	787
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	792
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	793
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	794
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	795
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	796
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32773
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	797
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32774
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	798
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	32
-# frame:
 	.zero	4
 	.quad	32775
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	A_Fire
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	22
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	800
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	22
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	801
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	22
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_BrainExplode
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	55
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	803
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	55
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	7
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	802
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	56
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	805
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	56
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	804
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	57
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	807
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	57
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	806
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	58
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	809
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	58
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	A_Scream
-# nextstate:
 	.long	810
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	58
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	5
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	811
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	58
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	A_Explode
-# nextstate:
 	.long	812
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	58
-# frame:
 	.zero	4
 	.quad	32772
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	59
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	814
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	59
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	815
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	59
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	813
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	60
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	817
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	60
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	818
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	60
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	819
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	60
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	820
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	60
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	821
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	60
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	816
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	61
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	823
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	61
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	824
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	61
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	825
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	61
-# frame:
 	.zero	4
 	.quad	3
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	826
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	61
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	827
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	61
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	822
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	62
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	829
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	62
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	828
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	63
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	831
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	63
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	830
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	64
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	833
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	64
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	832
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	65
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	835
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	65
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	834
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	66
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	837
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	66
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	836
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	67
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	839
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	67
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	838
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	68
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	69
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	70
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	843
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	70
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	844
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	70
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	845
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	70
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	846
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	70
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	847
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	70
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	842
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	71
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	849
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	71
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	850
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	71
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	851
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	71
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	848
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	72
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	73
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	854
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	73
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	855
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	73
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	856
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	73
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	853
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	74
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	858
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	74
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	859
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	74
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	860
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	74
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	857
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	75
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	76
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	863
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	76
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	864
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	76
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	865
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	76
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	866
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	76
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	867
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	76
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	862
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	77
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	869
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	77
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	868
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	78
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	79
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	80
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	81
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	82
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	83
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	84
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	85
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	86
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	87
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	88
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	89
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	90
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	91
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	92
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	93
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	94
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	95
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	96
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	10
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	889
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	96
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	15
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	890
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	96
-# frame:
 	.zero	4
 	.quad	2
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	891
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	96
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	888
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	13
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	28
-# frame:
 	.zero	4
 	.quad	18
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	97
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	98
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	99
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	100
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	898
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	100
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	897
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	101
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	102
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	901
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	102
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	8
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	900
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	103
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	104
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	105
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	106
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	107
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	108
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	109
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	110
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	111
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	112
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	113
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	114
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	115
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	116
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	117
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	118
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	918
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	118
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	919
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	118
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	920
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	118
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	917
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	119
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	922
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	119
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	923
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	119
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	6
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	921
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	120
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	14
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	925
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	120
-# frame:
 	.zero	4
 	.quad	1
-# tics:
 	.quad	14
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	924
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	121
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	927
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	121
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	928
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	121
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	929
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	121
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	926
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	122
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	931
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	122
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	932
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	122
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	933
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	122
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	930
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	123
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	935
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	123
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	936
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	123
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	937
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	123
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	934
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	124
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	939
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	124
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	940
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	124
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	941
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	124
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	938
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	125
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	943
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	125
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	944
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	125
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	945
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	125
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	942
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	126
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	947
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	126
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	948
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	126
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	949
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	126
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	946
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	127
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	128
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	129
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	130
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	131
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	132
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	133
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	134
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	135
-# frame:
 	.zero	4
 	.quad	0
-# tics:
 	.quad	-1
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	0
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	136
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	960
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	136
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	961
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	136
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	962
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	136
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	959
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	137
-# frame:
 	.zero	4
 	.quad	32768
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	964
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	137
-# frame:
 	.zero	4
 	.quad	32769
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	965
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	137
-# frame:
 	.zero	4
 	.quad	32770
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	966
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
-# sprite:
 	.long	137
-# frame:
 	.zero	4
 	.quad	32771
-# tics:
 	.quad	4
-# action:
-# acp1:
 	.quad	0
-# nextstate:
 	.long	963
-# misc1:
 	.zero	4
 	.quad	0
-# misc2:
 	.quad	0
 	.globl	mobjinfo
 	.data
@@ -16884,14806 +9141,3157 @@ states:
 	.type	mobjinfo, @object
 	.size	mobjinfo, 12604
 mobjinfo:
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	149
-# spawnhealth:
 	.long	100
-# seestate:
 	.long	150
-# seesound:
 	.long	0
-# reactiontime:
 	.long	0
-# attacksound:
 	.long	0
-# painstate:
 	.long	156
-# painchance:
 	.long	255
-# painsound:
 	.long	25
-# meleestate:
 	.long	0
-# missilestate:
 	.long	154
-# deathstate:
 	.long	158
-# xdeathstate:
 	.long	165
-# deathsound:
 	.long	57
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	3670016
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	33557510
-# raisestate:
 	.long	0
-# doomednum:
 	.long	3004
-# spawnstate:
 	.long	174
-# spawnhealth:
 	.long	20
-# seestate:
 	.long	176
-# seesound:
 	.long	36
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	1
-# painstate:
 	.long	187
-# painchance:
 	.long	200
-# painsound:
 	.long	27
-# meleestate:
 	.long	0
-# missilestate:
 	.long	184
-# deathstate:
 	.long	189
-# xdeathstate:
 	.long	194
-# deathsound:
 	.long	59
-# speed:
 	.long	8
-# radius:
 	.long	1310720
-# height:
 	.long	3670016
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	75
-# flags:
 	.long	4194310
-# raisestate:
 	.long	203
-# doomednum:
 	.long	9
-# spawnstate:
 	.long	207
-# spawnhealth:
 	.long	30
-# seestate:
 	.long	209
-# seesound:
 	.long	37
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	220
-# painchance:
 	.long	170
-# painsound:
 	.long	27
-# meleestate:
 	.long	0
-# missilestate:
 	.long	217
-# deathstate:
 	.long	222
-# xdeathstate:
 	.long	227
-# deathsound:
 	.long	60
-# speed:
 	.long	8
-# radius:
 	.long	1310720
-# height:
 	.long	3670016
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	75
-# flags:
 	.long	4194310
-# raisestate:
 	.long	236
-# doomednum:
 	.long	64
-# spawnstate:
 	.long	241
-# spawnhealth:
 	.long	700
-# seestate:
 	.long	243
-# seesound:
 	.long	48
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	269
-# painchance:
 	.long	10
-# painsound:
 	.long	28
-# meleestate:
 	.long	0
-# missilestate:
 	.long	255
-# deathstate:
 	.long	271
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	71
-# speed:
 	.long	15
-# radius:
 	.long	1310720
-# height:
 	.long	3670016
-# mass:
 	.long	500
-# damage:
 	.long	0
-# activesound:
 	.long	80
-# flags:
 	.long	4194310
-# raisestate:
 	.long	0
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	281
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	528
-# raisestate:
 	.long	0
-# doomednum:
 	.long	66
-# spawnstate:
 	.long	321
-# spawnhealth:
 	.long	300
-# seestate:
 	.long	323
-# seesound:
 	.long	106
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	343
-# painchance:
 	.long	100
-# painsound:
 	.long	27
-# meleestate:
 	.long	335
-# missilestate:
 	.long	339
-# deathstate:
 	.long	345
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	74
-# speed:
 	.long	10
-# radius:
 	.long	1310720
-# height:
 	.long	3670016
-# mass:
 	.long	500
-# damage:
 	.long	0
-# activesound:
 	.long	105
-# flags:
 	.long	4194310
-# raisestate:
 	.long	351
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	316
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	107
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	318
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	82
-# speed:
 	.long	655360
-# radius:
 	.long	720896
-# height:
 	.long	524288
-# mass:
 	.long	100
-# damage:
 	.long	10
-# activesound:
 	.long	0
-# flags:
 	.long	67088
-# raisestate:
 	.long	0
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	311
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	528
-# raisestate:
 	.long	0
-# doomednum:
 	.long	67
-# spawnstate:
 	.long	362
-# spawnhealth:
 	.long	600
-# seestate:
 	.long	364
-# seesound:
 	.long	49
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	386
-# painchance:
 	.long	80
-# painsound:
 	.long	29
-# meleestate:
 	.long	0
-# missilestate:
 	.long	376
-# deathstate:
 	.long	388
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	100
-# speed:
 	.long	8
-# radius:
 	.long	3145728
-# height:
 	.long	4194304
-# mass:
 	.long	1000
-# damage:
 	.long	0
-# activesound:
 	.long	75
-# flags:
 	.long	4194310
-# raisestate:
 	.long	398
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	357
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	16
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	359
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	17
-# speed:
 	.long	1310720
-# radius:
 	.long	393216
-# height:
 	.long	524288
-# mass:
 	.long	100
-# damage:
 	.long	8
-# activesound:
 	.long	0
-# flags:
 	.long	67088
-# raisestate:
 	.long	0
-# doomednum:
 	.long	65
-# spawnstate:
 	.long	406
-# spawnhealth:
 	.long	70
-# seestate:
 	.long	408
-# seesound:
 	.long	37
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	420
-# painchance:
 	.long	170
-# painsound:
 	.long	27
-# meleestate:
 	.long	0
-# missilestate:
 	.long	416
-# deathstate:
 	.long	422
-# xdeathstate:
 	.long	429
-# deathsound:
 	.long	60
-# speed:
 	.long	8
-# radius:
 	.long	1310720
-# height:
 	.long	3670016
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	75
-# flags:
 	.long	4194310
-# raisestate:
 	.long	435
-# doomednum:
 	.long	3001
-# spawnstate:
 	.long	442
-# spawnhealth:
 	.long	60
-# seestate:
 	.long	444
-# seesound:
 	.long	39
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	455
-# painchance:
 	.long	200
-# painsound:
 	.long	27
-# meleestate:
 	.long	452
-# missilestate:
 	.long	452
-# deathstate:
 	.long	457
-# xdeathstate:
 	.long	462
-# deathsound:
 	.long	62
-# speed:
 	.long	8
-# radius:
 	.long	1310720
-# height:
 	.long	3670016
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	76
-# flags:
 	.long	4194310
-# raisestate:
 	.long	470
-# doomednum:
 	.long	3002
-# spawnstate:
 	.long	475
-# spawnhealth:
 	.long	150
-# seestate:
 	.long	477
-# seesound:
 	.long	41
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	52
-# painstate:
 	.long	488
-# painchance:
 	.long	180
-# painsound:
 	.long	26
-# meleestate:
 	.long	485
-# missilestate:
 	.long	0
-# deathstate:
 	.long	490
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	64
-# speed:
 	.long	10
-# radius:
 	.long	1966080
-# height:
 	.long	3670016
-# mass:
 	.long	400
-# damage:
 	.long	0
-# activesound:
 	.long	77
-# flags:
 	.long	4194310
-# raisestate:
 	.long	496
-# doomednum:
 	.long	58
-# spawnstate:
 	.long	475
-# spawnhealth:
 	.long	150
-# seestate:
 	.long	477
-# seesound:
 	.long	41
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	52
-# painstate:
 	.long	488
-# painchance:
 	.long	180
-# painsound:
 	.long	26
-# meleestate:
 	.long	485
-# missilestate:
 	.long	0
-# deathstate:
 	.long	490
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	64
-# speed:
 	.long	10
-# radius:
 	.long	1966080
-# height:
 	.long	3670016
-# mass:
 	.long	400
-# damage:
 	.long	0
-# activesound:
 	.long	77
-# flags:
 	.long	4456454
-# raisestate:
 	.long	496
-# doomednum:
 	.long	3005
-# spawnstate:
 	.long	502
-# spawnhealth:
 	.long	400
-# seestate:
 	.long	503
-# seesound:
 	.long	42
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	507
-# painchance:
 	.long	128
-# painsound:
 	.long	26
-# meleestate:
 	.long	0
-# missilestate:
 	.long	504
-# deathstate:
 	.long	510
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	65
-# speed:
 	.long	8
-# radius:
 	.long	2031616
-# height:
 	.long	3670016
-# mass:
 	.long	400
-# damage:
 	.long	0
-# activesound:
 	.long	77
-# flags:
 	.long	4211206
-# raisestate:
 	.long	516
-# doomednum:
 	.long	3003
-# spawnstate:
 	.long	527
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	529
-# seesound:
 	.long	43
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	540
-# painchance:
 	.long	50
-# painsound:
 	.long	26
-# meleestate:
 	.long	537
-# missilestate:
 	.long	537
-# deathstate:
 	.long	542
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	67
-# speed:
 	.long	8
-# radius:
 	.long	1572864
-# height:
 	.long	4194304
-# mass:
 	.long	1000
-# damage:
 	.long	0
-# activesound:
 	.long	77
-# flags:
 	.long	4194310
-# raisestate:
 	.long	549
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	522
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	16
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	524
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	17
-# speed:
 	.long	983040
-# radius:
 	.long	393216
-# height:
 	.long	524288
-# mass:
 	.long	100
-# damage:
 	.long	8
-# activesound:
 	.long	0
-# flags:
 	.long	67088
-# raisestate:
 	.long	0
-# doomednum:
 	.long	69
-# spawnstate:
 	.long	556
-# spawnhealth:
 	.long	500
-# seestate:
 	.long	558
-# seesound:
 	.long	47
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	569
-# painchance:
 	.long	50
-# painsound:
 	.long	26
-# meleestate:
 	.long	566
-# missilestate:
 	.long	566
-# deathstate:
 	.long	571
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	72
-# speed:
 	.long	8
-# radius:
 	.long	1572864
-# height:
 	.long	4194304
-# mass:
 	.long	1000
-# damage:
 	.long	0
-# activesound:
 	.long	77
-# flags:
 	.long	4194310
-# raisestate:
 	.long	578
-# doomednum:
 	.long	3006
-# spawnstate:
 	.long	585
-# spawnhealth:
 	.long	100
-# seestate:
 	.long	587
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	51
-# painstate:
 	.long	593
-# painchance:
 	.long	256
-# painsound:
 	.long	26
-# meleestate:
 	.long	0
-# missilestate:
 	.long	589
-# deathstate:
 	.long	595
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	17
-# speed:
 	.long	8
-# radius:
 	.long	1048576
-# height:
 	.long	3670016
-# mass:
 	.long	50
-# damage:
 	.long	3
-# activesound:
 	.long	77
-# flags:
 	.long	16902
-# raisestate:
 	.long	0
-# doomednum:
 	.long	7
-# spawnstate:
 	.long	601
-# spawnhealth:
 	.long	3000
-# seestate:
 	.long	603
-# seesound:
 	.long	45
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	2
-# painstate:
 	.long	619
-# painchance:
 	.long	40
-# painsound:
 	.long	26
-# meleestate:
 	.long	0
-# missilestate:
 	.long	615
-# deathstate:
 	.long	621
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	69
-# speed:
 	.long	12
-# radius:
 	.long	8388608
-# height:
 	.long	6553600
-# mass:
 	.long	1000
-# damage:
 	.long	0
-# activesound:
 	.long	77
-# flags:
 	.long	4194310
-# raisestate:
 	.long	0
-# doomednum:
 	.long	68
-# spawnstate:
 	.long	632
-# spawnhealth:
 	.long	500
-# seestate:
 	.long	634
-# seesound:
 	.long	46
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	651
-# painchance:
 	.long	128
-# painsound:
 	.long	26
-# meleestate:
 	.long	0
-# missilestate:
 	.long	647
-# deathstate:
 	.long	653
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	70
-# speed:
 	.long	12
-# radius:
 	.long	4194304
-# height:
 	.long	4194304
-# mass:
 	.long	600
-# damage:
 	.long	0
-# activesound:
 	.long	78
-# flags:
 	.long	4194310
-# raisestate:
 	.long	660
-# doomednum:
 	.long	16
-# spawnstate:
 	.long	674
-# spawnhealth:
 	.long	4000
-# seestate:
 	.long	676
-# seesound:
 	.long	44
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	690
-# painchance:
 	.long	20
-# painsound:
 	.long	26
-# meleestate:
 	.long	0
-# missilestate:
 	.long	684
-# deathstate:
 	.long	691
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	68
-# speed:
 	.long	16
-# radius:
 	.long	2621440
-# height:
 	.long	7208960
-# mass:
 	.long	1000
-# damage:
 	.long	0
-# activesound:
 	.long	77
-# flags:
 	.long	4194310
-# raisestate:
 	.long	0
-# doomednum:
 	.long	71
-# spawnstate:
 	.long	701
-# spawnhealth:
 	.long	400
-# seestate:
 	.long	702
-# seesound:
 	.long	50
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	712
-# painchance:
 	.long	128
-# painsound:
 	.long	30
-# meleestate:
 	.long	0
-# missilestate:
 	.long	708
-# deathstate:
 	.long	714
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	73
-# speed:
 	.long	8
-# radius:
 	.long	2031616
-# height:
 	.long	3670016
-# mass:
 	.long	400
-# damage:
 	.long	0
-# activesound:
 	.long	77
-# flags:
 	.long	4211206
-# raisestate:
 	.long	720
-# doomednum:
 	.long	84
-# spawnstate:
 	.long	726
-# spawnhealth:
 	.long	50
-# seestate:
 	.long	728
-# seesound:
 	.long	101
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	742
-# painchance:
 	.long	170
-# painsound:
 	.long	27
-# meleestate:
 	.long	0
-# missilestate:
 	.long	736
-# deathstate:
 	.long	744
-# xdeathstate:
 	.long	749
-# deathsound:
 	.long	102
-# speed:
 	.long	8
-# radius:
 	.long	1310720
-# height:
 	.long	3670016
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	75
-# flags:
 	.long	4194310
-# raisestate:
 	.long	758
-# doomednum:
 	.long	72
-# spawnstate:
 	.long	763
-# spawnhealth:
 	.long	100
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	776
-# painchance:
 	.long	256
-# painsound:
 	.long	103
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	764
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	104
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	4718592
-# mass:
 	.long	10000000
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	4195078
-# raisestate:
 	.long	0
-# doomednum:
 	.long	88
-# spawnstate:
 	.long	778
-# spawnhealth:
 	.long	250
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	779
-# painchance:
 	.long	255
-# painsound:
 	.long	97
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	780
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	98
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	10000000
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	6
-# raisestate:
 	.long	0
-# doomednum:
 	.long	89
-# spawnstate:
 	.long	784
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	785
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	2097152
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	24
-# raisestate:
 	.long	0
-# doomednum:
 	.long	87
-# spawnstate:
 	.long	0
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	2097152
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	24
-# raisestate:
 	.long	0
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	787
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	94
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	17
-# speed:
 	.long	655360
-# radius:
 	.long	393216
-# height:
 	.long	2097152
-# mass:
 	.long	100
-# damage:
 	.long	3
-# activesound:
 	.long	0
-# flags:
 	.long	71184
-# raisestate:
 	.long	0
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	791
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	528
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2035
-# spawnstate:
 	.long	806
-# spawnhealth:
 	.long	20
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	808
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	82
-# speed:
 	.long	0
-# radius:
 	.long	655360
-# height:
 	.long	2752512
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	524294
-# raisestate:
 	.long	0
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	97
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	16
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	99
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	17
-# speed:
 	.long	655360
-# radius:
 	.long	393216
-# height:
 	.long	524288
-# mass:
 	.long	100
-# damage:
 	.long	3
-# activesound:
 	.long	0
-# flags:
 	.long	67088
-# raisestate:
 	.long	0
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	102
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	16
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	104
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	17
-# speed:
 	.long	655360
-# radius:
 	.long	393216
-# height:
 	.long	524288
-# mass:
 	.long	100
-# damage:
 	.long	5
-# activesound:
 	.long	0
-# flags:
 	.long	67088
-# raisestate:
 	.long	0
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	114
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	14
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	127
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	82
-# speed:
 	.long	1310720
-# radius:
 	.long	720896
-# height:
 	.long	524288
-# mass:
 	.long	100
-# damage:
 	.long	20
-# activesound:
 	.long	0
-# flags:
 	.long	67088
-# raisestate:
 	.long	0
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	107
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	8
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	109
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	17
-# speed:
 	.long	1638400
-# radius:
 	.long	851968
-# height:
 	.long	524288
-# mass:
 	.long	100
-# damage:
 	.long	5
-# activesound:
 	.long	0
-# flags:
 	.long	67088
-# raisestate:
 	.long	0
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	115
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	117
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	15
-# speed:
 	.long	1638400
-# radius:
 	.long	851968
-# height:
 	.long	524288
-# mass:
 	.long	100
-# damage:
 	.long	100
-# activesound:
 	.long	0
-# flags:
 	.long	67088
-# raisestate:
 	.long	0
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	667
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	8
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	669
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	17
-# speed:
 	.long	1638400
-# radius:
 	.long	851968
-# height:
 	.long	524288
-# mass:
 	.long	100
-# damage:
 	.long	5
-# activesound:
 	.long	0
-# flags:
 	.long	67088
-# raisestate:
 	.long	0
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	93
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	528
-# raisestate:
 	.long	0
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	90
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	16
-# raisestate:
 	.long	0
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	130
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	528
-# raisestate:
 	.long	0
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	142
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	528
-# raisestate:
 	.long	0
-# doomednum:
 	.long	14
-# spawnstate:
 	.long	0
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	24
-# raisestate:
 	.long	0
-# doomednum:
 	.long	-1
-# spawnstate:
 	.long	123
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	528
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2018
-# spawnstate:
 	.long	802
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2019
-# spawnstate:
 	.long	804
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2014
-# spawnstate:
 	.long	816
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	8388609
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2015
-# spawnstate:
 	.long	822
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	8388609
-# raisestate:
 	.long	0
-# doomednum:
 	.long	5
-# spawnstate:
 	.long	828
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	33554433
-# raisestate:
 	.long	0
-# doomednum:
 	.long	13
-# spawnstate:
 	.long	830
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	33554433
-# raisestate:
 	.long	0
-# doomednum:
 	.long	6
-# spawnstate:
 	.long	832
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	33554433
-# raisestate:
 	.long	0
-# doomednum:
 	.long	39
-# spawnstate:
 	.long	838
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	33554433
-# raisestate:
 	.long	0
-# doomednum:
 	.long	38
-# spawnstate:
 	.long	836
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	33554433
-# raisestate:
 	.long	0
-# doomednum:
 	.long	40
-# spawnstate:
 	.long	834
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	33554433
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2011
-# spawnstate:
 	.long	840
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2012
-# spawnstate:
 	.long	841
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2013
-# spawnstate:
 	.long	842
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	8388609
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2022
-# spawnstate:
 	.long	848
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	8388609
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2023
-# spawnstate:
 	.long	852
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	8388609
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2024
-# spawnstate:
 	.long	853
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	8388609
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2025
-# spawnstate:
 	.long	861
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2026
-# spawnstate:
 	.long	862
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	8388609
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2045
-# spawnstate:
 	.long	868
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	8388609
-# raisestate:
 	.long	0
-# doomednum:
 	.long	83
-# spawnstate:
 	.long	857
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	8388609
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2007
-# spawnstate:
 	.long	870
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2048
-# spawnstate:
 	.long	871
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2010
-# spawnstate:
 	.long	872
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2046
-# spawnstate:
 	.long	873
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2047
-# spawnstate:
 	.long	874
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	17
-# spawnstate:
 	.long	875
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2008
-# spawnstate:
 	.long	876
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2049
-# spawnstate:
 	.long	877
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	8
-# spawnstate:
 	.long	878
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2006
-# spawnstate:
 	.long	879
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2002
-# spawnstate:
 	.long	880
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2005
-# spawnstate:
 	.long	881
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2003
-# spawnstate:
 	.long	882
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2004
-# spawnstate:
 	.long	883
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2001
-# spawnstate:
 	.long	884
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	82
-# spawnstate:
 	.long	885
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	1
-# raisestate:
 	.long	0
-# doomednum:
 	.long	85
-# spawnstate:
 	.long	959
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	86
-# spawnstate:
 	.long	963
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	2028
-# spawnstate:
 	.long	886
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	30
-# spawnstate:
 	.long	907
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	31
-# spawnstate:
 	.long	908
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	32
-# spawnstate:
 	.long	909
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	33
-# spawnstate:
 	.long	910
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	37
-# spawnstate:
 	.long	913
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	36
-# spawnstate:
 	.long	924
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	41
-# spawnstate:
 	.long	917
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	42
-# spawnstate:
 	.long	921
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	43
-# spawnstate:
 	.long	914
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	44
-# spawnstate:
 	.long	926
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	45
-# spawnstate:
 	.long	930
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	46
-# spawnstate:
 	.long	934
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	55
-# spawnstate:
 	.long	938
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	56
-# spawnstate:
 	.long	942
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	57
-# spawnstate:
 	.long	946
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	47
-# spawnstate:
 	.long	906
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	48
-# spawnstate:
 	.long	916
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	34
-# spawnstate:
 	.long	911
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	0
-# raisestate:
 	.long	0
-# doomednum:
 	.long	35
-# spawnstate:
 	.long	912
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	49
-# spawnstate:
 	.long	888
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	4456448
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	770
-# raisestate:
 	.long	0
-# doomednum:
 	.long	50
-# spawnstate:
 	.long	902
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	5505024
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	770
-# raisestate:
 	.long	0
-# doomednum:
 	.long	51
-# spawnstate:
 	.long	903
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	5505024
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	770
-# raisestate:
 	.long	0
-# doomednum:
 	.long	52
-# spawnstate:
 	.long	904
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	4456448
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	770
-# raisestate:
 	.long	0
-# doomednum:
 	.long	53
-# spawnstate:
 	.long	905
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	3407872
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	770
-# raisestate:
 	.long	0
-# doomednum:
 	.long	59
-# spawnstate:
 	.long	902
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	5505024
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	768
-# raisestate:
 	.long	0
-# doomednum:
 	.long	60
-# spawnstate:
 	.long	904
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	4456448
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	768
-# raisestate:
 	.long	0
-# doomednum:
 	.long	61
-# spawnstate:
 	.long	903
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	3407872
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	768
-# raisestate:
 	.long	0
-# doomednum:
 	.long	62
-# spawnstate:
 	.long	905
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	3407872
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	768
-# raisestate:
 	.long	0
-# doomednum:
 	.long	63
-# spawnstate:
 	.long	888
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	4456448
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	768
-# raisestate:
 	.long	0
-# doomednum:
 	.long	22
-# spawnstate:
 	.long	515
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	0
-# raisestate:
 	.long	0
-# doomednum:
 	.long	15
-# spawnstate:
 	.long	164
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	0
-# raisestate:
 	.long	0
-# doomednum:
 	.long	18
-# spawnstate:
 	.long	193
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	0
-# raisestate:
 	.long	0
-# doomednum:
 	.long	21
-# spawnstate:
 	.long	495
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	0
-# raisestate:
 	.long	0
-# doomednum:
 	.long	23
-# spawnstate:
 	.long	600
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	0
-# raisestate:
 	.long	0
-# doomednum:
 	.long	20
-# spawnstate:
 	.long	461
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	0
-# raisestate:
 	.long	0
-# doomednum:
 	.long	19
-# spawnstate:
 	.long	226
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	0
-# raisestate:
 	.long	0
-# doomednum:
 	.long	10
-# spawnstate:
 	.long	173
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	0
-# raisestate:
 	.long	0
-# doomednum:
 	.long	12
-# spawnstate:
 	.long	173
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	0
-# raisestate:
 	.long	0
-# doomednum:
 	.long	28
-# spawnstate:
 	.long	894
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	24
-# spawnstate:
 	.long	895
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	0
-# raisestate:
 	.long	0
-# doomednum:
 	.long	27
-# spawnstate:
 	.long	896
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	29
-# spawnstate:
 	.long	897
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	25
-# spawnstate:
 	.long	899
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	26
-# spawnstate:
 	.long	900
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	54
-# spawnstate:
 	.long	915
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	2097152
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	70
-# spawnstate:
 	.long	813
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	2
-# raisestate:
 	.long	0
-# doomednum:
 	.long	73
-# spawnstate:
 	.long	950
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	5767168
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	770
-# raisestate:
 	.long	0
-# doomednum:
 	.long	74
-# spawnstate:
 	.long	951
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	5767168
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	770
-# raisestate:
 	.long	0
-# doomednum:
 	.long	75
-# spawnstate:
 	.long	952
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	4194304
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	770
-# raisestate:
 	.long	0
-# doomednum:
 	.long	76
-# spawnstate:
 	.long	953
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	4194304
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	770
-# raisestate:
 	.long	0
-# doomednum:
 	.long	77
-# spawnstate:
 	.long	954
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	4194304
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	770
-# raisestate:
 	.long	0
-# doomednum:
 	.long	78
-# spawnstate:
 	.long	955
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1048576
-# height:
 	.long	4194304
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	770
-# raisestate:
 	.long	0
-# doomednum:
 	.long	79
-# spawnstate:
 	.long	956
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	16
-# raisestate:
 	.long	0
-# doomednum:
 	.long	80
-# spawnstate:
 	.long	957
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	16
-# raisestate:
 	.long	0
-# doomednum:
 	.long	81
-# spawnstate:
 	.long	958
-# spawnhealth:
 	.long	1000
-# seestate:
 	.long	0
-# seesound:
 	.long	0
-# reactiontime:
 	.long	8
-# attacksound:
 	.long	0
-# painstate:
 	.long	0
-# painchance:
 	.long	0
-# painsound:
 	.long	0
-# meleestate:
 	.long	0
-# missilestate:
 	.long	0
-# deathstate:
 	.long	0
-# xdeathstate:
 	.long	0
-# deathsound:
 	.long	0
-# speed:
 	.long	0
-# radius:
 	.long	1310720
-# height:
 	.long	1048576
-# mass:
 	.long	100
-# damage:
 	.long	0
-# activesound:
 	.long	0
-# flags:
 	.long	16
-# raisestate:
 	.long	0
-	.text
-.Letext0:
-	.file 1 "d_think.h"
-	.file 2 "sounds.h"
-	.file 3 "info.h"
-	.file 4 "p_mobj.h"
-	.file 5 "info.c"
-	.section	.debug_info,"",@progbits
-.Ldebug_info0:
-	.long	0x2a8a
-	.value	0x5
-	.byte	0x1
-	.byte	0x8
-	.long	.Ldebug_abbrev0
-	.uleb128 0x15
-	.long	.LASF1511
-	.byte	0x1d
-	.long	.LASF0
-	.long	.LASF1
-	.long	.Ldebug_line0
-	.uleb128 0x9
-	.long	0x41
-	.long	0x2e
-	.uleb128 0xc
-	.long	0x33
-	.byte	0x2e
-	.byte	0
-	.uleb128 0x10
-	.long	0x1e
-	.uleb128 0x7
-	.byte	0x8
-	.byte	0x7
-	.long	.LASF2
-	.uleb128 0x7
-	.byte	0x1
-	.byte	0x6
-	.long	.LASF3
-	.uleb128 0x10
-	.long	0x3a
-	.uleb128 0x16
-	.long	.LASF1512
-	.byte	0x5
-	.byte	0x1b
-	.byte	0x1
-	.long	0x2e
-	.uleb128 0x9
-	.byte	0x3
-	.quad	rcsid
-	.uleb128 0xa
-	.long	0x3a
-	.uleb128 0x17
-	.byte	0x4
-	.byte	0x5
-	.string	"int"
-	.uleb128 0x18
-	.byte	0x8
-	.uleb128 0x7
-	.byte	0x4
-	.byte	0x7
-	.long	.LASF4
-	.uleb128 0xb
-	.long	0x6a
-	.byte	0x2
-	.byte	0xb2
-	.long	0x311
-	.uleb128 0x2
-	.long	.LASF5
-	.byte	0
-	.uleb128 0x2
-	.long	.LASF6
-	.byte	0x1
-	.uleb128 0x2
-	.long	.LASF7
-	.byte	0x2
-	.uleb128 0x2
-	.long	.LASF8
-	.byte	0x3
-	.uleb128 0x2
-	.long	.LASF9
-	.byte	0x4
-	.uleb128 0x2
-	.long	.LASF10
-	.byte	0x5
-	.uleb128 0x2
-	.long	.LASF11
-	.byte	0x6
-	.uleb128 0x2
-	.long	.LASF12
-	.byte	0x7
-	.uleb128 0x2
-	.long	.LASF13
-	.byte	0x8
-	.uleb128 0x2
-	.long	.LASF14
-	.byte	0x9
-	.uleb128 0x2
-	.long	.LASF15
-	.byte	0xa
-	.uleb128 0x2
-	.long	.LASF16
-	.byte	0xb
-	.uleb128 0x2
-	.long	.LASF17
-	.byte	0xc
-	.uleb128 0x2
-	.long	.LASF18
-	.byte	0xd
-	.uleb128 0x2
-	.long	.LASF19
-	.byte	0xe
-	.uleb128 0x2
-	.long	.LASF20
-	.byte	0xf
-	.uleb128 0x2
-	.long	.LASF21
-	.byte	0x10
-	.uleb128 0x2
-	.long	.LASF22
-	.byte	0x11
-	.uleb128 0x2
-	.long	.LASF23
-	.byte	0x12
-	.uleb128 0x2
-	.long	.LASF24
-	.byte	0x13
-	.uleb128 0x2
-	.long	.LASF25
-	.byte	0x14
-	.uleb128 0x2
-	.long	.LASF26
-	.byte	0x15
-	.uleb128 0x2
-	.long	.LASF27
-	.byte	0x16
-	.uleb128 0x2
-	.long	.LASF28
-	.byte	0x17
-	.uleb128 0x2
-	.long	.LASF29
-	.byte	0x18
-	.uleb128 0x2
-	.long	.LASF30
-	.byte	0x19
-	.uleb128 0x2
-	.long	.LASF31
-	.byte	0x1a
-	.uleb128 0x2
-	.long	.LASF32
-	.byte	0x1b
-	.uleb128 0x2
-	.long	.LASF33
-	.byte	0x1c
-	.uleb128 0x2
-	.long	.LASF34
-	.byte	0x1d
-	.uleb128 0x2
-	.long	.LASF35
-	.byte	0x1e
-	.uleb128 0x2
-	.long	.LASF36
-	.byte	0x1f
-	.uleb128 0x2
-	.long	.LASF37
-	.byte	0x20
-	.uleb128 0x2
-	.long	.LASF38
-	.byte	0x21
-	.uleb128 0x2
-	.long	.LASF39
-	.byte	0x22
-	.uleb128 0x2
-	.long	.LASF40
-	.byte	0x23
-	.uleb128 0x2
-	.long	.LASF41
-	.byte	0x24
-	.uleb128 0x2
-	.long	.LASF42
-	.byte	0x25
-	.uleb128 0x2
-	.long	.LASF43
-	.byte	0x26
-	.uleb128 0x2
-	.long	.LASF44
-	.byte	0x27
-	.uleb128 0x2
-	.long	.LASF45
-	.byte	0x28
-	.uleb128 0x2
-	.long	.LASF46
-	.byte	0x29
-	.uleb128 0x2
-	.long	.LASF47
-	.byte	0x2a
-	.uleb128 0x2
-	.long	.LASF48
-	.byte	0x2b
-	.uleb128 0x2
-	.long	.LASF49
-	.byte	0x2c
-	.uleb128 0x2
-	.long	.LASF50
-	.byte	0x2d
-	.uleb128 0x2
-	.long	.LASF51
-	.byte	0x2e
-	.uleb128 0x2
-	.long	.LASF52
-	.byte	0x2f
-	.uleb128 0x2
-	.long	.LASF53
-	.byte	0x30
-	.uleb128 0x2
-	.long	.LASF54
-	.byte	0x31
-	.uleb128 0x2
-	.long	.LASF55
-	.byte	0x32
-	.uleb128 0x2
-	.long	.LASF56
-	.byte	0x33
-	.uleb128 0x2
-	.long	.LASF57
-	.byte	0x34
-	.uleb128 0x2
-	.long	.LASF58
-	.byte	0x35
-	.uleb128 0x2
-	.long	.LASF59
-	.byte	0x36
-	.uleb128 0x2
-	.long	.LASF60
-	.byte	0x37
-	.uleb128 0x2
-	.long	.LASF61
-	.byte	0x38
-	.uleb128 0x2
-	.long	.LASF62
-	.byte	0x39
-	.uleb128 0x2
-	.long	.LASF63
-	.byte	0x3a
-	.uleb128 0x2
-	.long	.LASF64
-	.byte	0x3b
-	.uleb128 0x2
-	.long	.LASF65
-	.byte	0x3c
-	.uleb128 0x2
-	.long	.LASF66
-	.byte	0x3d
-	.uleb128 0x2
-	.long	.LASF67
-	.byte	0x3e
-	.uleb128 0x2
-	.long	.LASF68
-	.byte	0x3f
-	.uleb128 0x2
-	.long	.LASF69
-	.byte	0x40
-	.uleb128 0x2
-	.long	.LASF70
-	.byte	0x41
-	.uleb128 0x2
-	.long	.LASF71
-	.byte	0x42
-	.uleb128 0x2
-	.long	.LASF72
-	.byte	0x43
-	.uleb128 0x2
-	.long	.LASF73
-	.byte	0x44
-	.uleb128 0x2
-	.long	.LASF74
-	.byte	0x45
-	.uleb128 0x2
-	.long	.LASF75
-	.byte	0x46
-	.uleb128 0x2
-	.long	.LASF76
-	.byte	0x47
-	.uleb128 0x2
-	.long	.LASF77
-	.byte	0x48
-	.uleb128 0x2
-	.long	.LASF78
-	.byte	0x49
-	.uleb128 0x2
-	.long	.LASF79
-	.byte	0x4a
-	.uleb128 0x2
-	.long	.LASF80
-	.byte	0x4b
-	.uleb128 0x2
-	.long	.LASF81
-	.byte	0x4c
-	.uleb128 0x2
-	.long	.LASF82
-	.byte	0x4d
-	.uleb128 0x2
-	.long	.LASF83
-	.byte	0x4e
-	.uleb128 0x2
-	.long	.LASF84
-	.byte	0x4f
-	.uleb128 0x2
-	.long	.LASF85
-	.byte	0x50
-	.uleb128 0x2
-	.long	.LASF86
-	.byte	0x51
-	.uleb128 0x2
-	.long	.LASF87
-	.byte	0x52
-	.uleb128 0x2
-	.long	.LASF88
-	.byte	0x53
-	.uleb128 0x2
-	.long	.LASF89
-	.byte	0x54
-	.uleb128 0x2
-	.long	.LASF90
-	.byte	0x55
-	.uleb128 0x2
-	.long	.LASF91
-	.byte	0x56
-	.uleb128 0x2
-	.long	.LASF92
-	.byte	0x57
-	.uleb128 0x2
-	.long	.LASF93
-	.byte	0x58
-	.uleb128 0x2
-	.long	.LASF94
-	.byte	0x59
-	.uleb128 0x2
-	.long	.LASF95
-	.byte	0x5a
-	.uleb128 0x2
-	.long	.LASF96
-	.byte	0x5b
-	.uleb128 0x2
-	.long	.LASF97
-	.byte	0x5c
-	.uleb128 0x2
-	.long	.LASF98
-	.byte	0x5d
-	.uleb128 0x2
-	.long	.LASF99
-	.byte	0x5e
-	.uleb128 0x2
-	.long	.LASF100
-	.byte	0x5f
-	.uleb128 0x2
-	.long	.LASF101
-	.byte	0x60
-	.uleb128 0x2
-	.long	.LASF102
-	.byte	0x61
-	.uleb128 0x2
-	.long	.LASF103
-	.byte	0x62
-	.uleb128 0x2
-	.long	.LASF104
-	.byte	0x63
-	.uleb128 0x2
-	.long	.LASF105
-	.byte	0x64
-	.uleb128 0x2
-	.long	.LASF106
-	.byte	0x65
-	.uleb128 0x2
-	.long	.LASF107
-	.byte	0x66
-	.uleb128 0x2
-	.long	.LASF108
-	.byte	0x67
-	.uleb128 0x2
-	.long	.LASF109
-	.byte	0x68
-	.uleb128 0x2
-	.long	.LASF110
-	.byte	0x69
-	.uleb128 0x2
-	.long	.LASF111
-	.byte	0x6a
-	.uleb128 0x2
-	.long	.LASF112
-	.byte	0x6b
-	.uleb128 0x2
-	.long	.LASF113
-	.byte	0x6c
-	.uleb128 0x2
-	.long	.LASF114
-	.byte	0x6d
-	.byte	0
-	.uleb128 0x8
-	.long	.LASF115
-	.byte	0x1
-	.byte	0x29
-	.byte	0x11
-	.long	0x31d
-	.uleb128 0xa
-	.long	0x322
-	.uleb128 0x19
-	.long	0x329
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x8
-	.long	.LASF116
-	.byte	0x1
-	.byte	0x2a
-	.byte	0x11
-	.long	0x335
-	.uleb128 0xa
-	.long	0x33a
-	.uleb128 0x11
-	.long	0x345
-	.uleb128 0xd
-	.long	0x68
-	.byte	0
-	.uleb128 0x8
-	.long	.LASF117
-	.byte	0x1
-	.byte	0x2b
-	.byte	0x11
-	.long	0x351
-	.uleb128 0xa
-	.long	0x356
-	.uleb128 0x11
-	.long	0x366
-	.uleb128 0xd
-	.long	0x68
-	.uleb128 0xd
-	.long	0x68
-	.byte	0
-	.uleb128 0x1a
-	.byte	0x8
-	.byte	0x1
-	.byte	0x2d
-	.byte	0x9
-	.long	0x390
-	.uleb128 0x12
-	.long	.LASF118
-	.byte	0x2f
-	.long	0x329
-	.uleb128 0x1b
-	.string	"acv"
-	.byte	0x1
-	.byte	0x30
-	.byte	0xd
-	.long	0x311
-	.uleb128 0x12
-	.long	.LASF119
-	.byte	0x31
-	.long	0x345
-	.byte	0
-	.uleb128 0x8
-	.long	.LASF120
-	.byte	0x1
-	.byte	0x33
-	.byte	0x3
-	.long	0x366
-	.uleb128 0xb
-	.long	0x6a
-	.byte	0x3
-	.byte	0x1f
-	.long	0x6ea
-	.uleb128 0x2
-	.long	.LASF121
-	.byte	0
-	.uleb128 0x2
-	.long	.LASF122
-	.byte	0x1
-	.uleb128 0x2
-	.long	.LASF123
-	.byte	0x2
-	.uleb128 0x2
-	.long	.LASF124
-	.byte	0x3
-	.uleb128 0x2
-	.long	.LASF125
-	.byte	0x4
-	.uleb128 0x2
-	.long	.LASF126
-	.byte	0x5
-	.uleb128 0x2
-	.long	.LASF127
-	.byte	0x6
-	.uleb128 0x2
-	.long	.LASF128
-	.byte	0x7
-	.uleb128 0x2
-	.long	.LASF129
-	.byte	0x8
-	.uleb128 0x2
-	.long	.LASF130
-	.byte	0x9
-	.uleb128 0x2
-	.long	.LASF131
-	.byte	0xa
-	.uleb128 0x2
-	.long	.LASF132
-	.byte	0xb
-	.uleb128 0x2
-	.long	.LASF133
-	.byte	0xc
-	.uleb128 0x2
-	.long	.LASF134
-	.byte	0xd
-	.uleb128 0x2
-	.long	.LASF135
-	.byte	0xe
-	.uleb128 0x2
-	.long	.LASF136
-	.byte	0xf
-	.uleb128 0x2
-	.long	.LASF137
-	.byte	0x10
-	.uleb128 0x2
-	.long	.LASF138
-	.byte	0x11
-	.uleb128 0x2
-	.long	.LASF139
-	.byte	0x12
-	.uleb128 0x2
-	.long	.LASF140
-	.byte	0x13
-	.uleb128 0x2
-	.long	.LASF141
-	.byte	0x14
-	.uleb128 0x2
-	.long	.LASF142
-	.byte	0x15
-	.uleb128 0x2
-	.long	.LASF143
-	.byte	0x16
-	.uleb128 0x2
-	.long	.LASF144
-	.byte	0x17
-	.uleb128 0x2
-	.long	.LASF145
-	.byte	0x18
-	.uleb128 0x2
-	.long	.LASF146
-	.byte	0x19
-	.uleb128 0x2
-	.long	.LASF147
-	.byte	0x1a
-	.uleb128 0x2
-	.long	.LASF148
-	.byte	0x1b
-	.uleb128 0x2
-	.long	.LASF149
-	.byte	0x1c
-	.uleb128 0x2
-	.long	.LASF150
-	.byte	0x1d
-	.uleb128 0x2
-	.long	.LASF151
-	.byte	0x1e
-	.uleb128 0x2
-	.long	.LASF152
-	.byte	0x1f
-	.uleb128 0x2
-	.long	.LASF153
-	.byte	0x20
-	.uleb128 0x2
-	.long	.LASF154
-	.byte	0x21
-	.uleb128 0x2
-	.long	.LASF155
-	.byte	0x22
-	.uleb128 0x2
-	.long	.LASF156
-	.byte	0x23
-	.uleb128 0x2
-	.long	.LASF157
-	.byte	0x24
-	.uleb128 0x2
-	.long	.LASF158
-	.byte	0x25
-	.uleb128 0x2
-	.long	.LASF159
-	.byte	0x26
-	.uleb128 0x2
-	.long	.LASF160
-	.byte	0x27
-	.uleb128 0x2
-	.long	.LASF161
-	.byte	0x28
-	.uleb128 0x2
-	.long	.LASF162
-	.byte	0x29
-	.uleb128 0x2
-	.long	.LASF163
-	.byte	0x2a
-	.uleb128 0x2
-	.long	.LASF164
-	.byte	0x2b
-	.uleb128 0x2
-	.long	.LASF165
-	.byte	0x2c
-	.uleb128 0x2
-	.long	.LASF166
-	.byte	0x2d
-	.uleb128 0x2
-	.long	.LASF167
-	.byte	0x2e
-	.uleb128 0x2
-	.long	.LASF168
-	.byte	0x2f
-	.uleb128 0x2
-	.long	.LASF169
-	.byte	0x30
-	.uleb128 0x2
-	.long	.LASF170
-	.byte	0x31
-	.uleb128 0x2
-	.long	.LASF171
-	.byte	0x32
-	.uleb128 0x2
-	.long	.LASF172
-	.byte	0x33
-	.uleb128 0x2
-	.long	.LASF173
-	.byte	0x34
-	.uleb128 0x2
-	.long	.LASF174
-	.byte	0x35
-	.uleb128 0x2
-	.long	.LASF175
-	.byte	0x36
-	.uleb128 0x2
-	.long	.LASF176
-	.byte	0x37
-	.uleb128 0x2
-	.long	.LASF177
-	.byte	0x38
-	.uleb128 0x2
-	.long	.LASF178
-	.byte	0x39
-	.uleb128 0x2
-	.long	.LASF179
-	.byte	0x3a
-	.uleb128 0x2
-	.long	.LASF180
-	.byte	0x3b
-	.uleb128 0x2
-	.long	.LASF181
-	.byte	0x3c
-	.uleb128 0x2
-	.long	.LASF182
-	.byte	0x3d
-	.uleb128 0x2
-	.long	.LASF183
-	.byte	0x3e
-	.uleb128 0x2
-	.long	.LASF184
-	.byte	0x3f
-	.uleb128 0x2
-	.long	.LASF185
-	.byte	0x40
-	.uleb128 0x2
-	.long	.LASF186
-	.byte	0x41
-	.uleb128 0x2
-	.long	.LASF187
-	.byte	0x42
-	.uleb128 0x2
-	.long	.LASF188
-	.byte	0x43
-	.uleb128 0x2
-	.long	.LASF189
-	.byte	0x44
-	.uleb128 0x2
-	.long	.LASF190
-	.byte	0x45
-	.uleb128 0x2
-	.long	.LASF191
-	.byte	0x46
-	.uleb128 0x2
-	.long	.LASF192
-	.byte	0x47
-	.uleb128 0x2
-	.long	.LASF193
-	.byte	0x48
-	.uleb128 0x2
-	.long	.LASF194
-	.byte	0x49
-	.uleb128 0x2
-	.long	.LASF195
-	.byte	0x4a
-	.uleb128 0x2
-	.long	.LASF196
-	.byte	0x4b
-	.uleb128 0x2
-	.long	.LASF197
-	.byte	0x4c
-	.uleb128 0x2
-	.long	.LASF198
-	.byte	0x4d
-	.uleb128 0x2
-	.long	.LASF199
-	.byte	0x4e
-	.uleb128 0x2
-	.long	.LASF200
-	.byte	0x4f
-	.uleb128 0x2
-	.long	.LASF201
-	.byte	0x50
-	.uleb128 0x2
-	.long	.LASF202
-	.byte	0x51
-	.uleb128 0x2
-	.long	.LASF203
-	.byte	0x52
-	.uleb128 0x2
-	.long	.LASF204
-	.byte	0x53
-	.uleb128 0x2
-	.long	.LASF205
-	.byte	0x54
-	.uleb128 0x2
-	.long	.LASF206
-	.byte	0x55
-	.uleb128 0x2
-	.long	.LASF207
-	.byte	0x56
-	.uleb128 0x2
-	.long	.LASF208
-	.byte	0x57
-	.uleb128 0x2
-	.long	.LASF209
-	.byte	0x58
-	.uleb128 0x2
-	.long	.LASF210
-	.byte	0x59
-	.uleb128 0x2
-	.long	.LASF211
-	.byte	0x5a
-	.uleb128 0x2
-	.long	.LASF212
-	.byte	0x5b
-	.uleb128 0x2
-	.long	.LASF213
-	.byte	0x5c
-	.uleb128 0x2
-	.long	.LASF214
-	.byte	0x5d
-	.uleb128 0x2
-	.long	.LASF215
-	.byte	0x5e
-	.uleb128 0x2
-	.long	.LASF216
-	.byte	0x5f
-	.uleb128 0x2
-	.long	.LASF217
-	.byte	0x60
-	.uleb128 0x2
-	.long	.LASF218
-	.byte	0x61
-	.uleb128 0x2
-	.long	.LASF219
-	.byte	0x62
-	.uleb128 0x2
-	.long	.LASF220
-	.byte	0x63
-	.uleb128 0x2
-	.long	.LASF221
-	.byte	0x64
-	.uleb128 0x2
-	.long	.LASF222
-	.byte	0x65
-	.uleb128 0x2
-	.long	.LASF223
-	.byte	0x66
-	.uleb128 0x2
-	.long	.LASF224
-	.byte	0x67
-	.uleb128 0x2
-	.long	.LASF225
-	.byte	0x68
-	.uleb128 0x2
-	.long	.LASF226
-	.byte	0x69
-	.uleb128 0x2
-	.long	.LASF227
-	.byte	0x6a
-	.uleb128 0x2
-	.long	.LASF228
-	.byte	0x6b
-	.uleb128 0x2
-	.long	.LASF229
-	.byte	0x6c
-	.uleb128 0x2
-	.long	.LASF230
-	.byte	0x6d
-	.uleb128 0x2
-	.long	.LASF231
-	.byte	0x6e
-	.uleb128 0x2
-	.long	.LASF232
-	.byte	0x6f
-	.uleb128 0x2
-	.long	.LASF233
-	.byte	0x70
-	.uleb128 0x2
-	.long	.LASF234
-	.byte	0x71
-	.uleb128 0x2
-	.long	.LASF235
-	.byte	0x72
-	.uleb128 0x2
-	.long	.LASF236
-	.byte	0x73
-	.uleb128 0x2
-	.long	.LASF237
-	.byte	0x74
-	.uleb128 0x2
-	.long	.LASF238
-	.byte	0x75
-	.uleb128 0x2
-	.long	.LASF239
-	.byte	0x76
-	.uleb128 0x2
-	.long	.LASF240
-	.byte	0x77
-	.uleb128 0x2
-	.long	.LASF241
-	.byte	0x78
-	.uleb128 0x2
-	.long	.LASF242
-	.byte	0x79
-	.uleb128 0x2
-	.long	.LASF243
-	.byte	0x7a
-	.uleb128 0x2
-	.long	.LASF244
-	.byte	0x7b
-	.uleb128 0x2
-	.long	.LASF245
-	.byte	0x7c
-	.uleb128 0x2
-	.long	.LASF246
-	.byte	0x7d
-	.uleb128 0x2
-	.long	.LASF247
-	.byte	0x7e
-	.uleb128 0x2
-	.long	.LASF248
-	.byte	0x7f
-	.uleb128 0x2
-	.long	.LASF249
-	.byte	0x80
-	.uleb128 0x2
-	.long	.LASF250
-	.byte	0x81
-	.uleb128 0x2
-	.long	.LASF251
-	.byte	0x82
-	.uleb128 0x2
-	.long	.LASF252
-	.byte	0x83
-	.uleb128 0x2
-	.long	.LASF253
-	.byte	0x84
-	.uleb128 0x2
-	.long	.LASF254
-	.byte	0x85
-	.uleb128 0x2
-	.long	.LASF255
-	.byte	0x86
-	.uleb128 0x2
-	.long	.LASF256
-	.byte	0x87
-	.uleb128 0x2
-	.long	.LASF257
-	.byte	0x88
-	.uleb128 0x2
-	.long	.LASF258
-	.byte	0x89
-	.uleb128 0x2
-	.long	.LASF259
-	.byte	0x8a
-	.byte	0
-	.uleb128 0x8
-	.long	.LASF260
-	.byte	0x3
-	.byte	0xac
-	.byte	0x3
-	.long	0x39c
-	.uleb128 0xb
-	.long	0x6a
-	.byte	0x3
-	.byte	0xaf
-	.long	0x207a
-	.uleb128 0x2
-	.long	.LASF261
-	.byte	0
-	.uleb128 0x2
-	.long	.LASF262
-	.byte	0x1
-	.uleb128 0x2
-	.long	.LASF263
-	.byte	0x2
-	.uleb128 0x2
-	.long	.LASF264
-	.byte	0x3
-	.uleb128 0x2
-	.long	.LASF265
-	.byte	0x4
-	.uleb128 0x2
-	.long	.LASF266
-	.byte	0x5
-	.uleb128 0x2
-	.long	.LASF267
-	.byte	0x6
-	.uleb128 0x2
-	.long	.LASF268
-	.byte	0x7
-	.uleb128 0x2
-	.long	.LASF269
-	.byte	0x8
-	.uleb128 0x2
-	.long	.LASF270
-	.byte	0x9
-	.uleb128 0x2
-	.long	.LASF271
-	.byte	0xa
-	.uleb128 0x2
-	.long	.LASF272
-	.byte	0xb
-	.uleb128 0x2
-	.long	.LASF273
-	.byte	0xc
-	.uleb128 0x2
-	.long	.LASF274
-	.byte	0xd
-	.uleb128 0x2
-	.long	.LASF275
-	.byte	0xe
-	.uleb128 0x2
-	.long	.LASF276
-	.byte	0xf
-	.uleb128 0x2
-	.long	.LASF277
-	.byte	0x10
-	.uleb128 0x2
-	.long	.LASF278
-	.byte	0x11
-	.uleb128 0x2
-	.long	.LASF279
-	.byte	0x12
-	.uleb128 0x2
-	.long	.LASF280
-	.byte	0x13
-	.uleb128 0x2
-	.long	.LASF281
-	.byte	0x14
-	.uleb128 0x2
-	.long	.LASF282
-	.byte	0x15
-	.uleb128 0x2
-	.long	.LASF283
-	.byte	0x16
-	.uleb128 0x2
-	.long	.LASF284
-	.byte	0x17
-	.uleb128 0x2
-	.long	.LASF285
-	.byte	0x18
-	.uleb128 0x2
-	.long	.LASF286
-	.byte	0x19
-	.uleb128 0x2
-	.long	.LASF287
-	.byte	0x1a
-	.uleb128 0x2
-	.long	.LASF288
-	.byte	0x1b
-	.uleb128 0x2
-	.long	.LASF289
-	.byte	0x1c
-	.uleb128 0x2
-	.long	.LASF290
-	.byte	0x1d
-	.uleb128 0x2
-	.long	.LASF291
-	.byte	0x1e
-	.uleb128 0x2
-	.long	.LASF292
-	.byte	0x1f
-	.uleb128 0x2
-	.long	.LASF293
-	.byte	0x20
-	.uleb128 0x2
-	.long	.LASF294
-	.byte	0x21
-	.uleb128 0x2
-	.long	.LASF295
-	.byte	0x22
-	.uleb128 0x2
-	.long	.LASF296
-	.byte	0x23
-	.uleb128 0x2
-	.long	.LASF297
-	.byte	0x24
-	.uleb128 0x2
-	.long	.LASF298
-	.byte	0x25
-	.uleb128 0x2
-	.long	.LASF299
-	.byte	0x26
-	.uleb128 0x2
-	.long	.LASF300
-	.byte	0x27
-	.uleb128 0x2
-	.long	.LASF301
-	.byte	0x28
-	.uleb128 0x2
-	.long	.LASF302
-	.byte	0x29
-	.uleb128 0x2
-	.long	.LASF303
-	.byte	0x2a
-	.uleb128 0x2
-	.long	.LASF304
-	.byte	0x2b
-	.uleb128 0x2
-	.long	.LASF305
-	.byte	0x2c
-	.uleb128 0x2
-	.long	.LASF306
-	.byte	0x2d
-	.uleb128 0x2
-	.long	.LASF307
-	.byte	0x2e
-	.uleb128 0x2
-	.long	.LASF308
-	.byte	0x2f
-	.uleb128 0x2
-	.long	.LASF309
-	.byte	0x30
-	.uleb128 0x2
-	.long	.LASF310
-	.byte	0x31
-	.uleb128 0x2
-	.long	.LASF311
-	.byte	0x32
-	.uleb128 0x2
-	.long	.LASF312
-	.byte	0x33
-	.uleb128 0x2
-	.long	.LASF313
-	.byte	0x34
-	.uleb128 0x2
-	.long	.LASF314
-	.byte	0x35
-	.uleb128 0x2
-	.long	.LASF315
-	.byte	0x36
-	.uleb128 0x2
-	.long	.LASF316
-	.byte	0x37
-	.uleb128 0x2
-	.long	.LASF317
-	.byte	0x38
-	.uleb128 0x2
-	.long	.LASF318
-	.byte	0x39
-	.uleb128 0x2
-	.long	.LASF319
-	.byte	0x3a
-	.uleb128 0x2
-	.long	.LASF320
-	.byte	0x3b
-	.uleb128 0x2
-	.long	.LASF321
-	.byte	0x3c
-	.uleb128 0x2
-	.long	.LASF322
-	.byte	0x3d
-	.uleb128 0x2
-	.long	.LASF323
-	.byte	0x3e
-	.uleb128 0x2
-	.long	.LASF324
-	.byte	0x3f
-	.uleb128 0x2
-	.long	.LASF325
-	.byte	0x40
-	.uleb128 0x2
-	.long	.LASF326
-	.byte	0x41
-	.uleb128 0x2
-	.long	.LASF327
-	.byte	0x42
-	.uleb128 0x2
-	.long	.LASF328
-	.byte	0x43
-	.uleb128 0x2
-	.long	.LASF329
-	.byte	0x44
-	.uleb128 0x2
-	.long	.LASF330
-	.byte	0x45
-	.uleb128 0x2
-	.long	.LASF331
-	.byte	0x46
-	.uleb128 0x2
-	.long	.LASF332
-	.byte	0x47
-	.uleb128 0x2
-	.long	.LASF333
-	.byte	0x48
-	.uleb128 0x2
-	.long	.LASF334
-	.byte	0x49
-	.uleb128 0x2
-	.long	.LASF335
-	.byte	0x4a
-	.uleb128 0x2
-	.long	.LASF336
-	.byte	0x4b
-	.uleb128 0x2
-	.long	.LASF337
-	.byte	0x4c
-	.uleb128 0x2
-	.long	.LASF338
-	.byte	0x4d
-	.uleb128 0x2
-	.long	.LASF339
-	.byte	0x4e
-	.uleb128 0x2
-	.long	.LASF340
-	.byte	0x4f
-	.uleb128 0x2
-	.long	.LASF341
-	.byte	0x50
-	.uleb128 0x2
-	.long	.LASF342
-	.byte	0x51
-	.uleb128 0x2
-	.long	.LASF343
-	.byte	0x52
-	.uleb128 0x2
-	.long	.LASF344
-	.byte	0x53
-	.uleb128 0x2
-	.long	.LASF345
-	.byte	0x54
-	.uleb128 0x2
-	.long	.LASF346
-	.byte	0x55
-	.uleb128 0x2
-	.long	.LASF347
-	.byte	0x56
-	.uleb128 0x2
-	.long	.LASF348
-	.byte	0x57
-	.uleb128 0x2
-	.long	.LASF349
-	.byte	0x58
-	.uleb128 0x2
-	.long	.LASF350
-	.byte	0x59
-	.uleb128 0x2
-	.long	.LASF351
-	.byte	0x5a
-	.uleb128 0x2
-	.long	.LASF352
-	.byte	0x5b
-	.uleb128 0x2
-	.long	.LASF353
-	.byte	0x5c
-	.uleb128 0x2
-	.long	.LASF354
-	.byte	0x5d
-	.uleb128 0x2
-	.long	.LASF355
-	.byte	0x5e
-	.uleb128 0x2
-	.long	.LASF356
-	.byte	0x5f
-	.uleb128 0x2
-	.long	.LASF357
-	.byte	0x60
-	.uleb128 0x2
-	.long	.LASF358
-	.byte	0x61
-	.uleb128 0x2
-	.long	.LASF359
-	.byte	0x62
-	.uleb128 0x2
-	.long	.LASF360
-	.byte	0x63
-	.uleb128 0x2
-	.long	.LASF361
-	.byte	0x64
-	.uleb128 0x2
-	.long	.LASF362
-	.byte	0x65
-	.uleb128 0x2
-	.long	.LASF363
-	.byte	0x66
-	.uleb128 0x2
-	.long	.LASF364
-	.byte	0x67
-	.uleb128 0x2
-	.long	.LASF365
-	.byte	0x68
-	.uleb128 0x2
-	.long	.LASF366
-	.byte	0x69
-	.uleb128 0x2
-	.long	.LASF367
-	.byte	0x6a
-	.uleb128 0x2
-	.long	.LASF368
-	.byte	0x6b
-	.uleb128 0x2
-	.long	.LASF369
-	.byte	0x6c
-	.uleb128 0x2
-	.long	.LASF370
-	.byte	0x6d
-	.uleb128 0x2
-	.long	.LASF371
-	.byte	0x6e
-	.uleb128 0x2
-	.long	.LASF372
-	.byte	0x6f
-	.uleb128 0x2
-	.long	.LASF373
-	.byte	0x70
-	.uleb128 0x2
-	.long	.LASF374
-	.byte	0x71
-	.uleb128 0x2
-	.long	.LASF375
-	.byte	0x72
-	.uleb128 0x2
-	.long	.LASF376
-	.byte	0x73
-	.uleb128 0x2
-	.long	.LASF377
-	.byte	0x74
-	.uleb128 0x2
-	.long	.LASF378
-	.byte	0x75
-	.uleb128 0x2
-	.long	.LASF379
-	.byte	0x76
-	.uleb128 0x2
-	.long	.LASF380
-	.byte	0x77
-	.uleb128 0x2
-	.long	.LASF381
-	.byte	0x78
-	.uleb128 0x2
-	.long	.LASF382
-	.byte	0x79
-	.uleb128 0x2
-	.long	.LASF383
-	.byte	0x7a
-	.uleb128 0x2
-	.long	.LASF384
-	.byte	0x7b
-	.uleb128 0x2
-	.long	.LASF385
-	.byte	0x7c
-	.uleb128 0x2
-	.long	.LASF386
-	.byte	0x7d
-	.uleb128 0x2
-	.long	.LASF387
-	.byte	0x7e
-	.uleb128 0x2
-	.long	.LASF388
-	.byte	0x7f
-	.uleb128 0x2
-	.long	.LASF389
-	.byte	0x80
-	.uleb128 0x2
-	.long	.LASF390
-	.byte	0x81
-	.uleb128 0x2
-	.long	.LASF391
-	.byte	0x82
-	.uleb128 0x2
-	.long	.LASF392
-	.byte	0x83
-	.uleb128 0x2
-	.long	.LASF393
-	.byte	0x84
-	.uleb128 0x2
-	.long	.LASF394
-	.byte	0x85
-	.uleb128 0x2
-	.long	.LASF395
-	.byte	0x86
-	.uleb128 0x2
-	.long	.LASF396
-	.byte	0x87
-	.uleb128 0x2
-	.long	.LASF397
-	.byte	0x88
-	.uleb128 0x2
-	.long	.LASF398
-	.byte	0x89
-	.uleb128 0x2
-	.long	.LASF399
-	.byte	0x8a
-	.uleb128 0x2
-	.long	.LASF400
-	.byte	0x8b
-	.uleb128 0x2
-	.long	.LASF401
-	.byte	0x8c
-	.uleb128 0x2
-	.long	.LASF402
-	.byte	0x8d
-	.uleb128 0x2
-	.long	.LASF403
-	.byte	0x8e
-	.uleb128 0x2
-	.long	.LASF404
-	.byte	0x8f
-	.uleb128 0x2
-	.long	.LASF405
-	.byte	0x90
-	.uleb128 0x2
-	.long	.LASF406
-	.byte	0x91
-	.uleb128 0x2
-	.long	.LASF407
-	.byte	0x92
-	.uleb128 0x2
-	.long	.LASF408
-	.byte	0x93
-	.uleb128 0x2
-	.long	.LASF409
-	.byte	0x94
-	.uleb128 0x2
-	.long	.LASF410
-	.byte	0x95
-	.uleb128 0x2
-	.long	.LASF411
-	.byte	0x96
-	.uleb128 0x2
-	.long	.LASF412
-	.byte	0x97
-	.uleb128 0x2
-	.long	.LASF413
-	.byte	0x98
-	.uleb128 0x2
-	.long	.LASF414
-	.byte	0x99
-	.uleb128 0x2
-	.long	.LASF415
-	.byte	0x9a
-	.uleb128 0x2
-	.long	.LASF416
-	.byte	0x9b
-	.uleb128 0x2
-	.long	.LASF417
-	.byte	0x9c
-	.uleb128 0x2
-	.long	.LASF418
-	.byte	0x9d
-	.uleb128 0x2
-	.long	.LASF419
-	.byte	0x9e
-	.uleb128 0x2
-	.long	.LASF420
-	.byte	0x9f
-	.uleb128 0x2
-	.long	.LASF421
-	.byte	0xa0
-	.uleb128 0x2
-	.long	.LASF422
-	.byte	0xa1
-	.uleb128 0x2
-	.long	.LASF423
-	.byte	0xa2
-	.uleb128 0x2
-	.long	.LASF424
-	.byte	0xa3
-	.uleb128 0x2
-	.long	.LASF425
-	.byte	0xa4
-	.uleb128 0x2
-	.long	.LASF426
-	.byte	0xa5
-	.uleb128 0x2
-	.long	.LASF427
-	.byte	0xa6
-	.uleb128 0x2
-	.long	.LASF428
-	.byte	0xa7
-	.uleb128 0x2
-	.long	.LASF429
-	.byte	0xa8
-	.uleb128 0x2
-	.long	.LASF430
-	.byte	0xa9
-	.uleb128 0x2
-	.long	.LASF431
-	.byte	0xaa
-	.uleb128 0x2
-	.long	.LASF432
-	.byte	0xab
-	.uleb128 0x2
-	.long	.LASF433
-	.byte	0xac
-	.uleb128 0x2
-	.long	.LASF434
-	.byte	0xad
-	.uleb128 0x2
-	.long	.LASF435
-	.byte	0xae
-	.uleb128 0x2
-	.long	.LASF436
-	.byte	0xaf
-	.uleb128 0x2
-	.long	.LASF437
-	.byte	0xb0
-	.uleb128 0x2
-	.long	.LASF438
-	.byte	0xb1
-	.uleb128 0x2
-	.long	.LASF439
-	.byte	0xb2
-	.uleb128 0x2
-	.long	.LASF440
-	.byte	0xb3
-	.uleb128 0x2
-	.long	.LASF441
-	.byte	0xb4
-	.uleb128 0x2
-	.long	.LASF442
-	.byte	0xb5
-	.uleb128 0x2
-	.long	.LASF443
-	.byte	0xb6
-	.uleb128 0x2
-	.long	.LASF444
-	.byte	0xb7
-	.uleb128 0x2
-	.long	.LASF445
-	.byte	0xb8
-	.uleb128 0x2
-	.long	.LASF446
-	.byte	0xb9
-	.uleb128 0x2
-	.long	.LASF447
-	.byte	0xba
-	.uleb128 0x2
-	.long	.LASF448
-	.byte	0xbb
-	.uleb128 0x2
-	.long	.LASF449
-	.byte	0xbc
-	.uleb128 0x2
-	.long	.LASF450
-	.byte	0xbd
-	.uleb128 0x2
-	.long	.LASF451
-	.byte	0xbe
-	.uleb128 0x2
-	.long	.LASF452
-	.byte	0xbf
-	.uleb128 0x2
-	.long	.LASF453
-	.byte	0xc0
-	.uleb128 0x2
-	.long	.LASF454
-	.byte	0xc1
-	.uleb128 0x2
-	.long	.LASF455
-	.byte	0xc2
-	.uleb128 0x2
-	.long	.LASF456
-	.byte	0xc3
-	.uleb128 0x2
-	.long	.LASF457
-	.byte	0xc4
-	.uleb128 0x2
-	.long	.LASF458
-	.byte	0xc5
-	.uleb128 0x2
-	.long	.LASF459
-	.byte	0xc6
-	.uleb128 0x2
-	.long	.LASF460
-	.byte	0xc7
-	.uleb128 0x2
-	.long	.LASF461
-	.byte	0xc8
-	.uleb128 0x2
-	.long	.LASF462
-	.byte	0xc9
-	.uleb128 0x2
-	.long	.LASF463
-	.byte	0xca
-	.uleb128 0x2
-	.long	.LASF464
-	.byte	0xcb
-	.uleb128 0x2
-	.long	.LASF465
-	.byte	0xcc
-	.uleb128 0x2
-	.long	.LASF466
-	.byte	0xcd
-	.uleb128 0x2
-	.long	.LASF467
-	.byte	0xce
-	.uleb128 0x2
-	.long	.LASF468
-	.byte	0xcf
-	.uleb128 0x2
-	.long	.LASF469
-	.byte	0xd0
-	.uleb128 0x2
-	.long	.LASF470
-	.byte	0xd1
-	.uleb128 0x2
-	.long	.LASF471
-	.byte	0xd2
-	.uleb128 0x2
-	.long	.LASF472
-	.byte	0xd3
-	.uleb128 0x2
-	.long	.LASF473
-	.byte	0xd4
-	.uleb128 0x2
-	.long	.LASF474
-	.byte	0xd5
-	.uleb128 0x2
-	.long	.LASF475
-	.byte	0xd6
-	.uleb128 0x2
-	.long	.LASF476
-	.byte	0xd7
-	.uleb128 0x2
-	.long	.LASF477
-	.byte	0xd8
-	.uleb128 0x2
-	.long	.LASF478
-	.byte	0xd9
-	.uleb128 0x2
-	.long	.LASF479
-	.byte	0xda
-	.uleb128 0x2
-	.long	.LASF480
-	.byte	0xdb
-	.uleb128 0x2
-	.long	.LASF481
-	.byte	0xdc
-	.uleb128 0x2
-	.long	.LASF482
-	.byte	0xdd
-	.uleb128 0x2
-	.long	.LASF483
-	.byte	0xde
-	.uleb128 0x2
-	.long	.LASF484
-	.byte	0xdf
-	.uleb128 0x2
-	.long	.LASF485
-	.byte	0xe0
-	.uleb128 0x2
-	.long	.LASF486
-	.byte	0xe1
-	.uleb128 0x2
-	.long	.LASF487
-	.byte	0xe2
-	.uleb128 0x2
-	.long	.LASF488
-	.byte	0xe3
-	.uleb128 0x2
-	.long	.LASF489
-	.byte	0xe4
-	.uleb128 0x2
-	.long	.LASF490
-	.byte	0xe5
-	.uleb128 0x2
-	.long	.LASF491
-	.byte	0xe6
-	.uleb128 0x2
-	.long	.LASF492
-	.byte	0xe7
-	.uleb128 0x2
-	.long	.LASF493
-	.byte	0xe8
-	.uleb128 0x2
-	.long	.LASF494
-	.byte	0xe9
-	.uleb128 0x2
-	.long	.LASF495
-	.byte	0xea
-	.uleb128 0x2
-	.long	.LASF496
-	.byte	0xeb
-	.uleb128 0x2
-	.long	.LASF497
-	.byte	0xec
-	.uleb128 0x2
-	.long	.LASF498
-	.byte	0xed
-	.uleb128 0x2
-	.long	.LASF499
-	.byte	0xee
-	.uleb128 0x2
-	.long	.LASF500
-	.byte	0xef
-	.uleb128 0x2
-	.long	.LASF501
-	.byte	0xf0
-	.uleb128 0x2
-	.long	.LASF502
-	.byte	0xf1
-	.uleb128 0x2
-	.long	.LASF503
-	.byte	0xf2
-	.uleb128 0x2
-	.long	.LASF504
-	.byte	0xf3
-	.uleb128 0x2
-	.long	.LASF505
-	.byte	0xf4
-	.uleb128 0x2
-	.long	.LASF506
-	.byte	0xf5
-	.uleb128 0x2
-	.long	.LASF507
-	.byte	0xf6
-	.uleb128 0x2
-	.long	.LASF508
-	.byte	0xf7
-	.uleb128 0x2
-	.long	.LASF509
-	.byte	0xf8
-	.uleb128 0x2
-	.long	.LASF510
-	.byte	0xf9
-	.uleb128 0x2
-	.long	.LASF511
-	.byte	0xfa
-	.uleb128 0x2
-	.long	.LASF512
-	.byte	0xfb
-	.uleb128 0x2
-	.long	.LASF513
-	.byte	0xfc
-	.uleb128 0x2
-	.long	.LASF514
-	.byte	0xfd
-	.uleb128 0x2
-	.long	.LASF515
-	.byte	0xfe
-	.uleb128 0x2
-	.long	.LASF516
-	.byte	0xff
-	.uleb128 0x1
-	.long	.LASF517
-	.value	0x100
-	.uleb128 0x1
-	.long	.LASF518
-	.value	0x101
-	.uleb128 0x1
-	.long	.LASF519
-	.value	0x102
-	.uleb128 0x1
-	.long	.LASF520
-	.value	0x103
-	.uleb128 0x1
-	.long	.LASF521
-	.value	0x104
-	.uleb128 0x1
-	.long	.LASF522
-	.value	0x105
-	.uleb128 0x1
-	.long	.LASF523
-	.value	0x106
-	.uleb128 0x1
-	.long	.LASF524
-	.value	0x107
-	.uleb128 0x1
-	.long	.LASF525
-	.value	0x108
-	.uleb128 0x1
-	.long	.LASF526
-	.value	0x109
-	.uleb128 0x1
-	.long	.LASF527
-	.value	0x10a
-	.uleb128 0x1
-	.long	.LASF528
-	.value	0x10b
-	.uleb128 0x1
-	.long	.LASF529
-	.value	0x10c
-	.uleb128 0x1
-	.long	.LASF530
-	.value	0x10d
-	.uleb128 0x1
-	.long	.LASF531
-	.value	0x10e
-	.uleb128 0x1
-	.long	.LASF532
-	.value	0x10f
-	.uleb128 0x1
-	.long	.LASF533
-	.value	0x110
-	.uleb128 0x1
-	.long	.LASF534
-	.value	0x111
-	.uleb128 0x1
-	.long	.LASF535
-	.value	0x112
-	.uleb128 0x1
-	.long	.LASF536
-	.value	0x113
-	.uleb128 0x1
-	.long	.LASF537
-	.value	0x114
-	.uleb128 0x1
-	.long	.LASF538
-	.value	0x115
-	.uleb128 0x1
-	.long	.LASF539
-	.value	0x116
-	.uleb128 0x1
-	.long	.LASF540
-	.value	0x117
-	.uleb128 0x1
-	.long	.LASF541
-	.value	0x118
-	.uleb128 0x1
-	.long	.LASF542
-	.value	0x119
-	.uleb128 0x1
-	.long	.LASF543
-	.value	0x11a
-	.uleb128 0x1
-	.long	.LASF544
-	.value	0x11b
-	.uleb128 0x1
-	.long	.LASF545
-	.value	0x11c
-	.uleb128 0x1
-	.long	.LASF546
-	.value	0x11d
-	.uleb128 0x1
-	.long	.LASF547
-	.value	0x11e
-	.uleb128 0x1
-	.long	.LASF548
-	.value	0x11f
-	.uleb128 0x1
-	.long	.LASF549
-	.value	0x120
-	.uleb128 0x1
-	.long	.LASF550
-	.value	0x121
-	.uleb128 0x1
-	.long	.LASF551
-	.value	0x122
-	.uleb128 0x1
-	.long	.LASF552
-	.value	0x123
-	.uleb128 0x1
-	.long	.LASF553
-	.value	0x124
-	.uleb128 0x1
-	.long	.LASF554
-	.value	0x125
-	.uleb128 0x1
-	.long	.LASF555
-	.value	0x126
-	.uleb128 0x1
-	.long	.LASF556
-	.value	0x127
-	.uleb128 0x1
-	.long	.LASF557
-	.value	0x128
-	.uleb128 0x1
-	.long	.LASF558
-	.value	0x129
-	.uleb128 0x1
-	.long	.LASF559
-	.value	0x12a
-	.uleb128 0x1
-	.long	.LASF560
-	.value	0x12b
-	.uleb128 0x1
-	.long	.LASF561
-	.value	0x12c
-	.uleb128 0x1
-	.long	.LASF562
-	.value	0x12d
-	.uleb128 0x1
-	.long	.LASF563
-	.value	0x12e
-	.uleb128 0x1
-	.long	.LASF564
-	.value	0x12f
-	.uleb128 0x1
-	.long	.LASF565
-	.value	0x130
-	.uleb128 0x1
-	.long	.LASF566
-	.value	0x131
-	.uleb128 0x1
-	.long	.LASF567
-	.value	0x132
-	.uleb128 0x1
-	.long	.LASF568
-	.value	0x133
-	.uleb128 0x1
-	.long	.LASF569
-	.value	0x134
-	.uleb128 0x1
-	.long	.LASF570
-	.value	0x135
-	.uleb128 0x1
-	.long	.LASF571
-	.value	0x136
-	.uleb128 0x1
-	.long	.LASF572
-	.value	0x137
-	.uleb128 0x1
-	.long	.LASF573
-	.value	0x138
-	.uleb128 0x1
-	.long	.LASF574
-	.value	0x139
-	.uleb128 0x1
-	.long	.LASF575
-	.value	0x13a
-	.uleb128 0x1
-	.long	.LASF576
-	.value	0x13b
-	.uleb128 0x1
-	.long	.LASF577
-	.value	0x13c
-	.uleb128 0x1
-	.long	.LASF578
-	.value	0x13d
-	.uleb128 0x1
-	.long	.LASF579
-	.value	0x13e
-	.uleb128 0x1
-	.long	.LASF580
-	.value	0x13f
-	.uleb128 0x1
-	.long	.LASF581
-	.value	0x140
-	.uleb128 0x1
-	.long	.LASF582
-	.value	0x141
-	.uleb128 0x1
-	.long	.LASF583
-	.value	0x142
-	.uleb128 0x1
-	.long	.LASF584
-	.value	0x143
-	.uleb128 0x1
-	.long	.LASF585
-	.value	0x144
-	.uleb128 0x1
-	.long	.LASF586
-	.value	0x145
-	.uleb128 0x1
-	.long	.LASF587
-	.value	0x146
-	.uleb128 0x1
-	.long	.LASF588
-	.value	0x147
-	.uleb128 0x1
-	.long	.LASF589
-	.value	0x148
-	.uleb128 0x1
-	.long	.LASF590
-	.value	0x149
-	.uleb128 0x1
-	.long	.LASF591
-	.value	0x14a
-	.uleb128 0x1
-	.long	.LASF592
-	.value	0x14b
-	.uleb128 0x1
-	.long	.LASF593
-	.value	0x14c
-	.uleb128 0x1
-	.long	.LASF594
-	.value	0x14d
-	.uleb128 0x1
-	.long	.LASF595
-	.value	0x14e
-	.uleb128 0x1
-	.long	.LASF596
-	.value	0x14f
-	.uleb128 0x1
-	.long	.LASF597
-	.value	0x150
-	.uleb128 0x1
-	.long	.LASF598
-	.value	0x151
-	.uleb128 0x1
-	.long	.LASF599
-	.value	0x152
-	.uleb128 0x1
-	.long	.LASF600
-	.value	0x153
-	.uleb128 0x1
-	.long	.LASF601
-	.value	0x154
-	.uleb128 0x1
-	.long	.LASF602
-	.value	0x155
-	.uleb128 0x1
-	.long	.LASF603
-	.value	0x156
-	.uleb128 0x1
-	.long	.LASF604
-	.value	0x157
-	.uleb128 0x1
-	.long	.LASF605
-	.value	0x158
-	.uleb128 0x1
-	.long	.LASF606
-	.value	0x159
-	.uleb128 0x1
-	.long	.LASF607
-	.value	0x15a
-	.uleb128 0x1
-	.long	.LASF608
-	.value	0x15b
-	.uleb128 0x1
-	.long	.LASF609
-	.value	0x15c
-	.uleb128 0x1
-	.long	.LASF610
-	.value	0x15d
-	.uleb128 0x1
-	.long	.LASF611
-	.value	0x15e
-	.uleb128 0x1
-	.long	.LASF612
-	.value	0x15f
-	.uleb128 0x1
-	.long	.LASF613
-	.value	0x160
-	.uleb128 0x1
-	.long	.LASF614
-	.value	0x161
-	.uleb128 0x1
-	.long	.LASF615
-	.value	0x162
-	.uleb128 0x1
-	.long	.LASF616
-	.value	0x163
-	.uleb128 0x1
-	.long	.LASF617
-	.value	0x164
-	.uleb128 0x1
-	.long	.LASF618
-	.value	0x165
-	.uleb128 0x1
-	.long	.LASF619
-	.value	0x166
-	.uleb128 0x1
-	.long	.LASF620
-	.value	0x167
-	.uleb128 0x1
-	.long	.LASF621
-	.value	0x168
-	.uleb128 0x1
-	.long	.LASF622
-	.value	0x169
-	.uleb128 0x1
-	.long	.LASF623
-	.value	0x16a
-	.uleb128 0x1
-	.long	.LASF624
-	.value	0x16b
-	.uleb128 0x1
-	.long	.LASF625
-	.value	0x16c
-	.uleb128 0x1
-	.long	.LASF626
-	.value	0x16d
-	.uleb128 0x1
-	.long	.LASF627
-	.value	0x16e
-	.uleb128 0x1
-	.long	.LASF628
-	.value	0x16f
-	.uleb128 0x1
-	.long	.LASF629
-	.value	0x170
-	.uleb128 0x1
-	.long	.LASF630
-	.value	0x171
-	.uleb128 0x1
-	.long	.LASF631
-	.value	0x172
-	.uleb128 0x1
-	.long	.LASF632
-	.value	0x173
-	.uleb128 0x1
-	.long	.LASF633
-	.value	0x174
-	.uleb128 0x1
-	.long	.LASF634
-	.value	0x175
-	.uleb128 0x1
-	.long	.LASF635
-	.value	0x176
-	.uleb128 0x1
-	.long	.LASF636
-	.value	0x177
-	.uleb128 0x1
-	.long	.LASF637
-	.value	0x178
-	.uleb128 0x1
-	.long	.LASF638
-	.value	0x179
-	.uleb128 0x1
-	.long	.LASF639
-	.value	0x17a
-	.uleb128 0x1
-	.long	.LASF640
-	.value	0x17b
-	.uleb128 0x1
-	.long	.LASF641
-	.value	0x17c
-	.uleb128 0x1
-	.long	.LASF642
-	.value	0x17d
-	.uleb128 0x1
-	.long	.LASF643
-	.value	0x17e
-	.uleb128 0x1
-	.long	.LASF644
-	.value	0x17f
-	.uleb128 0x1
-	.long	.LASF645
-	.value	0x180
-	.uleb128 0x1
-	.long	.LASF646
-	.value	0x181
-	.uleb128 0x1
-	.long	.LASF647
-	.value	0x182
-	.uleb128 0x1
-	.long	.LASF648
-	.value	0x183
-	.uleb128 0x1
-	.long	.LASF649
-	.value	0x184
-	.uleb128 0x1
-	.long	.LASF650
-	.value	0x185
-	.uleb128 0x1
-	.long	.LASF651
-	.value	0x186
-	.uleb128 0x1
-	.long	.LASF652
-	.value	0x187
-	.uleb128 0x1
-	.long	.LASF653
-	.value	0x188
-	.uleb128 0x1
-	.long	.LASF654
-	.value	0x189
-	.uleb128 0x1
-	.long	.LASF655
-	.value	0x18a
-	.uleb128 0x1
-	.long	.LASF656
-	.value	0x18b
-	.uleb128 0x1
-	.long	.LASF657
-	.value	0x18c
-	.uleb128 0x1
-	.long	.LASF658
-	.value	0x18d
-	.uleb128 0x1
-	.long	.LASF659
-	.value	0x18e
-	.uleb128 0x1
-	.long	.LASF660
-	.value	0x18f
-	.uleb128 0x1
-	.long	.LASF661
-	.value	0x190
-	.uleb128 0x1
-	.long	.LASF662
-	.value	0x191
-	.uleb128 0x1
-	.long	.LASF663
-	.value	0x192
-	.uleb128 0x1
-	.long	.LASF664
-	.value	0x193
-	.uleb128 0x1
-	.long	.LASF665
-	.value	0x194
-	.uleb128 0x1
-	.long	.LASF666
-	.value	0x195
-	.uleb128 0x1
-	.long	.LASF667
-	.value	0x196
-	.uleb128 0x1
-	.long	.LASF668
-	.value	0x197
-	.uleb128 0x1
-	.long	.LASF669
-	.value	0x198
-	.uleb128 0x1
-	.long	.LASF670
-	.value	0x199
-	.uleb128 0x1
-	.long	.LASF671
-	.value	0x19a
-	.uleb128 0x1
-	.long	.LASF672
-	.value	0x19b
-	.uleb128 0x1
-	.long	.LASF673
-	.value	0x19c
-	.uleb128 0x1
-	.long	.LASF674
-	.value	0x19d
-	.uleb128 0x1
-	.long	.LASF675
-	.value	0x19e
-	.uleb128 0x1
-	.long	.LASF676
-	.value	0x19f
-	.uleb128 0x1
-	.long	.LASF677
-	.value	0x1a0
-	.uleb128 0x1
-	.long	.LASF678
-	.value	0x1a1
-	.uleb128 0x1
-	.long	.LASF679
-	.value	0x1a2
-	.uleb128 0x1
-	.long	.LASF680
-	.value	0x1a3
-	.uleb128 0x1
-	.long	.LASF681
-	.value	0x1a4
-	.uleb128 0x1
-	.long	.LASF682
-	.value	0x1a5
-	.uleb128 0x1
-	.long	.LASF683
-	.value	0x1a6
-	.uleb128 0x1
-	.long	.LASF684
-	.value	0x1a7
-	.uleb128 0x1
-	.long	.LASF685
-	.value	0x1a8
-	.uleb128 0x1
-	.long	.LASF686
-	.value	0x1a9
-	.uleb128 0x1
-	.long	.LASF687
-	.value	0x1aa
-	.uleb128 0x1
-	.long	.LASF688
-	.value	0x1ab
-	.uleb128 0x1
-	.long	.LASF689
-	.value	0x1ac
-	.uleb128 0x1
-	.long	.LASF690
-	.value	0x1ad
-	.uleb128 0x1
-	.long	.LASF691
-	.value	0x1ae
-	.uleb128 0x1
-	.long	.LASF692
-	.value	0x1af
-	.uleb128 0x1
-	.long	.LASF693
-	.value	0x1b0
-	.uleb128 0x1
-	.long	.LASF694
-	.value	0x1b1
-	.uleb128 0x1
-	.long	.LASF695
-	.value	0x1b2
-	.uleb128 0x1
-	.long	.LASF696
-	.value	0x1b3
-	.uleb128 0x1
-	.long	.LASF697
-	.value	0x1b4
-	.uleb128 0x1
-	.long	.LASF698
-	.value	0x1b5
-	.uleb128 0x1
-	.long	.LASF699
-	.value	0x1b6
-	.uleb128 0x1
-	.long	.LASF700
-	.value	0x1b7
-	.uleb128 0x1
-	.long	.LASF701
-	.value	0x1b8
-	.uleb128 0x1
-	.long	.LASF702
-	.value	0x1b9
-	.uleb128 0x1
-	.long	.LASF703
-	.value	0x1ba
-	.uleb128 0x1
-	.long	.LASF704
-	.value	0x1bb
-	.uleb128 0x1
-	.long	.LASF705
-	.value	0x1bc
-	.uleb128 0x1
-	.long	.LASF706
-	.value	0x1bd
-	.uleb128 0x1
-	.long	.LASF707
-	.value	0x1be
-	.uleb128 0x1
-	.long	.LASF708
-	.value	0x1bf
-	.uleb128 0x1
-	.long	.LASF709
-	.value	0x1c0
-	.uleb128 0x1
-	.long	.LASF710
-	.value	0x1c1
-	.uleb128 0x1
-	.long	.LASF711
-	.value	0x1c2
-	.uleb128 0x1
-	.long	.LASF712
-	.value	0x1c3
-	.uleb128 0x1
-	.long	.LASF713
-	.value	0x1c4
-	.uleb128 0x1
-	.long	.LASF714
-	.value	0x1c5
-	.uleb128 0x1
-	.long	.LASF715
-	.value	0x1c6
-	.uleb128 0x1
-	.long	.LASF716
-	.value	0x1c7
-	.uleb128 0x1
-	.long	.LASF717
-	.value	0x1c8
-	.uleb128 0x1
-	.long	.LASF718
-	.value	0x1c9
-	.uleb128 0x1
-	.long	.LASF719
-	.value	0x1ca
-	.uleb128 0x1
-	.long	.LASF720
-	.value	0x1cb
-	.uleb128 0x1
-	.long	.LASF721
-	.value	0x1cc
-	.uleb128 0x1
-	.long	.LASF722
-	.value	0x1cd
-	.uleb128 0x1
-	.long	.LASF723
-	.value	0x1ce
-	.uleb128 0x1
-	.long	.LASF724
-	.value	0x1cf
-	.uleb128 0x1
-	.long	.LASF725
-	.value	0x1d0
-	.uleb128 0x1
-	.long	.LASF726
-	.value	0x1d1
-	.uleb128 0x1
-	.long	.LASF727
-	.value	0x1d2
-	.uleb128 0x1
-	.long	.LASF728
-	.value	0x1d3
-	.uleb128 0x1
-	.long	.LASF729
-	.value	0x1d4
-	.uleb128 0x1
-	.long	.LASF730
-	.value	0x1d5
-	.uleb128 0x1
-	.long	.LASF731
-	.value	0x1d6
-	.uleb128 0x1
-	.long	.LASF732
-	.value	0x1d7
-	.uleb128 0x1
-	.long	.LASF733
-	.value	0x1d8
-	.uleb128 0x1
-	.long	.LASF734
-	.value	0x1d9
-	.uleb128 0x1
-	.long	.LASF735
-	.value	0x1da
-	.uleb128 0x1
-	.long	.LASF736
-	.value	0x1db
-	.uleb128 0x1
-	.long	.LASF737
-	.value	0x1dc
-	.uleb128 0x1
-	.long	.LASF738
-	.value	0x1dd
-	.uleb128 0x1
-	.long	.LASF739
-	.value	0x1de
-	.uleb128 0x1
-	.long	.LASF740
-	.value	0x1df
-	.uleb128 0x1
-	.long	.LASF741
-	.value	0x1e0
-	.uleb128 0x1
-	.long	.LASF742
-	.value	0x1e1
-	.uleb128 0x1
-	.long	.LASF743
-	.value	0x1e2
-	.uleb128 0x1
-	.long	.LASF744
-	.value	0x1e3
-	.uleb128 0x1
-	.long	.LASF745
-	.value	0x1e4
-	.uleb128 0x1
-	.long	.LASF746
-	.value	0x1e5
-	.uleb128 0x1
-	.long	.LASF747
-	.value	0x1e6
-	.uleb128 0x1
-	.long	.LASF748
-	.value	0x1e7
-	.uleb128 0x1
-	.long	.LASF749
-	.value	0x1e8
-	.uleb128 0x1
-	.long	.LASF750
-	.value	0x1e9
-	.uleb128 0x1
-	.long	.LASF751
-	.value	0x1ea
-	.uleb128 0x1
-	.long	.LASF752
-	.value	0x1eb
-	.uleb128 0x1
-	.long	.LASF753
-	.value	0x1ec
-	.uleb128 0x1
-	.long	.LASF754
-	.value	0x1ed
-	.uleb128 0x1
-	.long	.LASF755
-	.value	0x1ee
-	.uleb128 0x1
-	.long	.LASF756
-	.value	0x1ef
-	.uleb128 0x1
-	.long	.LASF757
-	.value	0x1f0
-	.uleb128 0x1
-	.long	.LASF758
-	.value	0x1f1
-	.uleb128 0x1
-	.long	.LASF759
-	.value	0x1f2
-	.uleb128 0x1
-	.long	.LASF760
-	.value	0x1f3
-	.uleb128 0x1
-	.long	.LASF761
-	.value	0x1f4
-	.uleb128 0x1
-	.long	.LASF762
-	.value	0x1f5
-	.uleb128 0x1
-	.long	.LASF763
-	.value	0x1f6
-	.uleb128 0x1
-	.long	.LASF764
-	.value	0x1f7
-	.uleb128 0x1
-	.long	.LASF765
-	.value	0x1f8
-	.uleb128 0x1
-	.long	.LASF766
-	.value	0x1f9
-	.uleb128 0x1
-	.long	.LASF767
-	.value	0x1fa
-	.uleb128 0x1
-	.long	.LASF768
-	.value	0x1fb
-	.uleb128 0x1
-	.long	.LASF769
-	.value	0x1fc
-	.uleb128 0x1
-	.long	.LASF770
-	.value	0x1fd
-	.uleb128 0x1
-	.long	.LASF771
-	.value	0x1fe
-	.uleb128 0x1
-	.long	.LASF772
-	.value	0x1ff
-	.uleb128 0x1
-	.long	.LASF773
-	.value	0x200
-	.uleb128 0x1
-	.long	.LASF774
-	.value	0x201
-	.uleb128 0x1
-	.long	.LASF775
-	.value	0x202
-	.uleb128 0x1
-	.long	.LASF776
-	.value	0x203
-	.uleb128 0x1
-	.long	.LASF777
-	.value	0x204
-	.uleb128 0x1
-	.long	.LASF778
-	.value	0x205
-	.uleb128 0x1
-	.long	.LASF779
-	.value	0x206
-	.uleb128 0x1
-	.long	.LASF780
-	.value	0x207
-	.uleb128 0x1
-	.long	.LASF781
-	.value	0x208
-	.uleb128 0x1
-	.long	.LASF782
-	.value	0x209
-	.uleb128 0x1
-	.long	.LASF783
-	.value	0x20a
-	.uleb128 0x1
-	.long	.LASF784
-	.value	0x20b
-	.uleb128 0x1
-	.long	.LASF785
-	.value	0x20c
-	.uleb128 0x1
-	.long	.LASF786
-	.value	0x20d
-	.uleb128 0x1
-	.long	.LASF787
-	.value	0x20e
-	.uleb128 0x1
-	.long	.LASF788
-	.value	0x20f
-	.uleb128 0x1
-	.long	.LASF789
-	.value	0x210
-	.uleb128 0x1
-	.long	.LASF790
-	.value	0x211
-	.uleb128 0x1
-	.long	.LASF791
-	.value	0x212
-	.uleb128 0x1
-	.long	.LASF792
-	.value	0x213
-	.uleb128 0x1
-	.long	.LASF793
-	.value	0x214
-	.uleb128 0x1
-	.long	.LASF794
-	.value	0x215
-	.uleb128 0x1
-	.long	.LASF795
-	.value	0x216
-	.uleb128 0x1
-	.long	.LASF796
-	.value	0x217
-	.uleb128 0x1
-	.long	.LASF797
-	.value	0x218
-	.uleb128 0x1
-	.long	.LASF798
-	.value	0x219
-	.uleb128 0x1
-	.long	.LASF799
-	.value	0x21a
-	.uleb128 0x1
-	.long	.LASF800
-	.value	0x21b
-	.uleb128 0x1
-	.long	.LASF801
-	.value	0x21c
-	.uleb128 0x1
-	.long	.LASF802
-	.value	0x21d
-	.uleb128 0x1
-	.long	.LASF803
-	.value	0x21e
-	.uleb128 0x1
-	.long	.LASF804
-	.value	0x21f
-	.uleb128 0x1
-	.long	.LASF805
-	.value	0x220
-	.uleb128 0x1
-	.long	.LASF806
-	.value	0x221
-	.uleb128 0x1
-	.long	.LASF807
-	.value	0x222
-	.uleb128 0x1
-	.long	.LASF808
-	.value	0x223
-	.uleb128 0x1
-	.long	.LASF809
-	.value	0x224
-	.uleb128 0x1
-	.long	.LASF810
-	.value	0x225
-	.uleb128 0x1
-	.long	.LASF811
-	.value	0x226
-	.uleb128 0x1
-	.long	.LASF812
-	.value	0x227
-	.uleb128 0x1
-	.long	.LASF813
-	.value	0x228
-	.uleb128 0x1
-	.long	.LASF814
-	.value	0x229
-	.uleb128 0x1
-	.long	.LASF815
-	.value	0x22a
-	.uleb128 0x1
-	.long	.LASF816
-	.value	0x22b
-	.uleb128 0x1
-	.long	.LASF817
-	.value	0x22c
-	.uleb128 0x1
-	.long	.LASF818
-	.value	0x22d
-	.uleb128 0x1
-	.long	.LASF819
-	.value	0x22e
-	.uleb128 0x1
-	.long	.LASF820
-	.value	0x22f
-	.uleb128 0x1
-	.long	.LASF821
-	.value	0x230
-	.uleb128 0x1
-	.long	.LASF822
-	.value	0x231
-	.uleb128 0x1
-	.long	.LASF823
-	.value	0x232
-	.uleb128 0x1
-	.long	.LASF824
-	.value	0x233
-	.uleb128 0x1
-	.long	.LASF825
-	.value	0x234
-	.uleb128 0x1
-	.long	.LASF826
-	.value	0x235
-	.uleb128 0x1
-	.long	.LASF827
-	.value	0x236
-	.uleb128 0x1
-	.long	.LASF828
-	.value	0x237
-	.uleb128 0x1
-	.long	.LASF829
-	.value	0x238
-	.uleb128 0x1
-	.long	.LASF830
-	.value	0x239
-	.uleb128 0x1
-	.long	.LASF831
-	.value	0x23a
-	.uleb128 0x1
-	.long	.LASF832
-	.value	0x23b
-	.uleb128 0x1
-	.long	.LASF833
-	.value	0x23c
-	.uleb128 0x1
-	.long	.LASF834
-	.value	0x23d
-	.uleb128 0x1
-	.long	.LASF835
-	.value	0x23e
-	.uleb128 0x1
-	.long	.LASF836
-	.value	0x23f
-	.uleb128 0x1
-	.long	.LASF837
-	.value	0x240
-	.uleb128 0x1
-	.long	.LASF838
-	.value	0x241
-	.uleb128 0x1
-	.long	.LASF839
-	.value	0x242
-	.uleb128 0x1
-	.long	.LASF840
-	.value	0x243
-	.uleb128 0x1
-	.long	.LASF841
-	.value	0x244
-	.uleb128 0x1
-	.long	.LASF842
-	.value	0x245
-	.uleb128 0x1
-	.long	.LASF843
-	.value	0x246
-	.uleb128 0x1
-	.long	.LASF844
-	.value	0x247
-	.uleb128 0x1
-	.long	.LASF845
-	.value	0x248
-	.uleb128 0x1
-	.long	.LASF846
-	.value	0x249
-	.uleb128 0x1
-	.long	.LASF847
-	.value	0x24a
-	.uleb128 0x1
-	.long	.LASF848
-	.value	0x24b
-	.uleb128 0x1
-	.long	.LASF849
-	.value	0x24c
-	.uleb128 0x1
-	.long	.LASF850
-	.value	0x24d
-	.uleb128 0x1
-	.long	.LASF851
-	.value	0x24e
-	.uleb128 0x1
-	.long	.LASF852
-	.value	0x24f
-	.uleb128 0x1
-	.long	.LASF853
-	.value	0x250
-	.uleb128 0x1
-	.long	.LASF854
-	.value	0x251
-	.uleb128 0x1
-	.long	.LASF855
-	.value	0x252
-	.uleb128 0x1
-	.long	.LASF856
-	.value	0x253
-	.uleb128 0x1
-	.long	.LASF857
-	.value	0x254
-	.uleb128 0x1
-	.long	.LASF858
-	.value	0x255
-	.uleb128 0x1
-	.long	.LASF859
-	.value	0x256
-	.uleb128 0x1
-	.long	.LASF860
-	.value	0x257
-	.uleb128 0x1
-	.long	.LASF861
-	.value	0x258
-	.uleb128 0x1
-	.long	.LASF862
-	.value	0x259
-	.uleb128 0x1
-	.long	.LASF863
-	.value	0x25a
-	.uleb128 0x1
-	.long	.LASF864
-	.value	0x25b
-	.uleb128 0x1
-	.long	.LASF865
-	.value	0x25c
-	.uleb128 0x1
-	.long	.LASF866
-	.value	0x25d
-	.uleb128 0x1
-	.long	.LASF867
-	.value	0x25e
-	.uleb128 0x1
-	.long	.LASF868
-	.value	0x25f
-	.uleb128 0x1
-	.long	.LASF869
-	.value	0x260
-	.uleb128 0x1
-	.long	.LASF870
-	.value	0x261
-	.uleb128 0x1
-	.long	.LASF871
-	.value	0x262
-	.uleb128 0x1
-	.long	.LASF872
-	.value	0x263
-	.uleb128 0x1
-	.long	.LASF873
-	.value	0x264
-	.uleb128 0x1
-	.long	.LASF874
-	.value	0x265
-	.uleb128 0x1
-	.long	.LASF875
-	.value	0x266
-	.uleb128 0x1
-	.long	.LASF876
-	.value	0x267
-	.uleb128 0x1
-	.long	.LASF877
-	.value	0x268
-	.uleb128 0x1
-	.long	.LASF878
-	.value	0x269
-	.uleb128 0x1
-	.long	.LASF879
-	.value	0x26a
-	.uleb128 0x1
-	.long	.LASF880
-	.value	0x26b
-	.uleb128 0x1
-	.long	.LASF881
-	.value	0x26c
-	.uleb128 0x1
-	.long	.LASF882
-	.value	0x26d
-	.uleb128 0x1
-	.long	.LASF883
-	.value	0x26e
-	.uleb128 0x1
-	.long	.LASF884
-	.value	0x26f
-	.uleb128 0x1
-	.long	.LASF885
-	.value	0x270
-	.uleb128 0x1
-	.long	.LASF886
-	.value	0x271
-	.uleb128 0x1
-	.long	.LASF887
-	.value	0x272
-	.uleb128 0x1
-	.long	.LASF888
-	.value	0x273
-	.uleb128 0x1
-	.long	.LASF889
-	.value	0x274
-	.uleb128 0x1
-	.long	.LASF890
-	.value	0x275
-	.uleb128 0x1
-	.long	.LASF891
-	.value	0x276
-	.uleb128 0x1
-	.long	.LASF892
-	.value	0x277
-	.uleb128 0x1
-	.long	.LASF893
-	.value	0x278
-	.uleb128 0x1
-	.long	.LASF894
-	.value	0x279
-	.uleb128 0x1
-	.long	.LASF895
-	.value	0x27a
-	.uleb128 0x1
-	.long	.LASF896
-	.value	0x27b
-	.uleb128 0x1
-	.long	.LASF897
-	.value	0x27c
-	.uleb128 0x1
-	.long	.LASF898
-	.value	0x27d
-	.uleb128 0x1
-	.long	.LASF899
-	.value	0x27e
-	.uleb128 0x1
-	.long	.LASF900
-	.value	0x27f
-	.uleb128 0x1
-	.long	.LASF901
-	.value	0x280
-	.uleb128 0x1
-	.long	.LASF902
-	.value	0x281
-	.uleb128 0x1
-	.long	.LASF903
-	.value	0x282
-	.uleb128 0x1
-	.long	.LASF904
-	.value	0x283
-	.uleb128 0x1
-	.long	.LASF905
-	.value	0x284
-	.uleb128 0x1
-	.long	.LASF906
-	.value	0x285
-	.uleb128 0x1
-	.long	.LASF907
-	.value	0x286
-	.uleb128 0x1
-	.long	.LASF908
-	.value	0x287
-	.uleb128 0x1
-	.long	.LASF909
-	.value	0x288
-	.uleb128 0x1
-	.long	.LASF910
-	.value	0x289
-	.uleb128 0x1
-	.long	.LASF911
-	.value	0x28a
-	.uleb128 0x1
-	.long	.LASF912
-	.value	0x28b
-	.uleb128 0x1
-	.long	.LASF913
-	.value	0x28c
-	.uleb128 0x1
-	.long	.LASF914
-	.value	0x28d
-	.uleb128 0x1
-	.long	.LASF915
-	.value	0x28e
-	.uleb128 0x1
-	.long	.LASF916
-	.value	0x28f
-	.uleb128 0x1
-	.long	.LASF917
-	.value	0x290
-	.uleb128 0x1
-	.long	.LASF918
-	.value	0x291
-	.uleb128 0x1
-	.long	.LASF919
-	.value	0x292
-	.uleb128 0x1
-	.long	.LASF920
-	.value	0x293
-	.uleb128 0x1
-	.long	.LASF921
-	.value	0x294
-	.uleb128 0x1
-	.long	.LASF922
-	.value	0x295
-	.uleb128 0x1
-	.long	.LASF923
-	.value	0x296
-	.uleb128 0x1
-	.long	.LASF924
-	.value	0x297
-	.uleb128 0x1
-	.long	.LASF925
-	.value	0x298
-	.uleb128 0x1
-	.long	.LASF926
-	.value	0x299
-	.uleb128 0x1
-	.long	.LASF927
-	.value	0x29a
-	.uleb128 0x1
-	.long	.LASF928
-	.value	0x29b
-	.uleb128 0x1
-	.long	.LASF929
-	.value	0x29c
-	.uleb128 0x1
-	.long	.LASF930
-	.value	0x29d
-	.uleb128 0x1
-	.long	.LASF931
-	.value	0x29e
-	.uleb128 0x1
-	.long	.LASF932
-	.value	0x29f
-	.uleb128 0x1
-	.long	.LASF933
-	.value	0x2a0
-	.uleb128 0x1
-	.long	.LASF934
-	.value	0x2a1
-	.uleb128 0x1
-	.long	.LASF935
-	.value	0x2a2
-	.uleb128 0x1
-	.long	.LASF936
-	.value	0x2a3
-	.uleb128 0x1
-	.long	.LASF937
-	.value	0x2a4
-	.uleb128 0x1
-	.long	.LASF938
-	.value	0x2a5
-	.uleb128 0x1
-	.long	.LASF939
-	.value	0x2a6
-	.uleb128 0x1
-	.long	.LASF940
-	.value	0x2a7
-	.uleb128 0x1
-	.long	.LASF941
-	.value	0x2a8
-	.uleb128 0x1
-	.long	.LASF942
-	.value	0x2a9
-	.uleb128 0x1
-	.long	.LASF943
-	.value	0x2aa
-	.uleb128 0x1
-	.long	.LASF944
-	.value	0x2ab
-	.uleb128 0x1
-	.long	.LASF945
-	.value	0x2ac
-	.uleb128 0x1
-	.long	.LASF946
-	.value	0x2ad
-	.uleb128 0x1
-	.long	.LASF947
-	.value	0x2ae
-	.uleb128 0x1
-	.long	.LASF948
-	.value	0x2af
-	.uleb128 0x1
-	.long	.LASF949
-	.value	0x2b0
-	.uleb128 0x1
-	.long	.LASF950
-	.value	0x2b1
-	.uleb128 0x1
-	.long	.LASF951
-	.value	0x2b2
-	.uleb128 0x1
-	.long	.LASF952
-	.value	0x2b3
-	.uleb128 0x1
-	.long	.LASF953
-	.value	0x2b4
-	.uleb128 0x1
-	.long	.LASF954
-	.value	0x2b5
-	.uleb128 0x1
-	.long	.LASF955
-	.value	0x2b6
-	.uleb128 0x1
-	.long	.LASF956
-	.value	0x2b7
-	.uleb128 0x1
-	.long	.LASF957
-	.value	0x2b8
-	.uleb128 0x1
-	.long	.LASF958
-	.value	0x2b9
-	.uleb128 0x1
-	.long	.LASF959
-	.value	0x2ba
-	.uleb128 0x1
-	.long	.LASF960
-	.value	0x2bb
-	.uleb128 0x1
-	.long	.LASF961
-	.value	0x2bc
-	.uleb128 0x1
-	.long	.LASF962
-	.value	0x2bd
-	.uleb128 0x1
-	.long	.LASF963
-	.value	0x2be
-	.uleb128 0x1
-	.long	.LASF964
-	.value	0x2bf
-	.uleb128 0x1
-	.long	.LASF965
-	.value	0x2c0
-	.uleb128 0x1
-	.long	.LASF966
-	.value	0x2c1
-	.uleb128 0x1
-	.long	.LASF967
-	.value	0x2c2
-	.uleb128 0x1
-	.long	.LASF968
-	.value	0x2c3
-	.uleb128 0x1
-	.long	.LASF969
-	.value	0x2c4
-	.uleb128 0x1
-	.long	.LASF970
-	.value	0x2c5
-	.uleb128 0x1
-	.long	.LASF971
-	.value	0x2c6
-	.uleb128 0x1
-	.long	.LASF972
-	.value	0x2c7
-	.uleb128 0x1
-	.long	.LASF973
-	.value	0x2c8
-	.uleb128 0x1
-	.long	.LASF974
-	.value	0x2c9
-	.uleb128 0x1
-	.long	.LASF975
-	.value	0x2ca
-	.uleb128 0x1
-	.long	.LASF976
-	.value	0x2cb
-	.uleb128 0x1
-	.long	.LASF977
-	.value	0x2cc
-	.uleb128 0x1
-	.long	.LASF978
-	.value	0x2cd
-	.uleb128 0x1
-	.long	.LASF979
-	.value	0x2ce
-	.uleb128 0x1
-	.long	.LASF980
-	.value	0x2cf
-	.uleb128 0x1
-	.long	.LASF981
-	.value	0x2d0
-	.uleb128 0x1
-	.long	.LASF982
-	.value	0x2d1
-	.uleb128 0x1
-	.long	.LASF983
-	.value	0x2d2
-	.uleb128 0x1
-	.long	.LASF984
-	.value	0x2d3
-	.uleb128 0x1
-	.long	.LASF985
-	.value	0x2d4
-	.uleb128 0x1
-	.long	.LASF986
-	.value	0x2d5
-	.uleb128 0x1
-	.long	.LASF987
-	.value	0x2d6
-	.uleb128 0x1
-	.long	.LASF988
-	.value	0x2d7
-	.uleb128 0x1
-	.long	.LASF989
-	.value	0x2d8
-	.uleb128 0x1
-	.long	.LASF990
-	.value	0x2d9
-	.uleb128 0x1
-	.long	.LASF991
-	.value	0x2da
-	.uleb128 0x1
-	.long	.LASF992
-	.value	0x2db
-	.uleb128 0x1
-	.long	.LASF993
-	.value	0x2dc
-	.uleb128 0x1
-	.long	.LASF994
-	.value	0x2dd
-	.uleb128 0x1
-	.long	.LASF995
-	.value	0x2de
-	.uleb128 0x1
-	.long	.LASF996
-	.value	0x2df
-	.uleb128 0x1
-	.long	.LASF997
-	.value	0x2e0
-	.uleb128 0x1
-	.long	.LASF998
-	.value	0x2e1
-	.uleb128 0x1
-	.long	.LASF999
-	.value	0x2e2
-	.uleb128 0x1
-	.long	.LASF1000
-	.value	0x2e3
-	.uleb128 0x1
-	.long	.LASF1001
-	.value	0x2e4
-	.uleb128 0x1
-	.long	.LASF1002
-	.value	0x2e5
-	.uleb128 0x1
-	.long	.LASF1003
-	.value	0x2e6
-	.uleb128 0x1
-	.long	.LASF1004
-	.value	0x2e7
-	.uleb128 0x1
-	.long	.LASF1005
-	.value	0x2e8
-	.uleb128 0x1
-	.long	.LASF1006
-	.value	0x2e9
-	.uleb128 0x1
-	.long	.LASF1007
-	.value	0x2ea
-	.uleb128 0x1
-	.long	.LASF1008
-	.value	0x2eb
-	.uleb128 0x1
-	.long	.LASF1009
-	.value	0x2ec
-	.uleb128 0x1
-	.long	.LASF1010
-	.value	0x2ed
-	.uleb128 0x1
-	.long	.LASF1011
-	.value	0x2ee
-	.uleb128 0x1
-	.long	.LASF1012
-	.value	0x2ef
-	.uleb128 0x1
-	.long	.LASF1013
-	.value	0x2f0
-	.uleb128 0x1
-	.long	.LASF1014
-	.value	0x2f1
-	.uleb128 0x1
-	.long	.LASF1015
-	.value	0x2f2
-	.uleb128 0x1
-	.long	.LASF1016
-	.value	0x2f3
-	.uleb128 0x1
-	.long	.LASF1017
-	.value	0x2f4
-	.uleb128 0x1
-	.long	.LASF1018
-	.value	0x2f5
-	.uleb128 0x1
-	.long	.LASF1019
-	.value	0x2f6
-	.uleb128 0x1
-	.long	.LASF1020
-	.value	0x2f7
-	.uleb128 0x1
-	.long	.LASF1021
-	.value	0x2f8
-	.uleb128 0x1
-	.long	.LASF1022
-	.value	0x2f9
-	.uleb128 0x1
-	.long	.LASF1023
-	.value	0x2fa
-	.uleb128 0x1
-	.long	.LASF1024
-	.value	0x2fb
-	.uleb128 0x1
-	.long	.LASF1025
-	.value	0x2fc
-	.uleb128 0x1
-	.long	.LASF1026
-	.value	0x2fd
-	.uleb128 0x1
-	.long	.LASF1027
-	.value	0x2fe
-	.uleb128 0x1
-	.long	.LASF1028
-	.value	0x2ff
-	.uleb128 0x1
-	.long	.LASF1029
-	.value	0x300
-	.uleb128 0x1
-	.long	.LASF1030
-	.value	0x301
-	.uleb128 0x1
-	.long	.LASF1031
-	.value	0x302
-	.uleb128 0x1
-	.long	.LASF1032
-	.value	0x303
-	.uleb128 0x1
-	.long	.LASF1033
-	.value	0x304
-	.uleb128 0x1
-	.long	.LASF1034
-	.value	0x305
-	.uleb128 0x1
-	.long	.LASF1035
-	.value	0x306
-	.uleb128 0x1
-	.long	.LASF1036
-	.value	0x307
-	.uleb128 0x1
-	.long	.LASF1037
-	.value	0x308
-	.uleb128 0x1
-	.long	.LASF1038
-	.value	0x309
-	.uleb128 0x1
-	.long	.LASF1039
-	.value	0x30a
-	.uleb128 0x1
-	.long	.LASF1040
-	.value	0x30b
-	.uleb128 0x1
-	.long	.LASF1041
-	.value	0x30c
-	.uleb128 0x1
-	.long	.LASF1042
-	.value	0x30d
-	.uleb128 0x1
-	.long	.LASF1043
-	.value	0x30e
-	.uleb128 0x1
-	.long	.LASF1044
-	.value	0x30f
-	.uleb128 0x1
-	.long	.LASF1045
-	.value	0x310
-	.uleb128 0x1
-	.long	.LASF1046
-	.value	0x311
-	.uleb128 0x1
-	.long	.LASF1047
-	.value	0x312
-	.uleb128 0x1
-	.long	.LASF1048
-	.value	0x313
-	.uleb128 0x1
-	.long	.LASF1049
-	.value	0x314
-	.uleb128 0x1
-	.long	.LASF1050
-	.value	0x315
-	.uleb128 0x1
-	.long	.LASF1051
-	.value	0x316
-	.uleb128 0x1
-	.long	.LASF1052
-	.value	0x317
-	.uleb128 0x1
-	.long	.LASF1053
-	.value	0x318
-	.uleb128 0x1
-	.long	.LASF1054
-	.value	0x319
-	.uleb128 0x1
-	.long	.LASF1055
-	.value	0x31a
-	.uleb128 0x1
-	.long	.LASF1056
-	.value	0x31b
-	.uleb128 0x1
-	.long	.LASF1057
-	.value	0x31c
-	.uleb128 0x1
-	.long	.LASF1058
-	.value	0x31d
-	.uleb128 0x1
-	.long	.LASF1059
-	.value	0x31e
-	.uleb128 0x1
-	.long	.LASF1060
-	.value	0x31f
-	.uleb128 0x1
-	.long	.LASF1061
-	.value	0x320
-	.uleb128 0x1
-	.long	.LASF1062
-	.value	0x321
-	.uleb128 0x1
-	.long	.LASF1063
-	.value	0x322
-	.uleb128 0x1
-	.long	.LASF1064
-	.value	0x323
-	.uleb128 0x1
-	.long	.LASF1065
-	.value	0x324
-	.uleb128 0x1
-	.long	.LASF1066
-	.value	0x325
-	.uleb128 0x1
-	.long	.LASF1067
-	.value	0x326
-	.uleb128 0x1
-	.long	.LASF1068
-	.value	0x327
-	.uleb128 0x1
-	.long	.LASF1069
-	.value	0x328
-	.uleb128 0x1
-	.long	.LASF1070
-	.value	0x329
-	.uleb128 0x1
-	.long	.LASF1071
-	.value	0x32a
-	.uleb128 0x1
-	.long	.LASF1072
-	.value	0x32b
-	.uleb128 0x1
-	.long	.LASF1073
-	.value	0x32c
-	.uleb128 0x1
-	.long	.LASF1074
-	.value	0x32d
-	.uleb128 0x1
-	.long	.LASF1075
-	.value	0x32e
-	.uleb128 0x1
-	.long	.LASF1076
-	.value	0x32f
-	.uleb128 0x1
-	.long	.LASF1077
-	.value	0x330
-	.uleb128 0x1
-	.long	.LASF1078
-	.value	0x331
-	.uleb128 0x1
-	.long	.LASF1079
-	.value	0x332
-	.uleb128 0x1
-	.long	.LASF1080
-	.value	0x333
-	.uleb128 0x1
-	.long	.LASF1081
-	.value	0x334
-	.uleb128 0x1
-	.long	.LASF1082
-	.value	0x335
-	.uleb128 0x1
-	.long	.LASF1083
-	.value	0x336
-	.uleb128 0x1
-	.long	.LASF1084
-	.value	0x337
-	.uleb128 0x1
-	.long	.LASF1085
-	.value	0x338
-	.uleb128 0x1
-	.long	.LASF1086
-	.value	0x339
-	.uleb128 0x1
-	.long	.LASF1087
-	.value	0x33a
-	.uleb128 0x1
-	.long	.LASF1088
-	.value	0x33b
-	.uleb128 0x1
-	.long	.LASF1089
-	.value	0x33c
-	.uleb128 0x1
-	.long	.LASF1090
-	.value	0x33d
-	.uleb128 0x1
-	.long	.LASF1091
-	.value	0x33e
-	.uleb128 0x1
-	.long	.LASF1092
-	.value	0x33f
-	.uleb128 0x1
-	.long	.LASF1093
-	.value	0x340
-	.uleb128 0x1
-	.long	.LASF1094
-	.value	0x341
-	.uleb128 0x1
-	.long	.LASF1095
-	.value	0x342
-	.uleb128 0x1
-	.long	.LASF1096
-	.value	0x343
-	.uleb128 0x1
-	.long	.LASF1097
-	.value	0x344
-	.uleb128 0x1
-	.long	.LASF1098
-	.value	0x345
-	.uleb128 0x1
-	.long	.LASF1099
-	.value	0x346
-	.uleb128 0x1
-	.long	.LASF1100
-	.value	0x347
-	.uleb128 0x1
-	.long	.LASF1101
-	.value	0x348
-	.uleb128 0x1
-	.long	.LASF1102
-	.value	0x349
-	.uleb128 0x1
-	.long	.LASF1103
-	.value	0x34a
-	.uleb128 0x1
-	.long	.LASF1104
-	.value	0x34b
-	.uleb128 0x1
-	.long	.LASF1105
-	.value	0x34c
-	.uleb128 0x1
-	.long	.LASF1106
-	.value	0x34d
-	.uleb128 0x1
-	.long	.LASF1107
-	.value	0x34e
-	.uleb128 0x1
-	.long	.LASF1108
-	.value	0x34f
-	.uleb128 0x1
-	.long	.LASF1109
-	.value	0x350
-	.uleb128 0x1
-	.long	.LASF1110
-	.value	0x351
-	.uleb128 0x1
-	.long	.LASF1111
-	.value	0x352
-	.uleb128 0x1
-	.long	.LASF1112
-	.value	0x353
-	.uleb128 0x1
-	.long	.LASF1113
-	.value	0x354
-	.uleb128 0x1
-	.long	.LASF1114
-	.value	0x355
-	.uleb128 0x1
-	.long	.LASF1115
-	.value	0x356
-	.uleb128 0x1
-	.long	.LASF1116
-	.value	0x357
-	.uleb128 0x1
-	.long	.LASF1117
-	.value	0x358
-	.uleb128 0x1
-	.long	.LASF1118
-	.value	0x359
-	.uleb128 0x1
-	.long	.LASF1119
-	.value	0x35a
-	.uleb128 0x1
-	.long	.LASF1120
-	.value	0x35b
-	.uleb128 0x1
-	.long	.LASF1121
-	.value	0x35c
-	.uleb128 0x1
-	.long	.LASF1122
-	.value	0x35d
-	.uleb128 0x1
-	.long	.LASF1123
-	.value	0x35e
-	.uleb128 0x1
-	.long	.LASF1124
-	.value	0x35f
-	.uleb128 0x1
-	.long	.LASF1125
-	.value	0x360
-	.uleb128 0x1
-	.long	.LASF1126
-	.value	0x361
-	.uleb128 0x1
-	.long	.LASF1127
-	.value	0x362
-	.uleb128 0x1
-	.long	.LASF1128
-	.value	0x363
-	.uleb128 0x1
-	.long	.LASF1129
-	.value	0x364
-	.uleb128 0x1
-	.long	.LASF1130
-	.value	0x365
-	.uleb128 0x1
-	.long	.LASF1131
-	.value	0x366
-	.uleb128 0x1
-	.long	.LASF1132
-	.value	0x367
-	.uleb128 0x1
-	.long	.LASF1133
-	.value	0x368
-	.uleb128 0x1
-	.long	.LASF1134
-	.value	0x369
-	.uleb128 0x1
-	.long	.LASF1135
-	.value	0x36a
-	.uleb128 0x1
-	.long	.LASF1136
-	.value	0x36b
-	.uleb128 0x1
-	.long	.LASF1137
-	.value	0x36c
-	.uleb128 0x1
-	.long	.LASF1138
-	.value	0x36d
-	.uleb128 0x1
-	.long	.LASF1139
-	.value	0x36e
-	.uleb128 0x1
-	.long	.LASF1140
-	.value	0x36f
-	.uleb128 0x1
-	.long	.LASF1141
-	.value	0x370
-	.uleb128 0x1
-	.long	.LASF1142
-	.value	0x371
-	.uleb128 0x1
-	.long	.LASF1143
-	.value	0x372
-	.uleb128 0x1
-	.long	.LASF1144
-	.value	0x373
-	.uleb128 0x1
-	.long	.LASF1145
-	.value	0x374
-	.uleb128 0x1
-	.long	.LASF1146
-	.value	0x375
-	.uleb128 0x1
-	.long	.LASF1147
-	.value	0x376
-	.uleb128 0x1
-	.long	.LASF1148
-	.value	0x377
-	.uleb128 0x1
-	.long	.LASF1149
-	.value	0x378
-	.uleb128 0x1
-	.long	.LASF1150
-	.value	0x379
-	.uleb128 0x1
-	.long	.LASF1151
-	.value	0x37a
-	.uleb128 0x1
-	.long	.LASF1152
-	.value	0x37b
-	.uleb128 0x1
-	.long	.LASF1153
-	.value	0x37c
-	.uleb128 0x1
-	.long	.LASF1154
-	.value	0x37d
-	.uleb128 0x1
-	.long	.LASF1155
-	.value	0x37e
-	.uleb128 0x1
-	.long	.LASF1156
-	.value	0x37f
-	.uleb128 0x1
-	.long	.LASF1157
-	.value	0x380
-	.uleb128 0x1
-	.long	.LASF1158
-	.value	0x381
-	.uleb128 0x1
-	.long	.LASF1159
-	.value	0x382
-	.uleb128 0x1
-	.long	.LASF1160
-	.value	0x383
-	.uleb128 0x1
-	.long	.LASF1161
-	.value	0x384
-	.uleb128 0x1
-	.long	.LASF1162
-	.value	0x385
-	.uleb128 0x1
-	.long	.LASF1163
-	.value	0x386
-	.uleb128 0x1
-	.long	.LASF1164
-	.value	0x387
-	.uleb128 0x1
-	.long	.LASF1165
-	.value	0x388
-	.uleb128 0x1
-	.long	.LASF1166
-	.value	0x389
-	.uleb128 0x1
-	.long	.LASF1167
-	.value	0x38a
-	.uleb128 0x1
-	.long	.LASF1168
-	.value	0x38b
-	.uleb128 0x1
-	.long	.LASF1169
-	.value	0x38c
-	.uleb128 0x1
-	.long	.LASF1170
-	.value	0x38d
-	.uleb128 0x1
-	.long	.LASF1171
-	.value	0x38e
-	.uleb128 0x1
-	.long	.LASF1172
-	.value	0x38f
-	.uleb128 0x1
-	.long	.LASF1173
-	.value	0x390
-	.uleb128 0x1
-	.long	.LASF1174
-	.value	0x391
-	.uleb128 0x1
-	.long	.LASF1175
-	.value	0x392
-	.uleb128 0x1
-	.long	.LASF1176
-	.value	0x393
-	.uleb128 0x1
-	.long	.LASF1177
-	.value	0x394
-	.uleb128 0x1
-	.long	.LASF1178
-	.value	0x395
-	.uleb128 0x1
-	.long	.LASF1179
-	.value	0x396
-	.uleb128 0x1
-	.long	.LASF1180
-	.value	0x397
-	.uleb128 0x1
-	.long	.LASF1181
-	.value	0x398
-	.uleb128 0x1
-	.long	.LASF1182
-	.value	0x399
-	.uleb128 0x1
-	.long	.LASF1183
-	.value	0x39a
-	.uleb128 0x1
-	.long	.LASF1184
-	.value	0x39b
-	.uleb128 0x1
-	.long	.LASF1185
-	.value	0x39c
-	.uleb128 0x1
-	.long	.LASF1186
-	.value	0x39d
-	.uleb128 0x1
-	.long	.LASF1187
-	.value	0x39e
-	.uleb128 0x1
-	.long	.LASF1188
-	.value	0x39f
-	.uleb128 0x1
-	.long	.LASF1189
-	.value	0x3a0
-	.uleb128 0x1
-	.long	.LASF1190
-	.value	0x3a1
-	.uleb128 0x1
-	.long	.LASF1191
-	.value	0x3a2
-	.uleb128 0x1
-	.long	.LASF1192
-	.value	0x3a3
-	.uleb128 0x1
-	.long	.LASF1193
-	.value	0x3a4
-	.uleb128 0x1
-	.long	.LASF1194
-	.value	0x3a5
-	.uleb128 0x1
-	.long	.LASF1195
-	.value	0x3a6
-	.uleb128 0x1
-	.long	.LASF1196
-	.value	0x3a7
-	.uleb128 0x1
-	.long	.LASF1197
-	.value	0x3a8
-	.uleb128 0x1
-	.long	.LASF1198
-	.value	0x3a9
-	.uleb128 0x1
-	.long	.LASF1199
-	.value	0x3aa
-	.uleb128 0x1
-	.long	.LASF1200
-	.value	0x3ab
-	.uleb128 0x1
-	.long	.LASF1201
-	.value	0x3ac
-	.uleb128 0x1
-	.long	.LASF1202
-	.value	0x3ad
-	.uleb128 0x1
-	.long	.LASF1203
-	.value	0x3ae
-	.uleb128 0x1
-	.long	.LASF1204
-	.value	0x3af
-	.uleb128 0x1
-	.long	.LASF1205
-	.value	0x3b0
-	.uleb128 0x1
-	.long	.LASF1206
-	.value	0x3b1
-	.uleb128 0x1
-	.long	.LASF1207
-	.value	0x3b2
-	.uleb128 0x1
-	.long	.LASF1208
-	.value	0x3b3
-	.uleb128 0x1
-	.long	.LASF1209
-	.value	0x3b4
-	.uleb128 0x1
-	.long	.LASF1210
-	.value	0x3b5
-	.uleb128 0x1
-	.long	.LASF1211
-	.value	0x3b6
-	.uleb128 0x1
-	.long	.LASF1212
-	.value	0x3b7
-	.uleb128 0x1
-	.long	.LASF1213
-	.value	0x3b8
-	.uleb128 0x1
-	.long	.LASF1214
-	.value	0x3b9
-	.uleb128 0x1
-	.long	.LASF1215
-	.value	0x3ba
-	.uleb128 0x1
-	.long	.LASF1216
-	.value	0x3bb
-	.uleb128 0x1
-	.long	.LASF1217
-	.value	0x3bc
-	.uleb128 0x1
-	.long	.LASF1218
-	.value	0x3bd
-	.uleb128 0x1
-	.long	.LASF1219
-	.value	0x3be
-	.uleb128 0x1
-	.long	.LASF1220
-	.value	0x3bf
-	.uleb128 0x1
-	.long	.LASF1221
-	.value	0x3c0
-	.uleb128 0x1
-	.long	.LASF1222
-	.value	0x3c1
-	.uleb128 0x1
-	.long	.LASF1223
-	.value	0x3c2
-	.uleb128 0x1
-	.long	.LASF1224
-	.value	0x3c3
-	.uleb128 0x1
-	.long	.LASF1225
-	.value	0x3c4
-	.uleb128 0x1
-	.long	.LASF1226
-	.value	0x3c5
-	.uleb128 0x1
-	.long	.LASF1227
-	.value	0x3c6
-	.uleb128 0x1
-	.long	.LASF1228
-	.value	0x3c7
-	.byte	0
-	.uleb128 0xe
-	.long	.LASF1229
-	.value	0x478
-	.long	0x6f6
-	.uleb128 0x13
-	.byte	0x38
-	.value	0x47b
-	.long	0x20e9
-	.uleb128 0x5
-	.long	.LASF1230
-	.value	0x47d
-	.byte	0xf
-	.long	0x6ea
-	.byte	0
-	.uleb128 0x5
-	.long	.LASF1231
-	.value	0x47e
-	.byte	0xa
-	.long	0x20e9
-	.byte	0x8
-	.uleb128 0x5
-	.long	.LASF1232
-	.value	0x47f
-	.byte	0xa
-	.long	0x20e9
-	.byte	0x10
-	.uleb128 0x5
-	.long	.LASF1233
-	.value	0x481
-	.byte	0xf
-	.long	0x390
-	.byte	0x18
-	.uleb128 0x5
-	.long	.LASF1234
-	.value	0x482
-	.byte	0x10
-	.long	0x207a
-	.byte	0x20
-	.uleb128 0x5
-	.long	.LASF1235
-	.value	0x483
-	.byte	0xa
-	.long	0x20e9
-	.byte	0x28
-	.uleb128 0x5
-	.long	.LASF1236
-	.value	0x483
-	.byte	0x11
-	.long	0x20e9
-	.byte	0x30
-	.byte	0
-	.uleb128 0x7
-	.byte	0x8
-	.byte	0x5
-	.long	.LASF1237
-	.uleb128 0xe
-	.long	.LASF1238
-	.value	0x484
-	.long	0x2085
-	.uleb128 0x9
-	.long	0x20f0
-	.long	0x210c
-	.uleb128 0x1c
-	.long	0x33
-	.value	0x3c6
-	.byte	0
-	.uleb128 0xf
-	.long	.LASF1239
-	.value	0x486
-	.byte	0x10
-	.long	0x20fb
-	.uleb128 0x9
-	.long	0x5c
-	.long	0x2128
-	.uleb128 0xc
-	.long	0x33
-	.byte	0x89
-	.byte	0
-	.uleb128 0xf
-	.long	.LASF1240
-	.value	0x487
-	.byte	0xe
-	.long	0x2118
-	.uleb128 0x1d
-	.byte	0x7
-	.byte	0x4
-	.long	0x6a
-	.byte	0x3
-	.value	0x48b
-	.byte	0xe
-	.long	0x2480
-	.uleb128 0x2
-	.long	.LASF1241
-	.byte	0
-	.uleb128 0x2
-	.long	.LASF1242
-	.byte	0x1
-	.uleb128 0x2
-	.long	.LASF1243
-	.byte	0x2
-	.uleb128 0x2
-	.long	.LASF1244
-	.byte	0x3
-	.uleb128 0x2
-	.long	.LASF1245
-	.byte	0x4
-	.uleb128 0x2
-	.long	.LASF1246
-	.byte	0x5
-	.uleb128 0x2
-	.long	.LASF1247
-	.byte	0x6
-	.uleb128 0x2
-	.long	.LASF1248
-	.byte	0x7
-	.uleb128 0x2
-	.long	.LASF1249
-	.byte	0x8
-	.uleb128 0x2
-	.long	.LASF1250
-	.byte	0x9
-	.uleb128 0x2
-	.long	.LASF1251
-	.byte	0xa
-	.uleb128 0x2
-	.long	.LASF1252
-	.byte	0xb
-	.uleb128 0x2
-	.long	.LASF1253
-	.byte	0xc
-	.uleb128 0x2
-	.long	.LASF1254
-	.byte	0xd
-	.uleb128 0x2
-	.long	.LASF1255
-	.byte	0xe
-	.uleb128 0x2
-	.long	.LASF1256
-	.byte	0xf
-	.uleb128 0x2
-	.long	.LASF1257
-	.byte	0x10
-	.uleb128 0x2
-	.long	.LASF1258
-	.byte	0x11
-	.uleb128 0x2
-	.long	.LASF1259
-	.byte	0x12
-	.uleb128 0x2
-	.long	.LASF1260
-	.byte	0x13
-	.uleb128 0x2
-	.long	.LASF1261
-	.byte	0x14
-	.uleb128 0x2
-	.long	.LASF1262
-	.byte	0x15
-	.uleb128 0x2
-	.long	.LASF1263
-	.byte	0x16
-	.uleb128 0x2
-	.long	.LASF1264
-	.byte	0x17
-	.uleb128 0x2
-	.long	.LASF1265
-	.byte	0x18
-	.uleb128 0x2
-	.long	.LASF1266
-	.byte	0x19
-	.uleb128 0x2
-	.long	.LASF1267
-	.byte	0x1a
-	.uleb128 0x2
-	.long	.LASF1268
-	.byte	0x1b
-	.uleb128 0x2
-	.long	.LASF1269
-	.byte	0x1c
-	.uleb128 0x2
-	.long	.LASF1270
-	.byte	0x1d
-	.uleb128 0x2
-	.long	.LASF1271
-	.byte	0x1e
-	.uleb128 0x2
-	.long	.LASF1272
-	.byte	0x1f
-	.uleb128 0x2
-	.long	.LASF1273
-	.byte	0x20
-	.uleb128 0x2
-	.long	.LASF1274
-	.byte	0x21
-	.uleb128 0x2
-	.long	.LASF1275
-	.byte	0x22
-	.uleb128 0x2
-	.long	.LASF1276
-	.byte	0x23
-	.uleb128 0x2
-	.long	.LASF1277
-	.byte	0x24
-	.uleb128 0x2
-	.long	.LASF1278
-	.byte	0x25
-	.uleb128 0x2
-	.long	.LASF1279
-	.byte	0x26
-	.uleb128 0x2
-	.long	.LASF1280
-	.byte	0x27
-	.uleb128 0x2
-	.long	.LASF1281
-	.byte	0x28
-	.uleb128 0x2
-	.long	.LASF1282
-	.byte	0x29
-	.uleb128 0x2
-	.long	.LASF1283
-	.byte	0x2a
-	.uleb128 0x2
-	.long	.LASF1284
-	.byte	0x2b
-	.uleb128 0x2
-	.long	.LASF1285
-	.byte	0x2c
-	.uleb128 0x2
-	.long	.LASF1286
-	.byte	0x2d
-	.uleb128 0x2
-	.long	.LASF1287
-	.byte	0x2e
-	.uleb128 0x2
-	.long	.LASF1288
-	.byte	0x2f
-	.uleb128 0x2
-	.long	.LASF1289
-	.byte	0x30
-	.uleb128 0x2
-	.long	.LASF1290
-	.byte	0x31
-	.uleb128 0x2
-	.long	.LASF1291
-	.byte	0x32
-	.uleb128 0x2
-	.long	.LASF1292
-	.byte	0x33
-	.uleb128 0x2
-	.long	.LASF1293
-	.byte	0x34
-	.uleb128 0x2
-	.long	.LASF1294
-	.byte	0x35
-	.uleb128 0x2
-	.long	.LASF1295
-	.byte	0x36
-	.uleb128 0x2
-	.long	.LASF1296
-	.byte	0x37
-	.uleb128 0x2
-	.long	.LASF1297
-	.byte	0x38
-	.uleb128 0x2
-	.long	.LASF1298
-	.byte	0x39
-	.uleb128 0x2
-	.long	.LASF1299
-	.byte	0x3a
-	.uleb128 0x2
-	.long	.LASF1300
-	.byte	0x3b
-	.uleb128 0x2
-	.long	.LASF1301
-	.byte	0x3c
-	.uleb128 0x2
-	.long	.LASF1302
-	.byte	0x3d
-	.uleb128 0x2
-	.long	.LASF1303
-	.byte	0x3e
-	.uleb128 0x2
-	.long	.LASF1304
-	.byte	0x3f
-	.uleb128 0x2
-	.long	.LASF1305
-	.byte	0x40
-	.uleb128 0x2
-	.long	.LASF1306
-	.byte	0x41
-	.uleb128 0x2
-	.long	.LASF1307
-	.byte	0x42
-	.uleb128 0x2
-	.long	.LASF1308
-	.byte	0x43
-	.uleb128 0x2
-	.long	.LASF1309
-	.byte	0x44
-	.uleb128 0x2
-	.long	.LASF1310
-	.byte	0x45
-	.uleb128 0x2
-	.long	.LASF1311
-	.byte	0x46
-	.uleb128 0x2
-	.long	.LASF1312
-	.byte	0x47
-	.uleb128 0x2
-	.long	.LASF1313
-	.byte	0x48
-	.uleb128 0x2
-	.long	.LASF1314
-	.byte	0x49
-	.uleb128 0x2
-	.long	.LASF1315
-	.byte	0x4a
-	.uleb128 0x2
-	.long	.LASF1316
-	.byte	0x4b
-	.uleb128 0x2
-	.long	.LASF1317
-	.byte	0x4c
-	.uleb128 0x2
-	.long	.LASF1318
-	.byte	0x4d
-	.uleb128 0x2
-	.long	.LASF1319
-	.byte	0x4e
-	.uleb128 0x2
-	.long	.LASF1320
-	.byte	0x4f
-	.uleb128 0x2
-	.long	.LASF1321
-	.byte	0x50
-	.uleb128 0x2
-	.long	.LASF1322
-	.byte	0x51
-	.uleb128 0x2
-	.long	.LASF1323
-	.byte	0x52
-	.uleb128 0x2
-	.long	.LASF1324
-	.byte	0x53
-	.uleb128 0x2
-	.long	.LASF1325
-	.byte	0x54
-	.uleb128 0x2
-	.long	.LASF1326
-	.byte	0x55
-	.uleb128 0x2
-	.long	.LASF1327
-	.byte	0x56
-	.uleb128 0x2
-	.long	.LASF1328
-	.byte	0x57
-	.uleb128 0x2
-	.long	.LASF1329
-	.byte	0x58
-	.uleb128 0x2
-	.long	.LASF1330
-	.byte	0x59
-	.uleb128 0x2
-	.long	.LASF1331
-	.byte	0x5a
-	.uleb128 0x2
-	.long	.LASF1332
-	.byte	0x5b
-	.uleb128 0x2
-	.long	.LASF1333
-	.byte	0x5c
-	.uleb128 0x2
-	.long	.LASF1334
-	.byte	0x5d
-	.uleb128 0x2
-	.long	.LASF1335
-	.byte	0x5e
-	.uleb128 0x2
-	.long	.LASF1336
-	.byte	0x5f
-	.uleb128 0x2
-	.long	.LASF1337
-	.byte	0x60
-	.uleb128 0x2
-	.long	.LASF1338
-	.byte	0x61
-	.uleb128 0x2
-	.long	.LASF1339
-	.byte	0x62
-	.uleb128 0x2
-	.long	.LASF1340
-	.byte	0x63
-	.uleb128 0x2
-	.long	.LASF1341
-	.byte	0x64
-	.uleb128 0x2
-	.long	.LASF1342
-	.byte	0x65
-	.uleb128 0x2
-	.long	.LASF1343
-	.byte	0x66
-	.uleb128 0x2
-	.long	.LASF1344
-	.byte	0x67
-	.uleb128 0x2
-	.long	.LASF1345
-	.byte	0x68
-	.uleb128 0x2
-	.long	.LASF1346
-	.byte	0x69
-	.uleb128 0x2
-	.long	.LASF1347
-	.byte	0x6a
-	.uleb128 0x2
-	.long	.LASF1348
-	.byte	0x6b
-	.uleb128 0x2
-	.long	.LASF1349
-	.byte	0x6c
-	.uleb128 0x2
-	.long	.LASF1350
-	.byte	0x6d
-	.uleb128 0x2
-	.long	.LASF1351
-	.byte	0x6e
-	.uleb128 0x2
-	.long	.LASF1352
-	.byte	0x6f
-	.uleb128 0x2
-	.long	.LASF1353
-	.byte	0x70
-	.uleb128 0x2
-	.long	.LASF1354
-	.byte	0x71
-	.uleb128 0x2
-	.long	.LASF1355
-	.byte	0x72
-	.uleb128 0x2
-	.long	.LASF1356
-	.byte	0x73
-	.uleb128 0x2
-	.long	.LASF1357
-	.byte	0x74
-	.uleb128 0x2
-	.long	.LASF1358
-	.byte	0x75
-	.uleb128 0x2
-	.long	.LASF1359
-	.byte	0x76
-	.uleb128 0x2
-	.long	.LASF1360
-	.byte	0x77
-	.uleb128 0x2
-	.long	.LASF1361
-	.byte	0x78
-	.uleb128 0x2
-	.long	.LASF1362
-	.byte	0x79
-	.uleb128 0x2
-	.long	.LASF1363
-	.byte	0x7a
-	.uleb128 0x2
-	.long	.LASF1364
-	.byte	0x7b
-	.uleb128 0x2
-	.long	.LASF1365
-	.byte	0x7c
-	.uleb128 0x2
-	.long	.LASF1366
-	.byte	0x7d
-	.uleb128 0x2
-	.long	.LASF1367
-	.byte	0x7e
-	.uleb128 0x2
-	.long	.LASF1368
-	.byte	0x7f
-	.uleb128 0x2
-	.long	.LASF1369
-	.byte	0x80
-	.uleb128 0x2
-	.long	.LASF1370
-	.byte	0x81
-	.uleb128 0x2
-	.long	.LASF1371
-	.byte	0x82
-	.uleb128 0x2
-	.long	.LASF1372
-	.byte	0x83
-	.uleb128 0x2
-	.long	.LASF1373
-	.byte	0x84
-	.uleb128 0x2
-	.long	.LASF1374
-	.byte	0x85
-	.uleb128 0x2
-	.long	.LASF1375
-	.byte	0x86
-	.uleb128 0x2
-	.long	.LASF1376
-	.byte	0x87
-	.uleb128 0x2
-	.long	.LASF1377
-	.byte	0x88
-	.uleb128 0x2
-	.long	.LASF1378
-	.byte	0x89
-	.byte	0
-	.uleb128 0x13
-	.byte	0x5c
-	.value	0x519
-	.long	0x25b4
-	.uleb128 0x5
-	.long	.LASF1379
-	.value	0x51b
-	.byte	0x9
-	.long	0x61
-	.byte	0
-	.uleb128 0x5
-	.long	.LASF1380
-	.value	0x51c
-	.byte	0x9
-	.long	0x61
-	.byte	0x4
-	.uleb128 0x5
-	.long	.LASF1381
-	.value	0x51d
-	.byte	0x9
-	.long	0x61
-	.byte	0x8
-	.uleb128 0x5
-	.long	.LASF1382
-	.value	0x51e
-	.byte	0x9
-	.long	0x61
-	.byte	0xc
-	.uleb128 0x5
-	.long	.LASF1383
-	.value	0x51f
-	.byte	0x9
-	.long	0x61
-	.byte	0x10
-	.uleb128 0x5
-	.long	.LASF1384
-	.value	0x520
-	.byte	0x9
-	.long	0x61
-	.byte	0x14
-	.uleb128 0x5
-	.long	.LASF1385
-	.value	0x521
-	.byte	0x9
-	.long	0x61
-	.byte	0x18
-	.uleb128 0x5
-	.long	.LASF1386
-	.value	0x522
-	.byte	0x9
-	.long	0x61
-	.byte	0x1c
-	.uleb128 0x5
-	.long	.LASF1387
-	.value	0x523
-	.byte	0x9
-	.long	0x61
-	.byte	0x20
-	.uleb128 0x5
-	.long	.LASF1388
-	.value	0x524
-	.byte	0x9
-	.long	0x61
-	.byte	0x24
-	.uleb128 0x5
-	.long	.LASF1389
-	.value	0x525
-	.byte	0x9
-	.long	0x61
-	.byte	0x28
-	.uleb128 0x5
-	.long	.LASF1390
-	.value	0x526
-	.byte	0x9
-	.long	0x61
-	.byte	0x2c
-	.uleb128 0x5
-	.long	.LASF1391
-	.value	0x527
-	.byte	0x9
-	.long	0x61
-	.byte	0x30
-	.uleb128 0x5
-	.long	.LASF1392
-	.value	0x528
-	.byte	0x9
-	.long	0x61
-	.byte	0x34
-	.uleb128 0x5
-	.long	.LASF1393
-	.value	0x529
-	.byte	0x9
-	.long	0x61
-	.byte	0x38
-	.uleb128 0x5
-	.long	.LASF1394
-	.value	0x52a
-	.byte	0x9
-	.long	0x61
-	.byte	0x3c
-	.uleb128 0x5
-	.long	.LASF1395
-	.value	0x52b
-	.byte	0x9
-	.long	0x61
-	.byte	0x40
-	.uleb128 0x5
-	.long	.LASF1396
-	.value	0x52c
-	.byte	0x9
-	.long	0x61
-	.byte	0x44
-	.uleb128 0x5
-	.long	.LASF1397
-	.value	0x52d
-	.byte	0x9
-	.long	0x61
-	.byte	0x48
-	.uleb128 0x5
-	.long	.LASF1398
-	.value	0x52e
-	.byte	0x9
-	.long	0x61
-	.byte	0x4c
-	.uleb128 0x5
-	.long	.LASF1399
-	.value	0x52f
-	.byte	0x9
-	.long	0x61
-	.byte	0x50
-	.uleb128 0x5
-	.long	.LASF1400
-	.value	0x530
-	.byte	0x9
-	.long	0x61
-	.byte	0x54
-	.uleb128 0x5
-	.long	.LASF1401
-	.value	0x531
-	.byte	0x9
-	.long	0x61
-	.byte	0x58
-	.byte	0
-	.uleb128 0xe
-	.long	.LASF1402
-	.value	0x533
-	.long	0x2480
-	.uleb128 0x9
-	.long	0x25b4
-	.long	0x25cf
-	.uleb128 0xc
-	.long	0x33
-	.byte	0x88
-	.byte	0
-	.uleb128 0xf
-	.long	.LASF1403
-	.value	0x535
-	.byte	0x13
-	.long	0x25bf
-	.uleb128 0x7
-	.byte	0x1
-	.byte	0x8
-	.long	.LASF1404
-	.uleb128 0x7
-	.byte	0x2
-	.byte	0x7
-	.long	.LASF1405
-	.uleb128 0x7
-	.byte	0x1
-	.byte	0x6
-	.long	.LASF1406
-	.uleb128 0x7
-	.byte	0x2
-	.byte	0x5
-	.long	.LASF1407
-	.uleb128 0x7
-	.byte	0x4
-	.byte	0x4
-	.long	.LASF1408
-	.uleb128 0x7
-	.byte	0x8
-	.byte	0x4
-	.long	.LASF1409
-	.uleb128 0xb
-	.long	0x6a
-	.byte	0x4
-	.byte	0x76
-	.long	0x26e2
-	.uleb128 0x2
-	.long	.LASF1410
-	.byte	0x1
-	.uleb128 0x2
-	.long	.LASF1411
-	.byte	0x2
-	.uleb128 0x2
-	.long	.LASF1412
-	.byte	0x4
-	.uleb128 0x2
-	.long	.LASF1413
-	.byte	0x8
-	.uleb128 0x2
-	.long	.LASF1414
-	.byte	0x10
-	.uleb128 0x2
-	.long	.LASF1415
-	.byte	0x20
-	.uleb128 0x2
-	.long	.LASF1416
-	.byte	0x40
-	.uleb128 0x2
-	.long	.LASF1417
-	.byte	0x80
-	.uleb128 0x1
-	.long	.LASF1418
-	.value	0x100
-	.uleb128 0x1
-	.long	.LASF1419
-	.value	0x200
-	.uleb128 0x1
-	.long	.LASF1420
-	.value	0x400
-	.uleb128 0x1
-	.long	.LASF1421
-	.value	0x800
-	.uleb128 0x1
-	.long	.LASF1422
-	.value	0x1000
-	.uleb128 0x1
-	.long	.LASF1423
-	.value	0x2000
-	.uleb128 0x1
-	.long	.LASF1424
-	.value	0x4000
-	.uleb128 0x1
-	.long	.LASF1425
-	.value	0x8000
-	.uleb128 0x6
-	.long	.LASF1426
-	.long	0x10000
-	.uleb128 0x6
-	.long	.LASF1427
-	.long	0x20000
-	.uleb128 0x6
-	.long	.LASF1428
-	.long	0x40000
-	.uleb128 0x6
-	.long	.LASF1429
-	.long	0x80000
-	.uleb128 0x6
-	.long	.LASF1430
-	.long	0x100000
-	.uleb128 0x6
-	.long	.LASF1431
-	.long	0x200000
-	.uleb128 0x6
-	.long	.LASF1432
-	.long	0x400000
-	.uleb128 0x6
-	.long	.LASF1433
-	.long	0x800000
-	.uleb128 0x6
-	.long	.LASF1434
-	.long	0x1000000
-	.uleb128 0x6
-	.long	.LASF1435
-	.long	0x2000000
-	.uleb128 0x6
-	.long	.LASF1436
-	.long	0xc000000
-	.uleb128 0x2
-	.long	.LASF1437
-	.byte	0x1a
-	.byte	0
-	.uleb128 0x14
-	.long	0x2128
-	.byte	0x28
-	.byte	0x7
-	.uleb128 0x9
-	.byte	0x3
-	.quad	sprnames
-	.uleb128 0x14
-	.long	0x210c
-	.byte	0x87
-	.byte	0x9
-	.uleb128 0x9
-	.byte	0x3
-	.quad	states
-	.uleb128 0x1e
-	.long	0x25cf
-	.byte	0x5
-	.value	0x452
-	.byte	0xc
-	.uleb128 0x9
-	.byte	0x3
-	.quad	mobjinfo
-	.uleb128 0x4
-	.long	.LASF1438
-	.byte	0x84
-	.long	0x2723
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1439
-	.byte	0x83
-	.long	0x272f
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1440
-	.byte	0x82
-	.long	0x273b
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1441
-	.byte	0x81
-	.long	0x2747
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1442
-	.byte	0x80
-	.long	0x2753
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1443
-	.byte	0x7f
-	.long	0x275f
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1444
-	.byte	0x7e
-	.long	0x276b
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1445
-	.byte	0x7d
-	.long	0x2777
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1446
-	.byte	0x7c
-	.long	0x2783
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1447
-	.byte	0x7b
-	.long	0x278f
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1448
-	.byte	0x7a
-	.long	0x279b
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1449
-	.byte	0x79
-	.long	0x27a7
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1450
-	.byte	0x78
-	.long	0x27b3
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1451
-	.byte	0x77
-	.long	0x27bf
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1452
-	.byte	0x76
-	.long	0x27cb
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1453
-	.byte	0x75
-	.long	0x27d7
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1454
-	.byte	0x74
-	.long	0x27e3
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1455
-	.byte	0x73
-	.long	0x27ef
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1456
-	.byte	0x72
-	.long	0x27fb
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1457
-	.byte	0x71
-	.long	0x2807
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1458
-	.byte	0x70
-	.long	0x2813
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1459
-	.byte	0x6f
-	.long	0x281f
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1460
-	.byte	0x6e
-	.long	0x282b
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1461
-	.byte	0x6d
-	.long	0x2837
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1462
-	.byte	0x6c
-	.long	0x2843
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1463
-	.byte	0x6b
-	.long	0x284f
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1464
-	.byte	0x6a
-	.long	0x285b
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1465
-	.byte	0x69
-	.long	0x2867
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1466
-	.byte	0x68
-	.long	0x2873
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1467
-	.byte	0x67
-	.long	0x287f
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1468
-	.byte	0x66
-	.long	0x288b
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1469
-	.byte	0x65
-	.long	0x2897
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1470
-	.byte	0x64
-	.long	0x28a3
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1471
-	.byte	0x63
-	.long	0x28af
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1472
-	.byte	0x62
-	.long	0x28bb
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1473
-	.byte	0x61
-	.long	0x28c7
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1474
-	.byte	0x60
-	.long	0x28d3
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1475
-	.byte	0x5f
-	.long	0x28df
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1476
-	.byte	0x5e
-	.long	0x28eb
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1477
-	.byte	0x5d
-	.long	0x28f7
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1478
-	.byte	0x5c
-	.long	0x2903
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1479
-	.byte	0x5b
-	.long	0x290f
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1480
-	.byte	0x5a
-	.long	0x291b
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1481
-	.byte	0x59
-	.long	0x2927
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1482
-	.byte	0x58
-	.long	0x2933
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1483
-	.byte	0x57
-	.long	0x293f
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1484
-	.byte	0x56
-	.long	0x294b
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1485
-	.byte	0x55
-	.long	0x2957
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1486
-	.byte	0x54
-	.long	0x2963
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1487
-	.byte	0x53
-	.long	0x296f
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1488
-	.byte	0x52
-	.long	0x297b
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1489
-	.byte	0x51
-	.long	0x2987
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1490
-	.byte	0x50
-	.long	0x2993
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1491
-	.byte	0x4f
-	.long	0x299f
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1492
-	.byte	0x4e
-	.long	0x29ab
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1493
-	.byte	0x4d
-	.long	0x29b7
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1494
-	.byte	0x4c
-	.long	0x29c3
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1495
-	.byte	0x4b
-	.long	0x29cf
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1496
-	.byte	0x4a
-	.long	0x29db
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1497
-	.byte	0x49
-	.long	0x29e7
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1498
-	.byte	0x48
-	.long	0x29f3
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1499
-	.byte	0x47
-	.long	0x29ff
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1500
-	.byte	0x46
-	.long	0x2a0b
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1501
-	.byte	0x45
-	.long	0x2a17
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1502
-	.byte	0x44
-	.long	0x2a23
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1503
-	.byte	0x43
-	.long	0x2a2f
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1504
-	.byte	0x42
-	.long	0x2a3b
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1505
-	.byte	0x41
-	.long	0x2a47
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1506
-	.byte	0x40
-	.long	0x2a53
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1507
-	.byte	0x3f
-	.long	0x2a5f
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1508
-	.byte	0x3e
-	.long	0x2a6b
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1509
-	.byte	0x3d
-	.long	0x2a77
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x4
-	.long	.LASF1510
-	.byte	0x3c
-	.long	0x2a83
-	.uleb128 0x3
-	.byte	0
-	.uleb128 0x1f
-	.long	.LASF1513
-	.byte	0x5
-	.byte	0x3b
-	.byte	0x7
-	.uleb128 0x3
-	.byte	0
-	.byte	0
-	.section	.debug_abbrev,"",@progbits
-.Ldebug_abbrev0:
-	.uleb128 0x1
-	.uleb128 0x28
-	.byte	0
-	.uleb128 0x3
-	.uleb128 0xe
-	.uleb128 0x1c
-	.uleb128 0x5
-	.byte	0
-	.byte	0
-	.uleb128 0x2
-	.uleb128 0x28
-	.byte	0
-	.uleb128 0x3
-	.uleb128 0xe
-	.uleb128 0x1c
-	.uleb128 0xb
-	.byte	0
-	.byte	0
-	.uleb128 0x3
-	.uleb128 0x18
-	.byte	0
-	.byte	0
-	.byte	0
-	.uleb128 0x4
-	.uleb128 0x2e
-	.byte	0x1
-	.uleb128 0x3f
-	.uleb128 0x19
-	.uleb128 0x3
-	.uleb128 0xe
-	.uleb128 0x3a
-	.uleb128 0x21
-	.sleb128 5
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x39
-	.uleb128 0x21
-	.sleb128 6
-	.uleb128 0x3c
-	.uleb128 0x19
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x5
-	.uleb128 0xd
-	.byte	0
-	.uleb128 0x3
-	.uleb128 0xe
-	.uleb128 0x3a
-	.uleb128 0x21
-	.sleb128 3
-	.uleb128 0x3b
-	.uleb128 0x5
-	.uleb128 0x39
-	.uleb128 0xb
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x38
-	.uleb128 0xb
-	.byte	0
-	.byte	0
-	.uleb128 0x6
-	.uleb128 0x28
-	.byte	0
-	.uleb128 0x3
-	.uleb128 0xe
-	.uleb128 0x1c
-	.uleb128 0x6
-	.byte	0
-	.byte	0
-	.uleb128 0x7
-	.uleb128 0x24
-	.byte	0
-	.uleb128 0xb
-	.uleb128 0xb
-	.uleb128 0x3e
-	.uleb128 0xb
-	.uleb128 0x3
-	.uleb128 0xe
-	.byte	0
-	.byte	0
-	.uleb128 0x8
-	.uleb128 0x16
-	.byte	0
-	.uleb128 0x3
-	.uleb128 0xe
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x39
-	.uleb128 0xb
-	.uleb128 0x49
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x9
-	.uleb128 0x1
-	.byte	0x1
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0xa
-	.uleb128 0xf
-	.byte	0
-	.uleb128 0xb
-	.uleb128 0x21
-	.sleb128 8
-	.uleb128 0x49
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0xb
-	.uleb128 0x4
-	.byte	0x1
-	.uleb128 0x3e
-	.uleb128 0x21
-	.sleb128 7
-	.uleb128 0xb
-	.uleb128 0x21
-	.sleb128 4
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x39
-	.uleb128 0x21
-	.sleb128 1
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0xc
-	.uleb128 0x21
-	.byte	0
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x2f
-	.uleb128 0xb
-	.byte	0
-	.byte	0
-	.uleb128 0xd
-	.uleb128 0x5
-	.byte	0
-	.uleb128 0x49
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0xe
-	.uleb128 0x16
-	.byte	0
-	.uleb128 0x3
-	.uleb128 0xe
-	.uleb128 0x3a
-	.uleb128 0x21
-	.sleb128 3
-	.uleb128 0x3b
-	.uleb128 0x5
-	.uleb128 0x39
-	.uleb128 0x21
-	.sleb128 3
-	.uleb128 0x49
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0xf
-	.uleb128 0x34
-	.byte	0
-	.uleb128 0x3
-	.uleb128 0xe
-	.uleb128 0x3a
-	.uleb128 0x21
-	.sleb128 3
-	.uleb128 0x3b
-	.uleb128 0x5
-	.uleb128 0x39
-	.uleb128 0xb
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x3f
-	.uleb128 0x19
-	.uleb128 0x3c
-	.uleb128 0x19
-	.byte	0
-	.byte	0
-	.uleb128 0x10
-	.uleb128 0x26
-	.byte	0
-	.uleb128 0x49
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x11
-	.uleb128 0x15
-	.byte	0x1
-	.uleb128 0x27
-	.uleb128 0x19
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x12
-	.uleb128 0xd
-	.byte	0
-	.uleb128 0x3
-	.uleb128 0xe
-	.uleb128 0x3a
-	.uleb128 0x21
-	.sleb128 1
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x39
-	.uleb128 0x21
-	.sleb128 14
-	.uleb128 0x49
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x13
-	.uleb128 0x13
-	.byte	0x1
-	.uleb128 0xb
-	.uleb128 0xb
-	.uleb128 0x3a
-	.uleb128 0x21
-	.sleb128 3
-	.uleb128 0x3b
-	.uleb128 0x5
-	.uleb128 0x39
-	.uleb128 0x21
-	.sleb128 9
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x14
-	.uleb128 0x34
-	.byte	0
-	.uleb128 0x47
-	.uleb128 0x13
-	.uleb128 0x3a
-	.uleb128 0x21
-	.sleb128 5
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x39
-	.uleb128 0xb
-	.uleb128 0x2
-	.uleb128 0x18
-	.byte	0
-	.byte	0
-	.uleb128 0x15
-	.uleb128 0x11
-	.byte	0x1
-	.uleb128 0x25
-	.uleb128 0xe
-	.uleb128 0x13
-	.uleb128 0xb
-	.uleb128 0x3
-	.uleb128 0x1f
-	.uleb128 0x1b
-	.uleb128 0x1f
-	.uleb128 0x10
-	.uleb128 0x17
-	.byte	0
-	.byte	0
-	.uleb128 0x16
-	.uleb128 0x34
-	.byte	0
-	.uleb128 0x3
-	.uleb128 0xe
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x39
-	.uleb128 0xb
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x2
-	.uleb128 0x18
-	.byte	0
-	.byte	0
-	.uleb128 0x17
-	.uleb128 0x24
-	.byte	0
-	.uleb128 0xb
-	.uleb128 0xb
-	.uleb128 0x3e
-	.uleb128 0xb
-	.uleb128 0x3
-	.uleb128 0x8
-	.byte	0
-	.byte	0
-	.uleb128 0x18
-	.uleb128 0xf
-	.byte	0
-	.uleb128 0xb
-	.uleb128 0xb
-	.byte	0
-	.byte	0
-	.uleb128 0x19
-	.uleb128 0x15
-	.byte	0x1
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x1a
-	.uleb128 0x17
-	.byte	0x1
-	.uleb128 0xb
-	.uleb128 0xb
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x39
-	.uleb128 0xb
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x1b
-	.uleb128 0xd
-	.byte	0
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x39
-	.uleb128 0xb
-	.uleb128 0x49
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x1c
-	.uleb128 0x21
-	.byte	0
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x2f
-	.uleb128 0x5
-	.byte	0
-	.byte	0
-	.uleb128 0x1d
-	.uleb128 0x4
-	.byte	0x1
-	.uleb128 0x3e
-	.uleb128 0xb
-	.uleb128 0xb
-	.uleb128 0xb
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0x5
-	.uleb128 0x39
-	.uleb128 0xb
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x1e
-	.uleb128 0x34
-	.byte	0
-	.uleb128 0x47
-	.uleb128 0x13
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0x5
-	.uleb128 0x39
-	.uleb128 0xb
-	.uleb128 0x2
-	.uleb128 0x18
-	.byte	0
-	.byte	0
-	.uleb128 0x1f
-	.uleb128 0x2e
-	.byte	0x1
-	.uleb128 0x3f
-	.uleb128 0x19
-	.uleb128 0x3
-	.uleb128 0xe
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x39
-	.uleb128 0xb
-	.uleb128 0x3c
-	.uleb128 0x19
-	.byte	0
-	.byte	0
-	.byte	0
-	.section	.debug_aranges,"",@progbits
-	.long	0x1c
-	.value	0x2
-	.long	.Ldebug_info0
-	.byte	0x8
-	.byte	0
-	.value	0
-	.value	0
-	.quad	0
-	.quad	0
-	.section	.debug_line,"",@progbits
-.Ldebug_line0:
-	.section	.debug_str,"MS",@progbits,1
-.LASF896:
-	.string	"S_BSPI_RUN1"
-.LASF897:
-	.string	"S_BSPI_RUN2"
-.LASF46:
-	.string	"sfx_sgtsit"
-.LASF899:
-	.string	"S_BSPI_RUN4"
-.LASF900:
-	.string	"S_BSPI_RUN5"
-.LASF901:
-	.string	"S_BSPI_RUN6"
-.LASF902:
-	.string	"S_BSPI_RUN7"
-.LASF903:
-	.string	"S_BSPI_RUN8"
-.LASF904:
-	.string	"S_BSPI_RUN9"
-.LASF49:
-	.string	"sfx_cybsit"
-.LASF188:
-	.string	"SPR_YSKU"
-.LASF15:
-	.string	"sfx_sawup"
-.LASF1505:
-	.string	"A_FirePistol"
-.LASF551:
-	.string	"S_FIRE10"
-.LASF552:
-	.string	"S_FIRE11"
-.LASF553:
-	.string	"S_FIRE12"
-.LASF554:
-	.string	"S_FIRE13"
-.LASF555:
-	.string	"S_FIRE14"
-.LASF556:
-	.string	"S_FIRE15"
-.LASF557:
-	.string	"S_FIRE16"
-.LASF558:
-	.string	"S_FIRE17"
-.LASF559:
-	.string	"S_FIRE18"
-.LASF560:
-	.string	"S_FIRE19"
-.LASF1375:
-	.string	"MT_MISC84"
-.LASF1308:
-	.string	"MT_MISC20"
-.LASF1119:
-	.string	"S_MEGA2"
-.LASF1120:
-	.string	"S_MEGA3"
-.LASF1121:
-	.string	"S_MEGA4"
-.LASF1312:
-	.string	"MT_MISC24"
-.LASF1313:
-	.string	"MT_MISC25"
-.LASF1315:
-	.string	"MT_MISC26"
-.LASF1316:
-	.string	"MT_MISC27"
-.LASF1317:
-	.string	"MT_MISC28"
-.LASF1320:
-	.string	"MT_MISC29"
-.LASF750:
-	.string	"S_SARG_PAIN2"
-.LASF1432:
-	.string	"MF_COUNTKILL"
-.LASF229:
-	.string	"SPR_COL1"
-.LASF230:
-	.string	"SPR_COL2"
-.LASF231:
-	.string	"SPR_COL3"
-.LASF232:
-	.string	"SPR_COL4"
-.LASF241:
-	.string	"SPR_COL5"
-.LASF235:
-	.string	"SPR_COL6"
-.LASF1459:
-	.string	"A_TroopAttack"
-.LASF111:
-	.string	"sfx_skesit"
-.LASF92:
-	.string	"sfx_tink"
-.LASF561:
-	.string	"S_FIRE20"
-.LASF562:
-	.string	"S_FIRE21"
-.LASF563:
-	.string	"S_FIRE22"
-.LASF564:
-	.string	"S_FIRE23"
-.LASF565:
-	.string	"S_FIRE24"
-.LASF215:
-	.string	"SPR_COLU"
-.LASF567:
-	.string	"S_FIRE26"
-.LASF568:
-	.string	"S_FIRE27"
-.LASF569:
-	.string	"S_FIRE28"
-.LASF570:
-	.string	"S_FIRE29"
-.LASF1321:
-	.string	"MT_MISC30"
-.LASF1322:
-	.string	"MT_MISC31"
-.LASF1323:
-	.string	"MT_MISC32"
-.LASF1324:
-	.string	"MT_MISC33"
-.LASF912:
-	.string	"S_BSPI_PAIN"
-.LASF1326:
-	.string	"MT_MISC35"
-.LASF384:
-	.string	"S_BFGEXP"
-.LASF1328:
-	.string	"MT_MISC37"
-.LASF1329:
-	.string	"MT_MISC38"
-.LASF1330:
-	.string	"MT_MISC39"
-.LASF914:
-	.string	"S_BSPI_DIE1"
-.LASF1197:
-	.string	"S_REDTORCH3"
-.LASF810:
-	.string	"S_BOSS_RAISE1"
-.LASF811:
-	.string	"S_BOSS_RAISE2"
-.LASF1255:
-	.string	"MT_HEAD"
-.LASF812:
-	.string	"S_BOSS_RAISE3"
-.LASF571:
-	.string	"S_FIRE30"
-.LASF716:
-	.string	"S_TROO_PAIN"
-.LASF1005:
-	.string	"S_SSWV_DIE1"
-.LASF815:
-	.string	"S_BOSS_RAISE6"
-.LASF1007:
-	.string	"S_SSWV_DIE3"
-.LASF1008:
-	.string	"S_SSWV_DIE4"
-.LASF1009:
-	.string	"S_SSWV_DIE5"
-.LASF183:
-	.string	"SPR_BKEY"
-.LASF827:
-	.string	"S_BOS2_ATK1"
-.LASF828:
-	.string	"S_BOS2_ATK2"
-.LASF829:
-	.string	"S_BOS2_ATK3"
-.LASF217:
-	.string	"SPR_GOR1"
-.LASF224:
-	.string	"SPR_GOR2"
-.LASF225:
-	.string	"SPR_GOR3"
-.LASF226:
-	.string	"SPR_GOR4"
-.LASF227:
-	.string	"SPR_GOR5"
-.LASF99:
-	.string	"sfx_bospit"
-.LASF358:
-	.string	"S_TBALL1"
-.LASF584:
-	.string	"S_SKEL_RUN1"
-.LASF585:
-	.string	"S_SKEL_RUN2"
-.LASF586:
-	.string	"S_SKEL_RUN3"
-.LASF587:
-	.string	"S_SKEL_RUN4"
-.LASF588:
-	.string	"S_SKEL_RUN5"
-.LASF589:
-	.string	"S_SKEL_RUN6"
-.LASF590:
-	.string	"S_SKEL_RUN7"
-.LASF94:
-	.string	"sfx_bdcls"
-.LASF592:
-	.string	"S_SKEL_RUN9"
-.LASF1070:
-	.string	"S_BEXP2"
-.LASF1382:
-	.string	"seestate"
-.LASF765:
-	.string	"S_HEAD_ATK1"
-.LASF766:
-	.string	"S_HEAD_ATK2"
-.LASF767:
-	.string	"S_HEAD_ATK3"
-.LASF1019:
-	.string	"S_SSWV_RAISE1"
-.LASF1020:
-	.string	"S_SSWV_RAISE2"
-.LASF1021:
-	.string	"S_SSWV_RAISE3"
-.LASF1022:
-	.string	"S_SSWV_RAISE4"
-.LASF1023:
-	.string	"S_SSWV_RAISE5"
-.LASF1250:
-	.string	"MT_FATSHOT"
-.LASF203:
-	.string	"SPR_CELL"
-.LASF204:
-	.string	"SPR_CELP"
-.LASF1185:
-	.string	"S_HEARTCOL"
-.LASF1486:
-	.string	"A_PlayerScream"
-.LASF1102:
-	.string	"S_MEDI"
-.LASF1109:
-	.string	"S_PINV"
-.LASF1299:
-	.string	"MT_INS"
-.LASF1342:
-	.string	"MT_MISC51"
-.LASF1343:
-	.string	"MT_MISC52"
-.LASF1297:
-	.string	"MT_INV"
-.LASF1345:
-	.string	"MT_MISC54"
-.LASF1199:
-	.string	"S_BTORCHSHRT"
-.LASF320:
-	.string	"S_MISSILEUP"
-.LASF1348:
-	.string	"MT_MISC57"
-.LASF1349:
-	.string	"MT_MISC58"
-.LASF1350:
-	.string	"MT_MISC59"
-.LASF497:
-	.string	"S_SPOS_RAISE1"
-.LASF1454:
-	.string	"A_Metal"
-.LASF1499:
-	.string	"A_OpenShotgun2"
-.LASF9:
-	.string	"sfx_dshtgn"
-.LASF291:
-	.string	"S_SGUNFLASH1"
-.LASF292:
-	.string	"S_SGUNFLASH2"
-.LASF839:
-	.string	"S_BOS2_RAISE1"
-.LASF840:
-	.string	"S_BOS2_RAISE2"
-.LASF841:
-	.string	"S_BOS2_RAISE3"
-.LASF842:
-	.string	"S_BOS2_RAISE4"
-.LASF843:
-	.string	"S_BOS2_RAISE5"
-.LASF844:
-	.string	"S_BOS2_RAISE6"
-.LASF845:
-	.string	"S_BOS2_RAISE7"
-.LASF604:
-	.string	"S_SKEL_PAIN"
-.LASF1091:
-	.string	"S_RKEY"
-.LASF21:
-	.string	"sfx_firsht"
-.LASF13:
-	.string	"sfx_plasma"
-.LASF273:
-	.string	"S_PISTOLUP"
-.LASF959:
-	.string	"S_CYBER_DIE8"
-.LASF26:
-	.string	"sfx_dorcls"
-.LASF1351:
-	.string	"MT_MISC60"
-.LASF1352:
-	.string	"MT_MISC61"
-.LASF1353:
-	.string	"MT_MISC62"
-.LASF1354:
-	.string	"MT_MISC63"
-.LASF1355:
-	.string	"MT_MISC64"
-.LASF1356:
-	.string	"MT_MISC65"
-.LASF1357:
-	.string	"MT_MISC66"
-.LASF1358:
-	.string	"MT_MISC67"
-.LASF388:
-	.string	"S_EXPLODE1"
-.LASF389:
-	.string	"S_EXPLODE2"
-.LASF390:
-	.string	"S_EXPLODE3"
-.LASF579:
-	.string	"S_TRACEEXP1"
-.LASF580:
-	.string	"S_TRACEEXP2"
-.LASF581:
-	.string	"S_TRACEEXP3"
-.LASF967:
-	.string	"S_PAIN_RUN5"
-.LASF1069:
-	.string	"S_BEXP"
-.LASF968:
-	.string	"S_PAIN_RUN6"
-.LASF1186:
-	.string	"S_HEARTCOL2"
-.LASF365:
-	.string	"S_RBALLX1"
-.LASF367:
-	.string	"S_RBALLX3"
-.LASF12:
-	.string	"sfx_dbload"
-.LASF1396:
-	.string	"height"
-.LASF1282:
-	.string	"MT_TELEPORTMAN"
-.LASF1361:
-	.string	"MT_MISC70"
-.LASF148:
-	.string	"SPR_IFOG"
-.LASF1363:
-	.string	"MT_MISC72"
-.LASF1364:
-	.string	"MT_MISC73"
-.LASF1365:
-	.string	"MT_MISC74"
-.LASF1366:
-	.string	"MT_MISC75"
-.LASF1367:
-	.string	"MT_MISC76"
-.LASF1192:
-	.string	"S_GREENTORCH2"
-.LASF1193:
-	.string	"S_GREENTORCH3"
-.LASF1194:
-	.string	"S_GREENTORCH4"
-.LASF1033:
-	.string	"S_COMMKEEN9"
-.LASF682:
-	.string	"S_CPOS_PAIN2"
-.LASF905:
-	.string	"S_BSPI_RUN10"
-.LASF906:
-	.string	"S_BSPI_RUN11"
-.LASF907:
-	.string	"S_BSPI_RUN12"
-.LASF989:
-	.string	"S_SSWV_RUN1"
-.LASF990:
-	.string	"S_SSWV_RUN2"
-.LASF991:
-	.string	"S_SSWV_RUN3"
-.LASF992:
-	.string	"S_SSWV_RUN4"
-.LASF993:
-	.string	"S_SSWV_RUN5"
-.LASF994:
-	.string	"S_SSWV_RUN6"
-.LASF995:
-	.string	"S_SSWV_RUN7"
-.LASF996:
-	.string	"S_SSWV_RUN8"
-.LASF1174:
-	.string	"S_SKULLCOL"
-.LASF106:
-	.string	"sfx_sssit"
-.LASF718:
-	.string	"S_TROO_DIE1"
-.LASF719:
-	.string	"S_TROO_DIE2"
-.LASF720:
-	.string	"S_TROO_DIE3"
-.LASF721:
-	.string	"S_TROO_DIE4"
-.LASF722:
-	.string	"S_TROO_DIE5"
-.LASF1099:
-	.string	"S_YSKULL"
-.LASF1100:
-	.string	"S_YSKULL2"
-.LASF201:
-	.string	"SPR_ROCK"
-.LASF1274:
-	.string	"MT_ROCKET"
-.LASF1372:
-	.string	"MT_MISC81"
-.LASF1373:
-	.string	"MT_MISC82"
-.LASF1374:
-	.string	"MT_MISC83"
-.LASF677:
-	.string	"S_CPOS_ATK1"
-.LASF678:
-	.string	"S_CPOS_ATK2"
-.LASF679:
-	.string	"S_CPOS_ATK3"
-.LASF680:
-	.string	"S_CPOS_ATK4"
-.LASF1241:
-	.string	"MT_PLAYER"
-.LASF1107:
-	.string	"S_SOUL5"
-.LASF213:
-	.string	"SPR_SHOT"
-.LASF406:
-	.string	"S_IFOG2"
-.LASF407:
-	.string	"S_IFOG3"
-.LASF408:
-	.string	"S_IFOG4"
-.LASF409:
-	.string	"S_IFOG5"
-.LASF142:
-	.string	"SPR_PLSE"
-.LASF134:
-	.string	"SPR_PLSF"
-.LASF133:
-	.string	"SPR_PLSG"
-.LASF802:
-	.string	"S_BOSS_PAIN2"
-.LASF502:
-	.string	"S_VILE_STND"
-.LASF1030:
-	.string	"S_COMMKEEN6"
-.LASF1031:
-	.string	"S_COMMKEEN7"
-.LASF1032:
-	.string	"S_COMMKEEN8"
-.LASF141:
-	.string	"SPR_PLSS"
-.LASF881:
-	.string	"S_SPID_PAIN2"
-.LASF1478:
-	.string	"A_SPosAttack"
-.LASF39:
-	.string	"sfx_oof"
-.LASF1397:
-	.string	"mass"
-.LASF254:
-	.string	"SPR_POB1"
-.LASF255:
-	.string	"SPR_POB2"
-.LASF1103:
-	.string	"S_SOUL"
-.LASF71:
-	.string	"sfx_skldth"
-.LASF1113:
-	.string	"S_PSTR"
-.LASF945:
-	.string	"S_CYBER_ATK1"
-.LASF946:
-	.string	"S_CYBER_ATK2"
-.LASF947:
-	.string	"S_CYBER_ATK3"
-.LASF948:
-	.string	"S_CYBER_ATK4"
-.LASF949:
-	.string	"S_CYBER_ATK5"
-.LASF950:
-	.string	"S_CYBER_ATK6"
-.LASF1484:
-	.string	"A_XScream"
-.LASF1140:
-	.string	"S_BFUG"
-.LASF180:
-	.string	"SPR_FCAN"
-.LASF623:
-	.string	"S_FATT_STND"
-.LASF1060:
-	.string	"S_BRAINEXPLODE1"
-.LASF1061:
-	.string	"S_BRAINEXPLODE2"
-.LASF1062:
-	.string	"S_BRAINEXPLODE3"
-.LASF344:
-	.string	"S_BFGUP"
-.LASF1492:
-	.string	"A_FirePlasma"
-.LASF185:
-	.string	"SPR_YKEY"
-.LASF731:
-	.string	"S_TROO_RAISE1"
-.LASF732:
-	.string	"S_TROO_RAISE2"
-.LASF733:
-	.string	"S_TROO_RAISE3"
-.LASF734:
-	.string	"S_TROO_RAISE4"
-.LASF735:
-	.string	"S_TROO_RAISE5"
-.LASF1144:
-	.string	"S_PLAS"
-.LASF1026:
-	.string	"S_COMMKEEN2"
-.LASF1027:
-	.string	"S_COMMKEEN3"
-.LASF1028:
-	.string	"S_COMMKEEN4"
-.LASF1029:
-	.string	"S_COMMKEEN5"
-.LASF410:
-	.string	"S_PLAY"
-.LASF976:
-	.string	"S_PAIN_DIE2"
-.LASF977:
-	.string	"S_PAIN_DIE3"
-.LASF978:
-	.string	"S_PAIN_DIE4"
-.LASF78:
-	.string	"sfx_pedth"
-.LASF980:
-	.string	"S_PAIN_DIE6"
-.LASF1252:
-	.string	"MT_TROOP"
-.LASF531:
-	.string	"S_VILE_PAIN2"
-.LASF659:
-	.string	"S_FATT_RAISE1"
-.LASF660:
-	.string	"S_FATT_RAISE2"
-.LASF661:
-	.string	"S_FATT_RAISE3"
-.LASF662:
-	.string	"S_FATT_RAISE4"
-.LASF663:
-	.string	"S_FATT_RAISE5"
-.LASF664:
-	.string	"S_FATT_RAISE6"
-.LASF665:
-	.string	"S_FATT_RAISE7"
-.LASF666:
-	.string	"S_FATT_RAISE8"
-.LASF1414:
-	.string	"MF_NOBLOCKMAP"
-.LASF375:
-	.string	"S_ROCKET"
-.LASF1273:
-	.string	"MT_HEADSHOT"
-.LASF1436:
-	.string	"MF_TRANSLATION"
-.LASF928:
-	.string	"S_ARACH_PLAZ"
-.LASF1167:
-	.string	"S_STALAGTITE"
-.LASF769:
-	.string	"S_HEAD_PAIN2"
-.LASF770:
-	.string	"S_HEAD_PAIN3"
-.LASF1513:
-	.string	"A_Light0"
-.LASF1504:
-	.string	"A_Light1"
-.LASF1502:
-	.string	"A_Light2"
-.LASF1380:
-	.string	"spawnstate"
-.LASF81:
-	.string	"sfx_bgact"
-.LASF1280:
-	.string	"MT_TFOG"
-.LASF478:
-	.string	"S_SPOS_ATK1"
-.LASF479:
-	.string	"S_SPOS_ATK2"
-.LASF480:
-	.string	"S_SPOS_ATK3"
-.LASF415:
-	.string	"S_PLAY_ATK1"
-.LASF416:
-	.string	"S_PLAY_ATK2"
-.LASF168:
-	.string	"SPR_APLS"
-.LASF1196:
-	.string	"S_REDTORCH2"
-.LASF53:
-	.string	"sfx_vilsit"
-.LASF1198:
-	.string	"S_REDTORCH4"
-.LASF705:
-	.string	"S_TROO_RUN1"
-.LASF706:
-	.string	"S_TROO_RUN2"
-.LASF707:
-	.string	"S_TROO_RUN3"
-.LASF708:
-	.string	"S_TROO_RUN4"
-.LASF709:
-	.string	"S_TROO_RUN5"
-.LASF710:
-	.string	"S_TROO_RUN6"
-.LASF711:
-	.string	"S_TROO_RUN7"
-.LASF712:
-	.string	"S_TROO_RUN8"
-.LASF105:
-	.string	"sfx_mandth"
-.LASF159:
-	.string	"SPR_CPOS"
-.LASF620:
-	.string	"S_FATSHOTX1"
-.LASF621:
-	.string	"S_FATSHOTX2"
-.LASF622:
-	.string	"S_FATSHOTX3"
-.LASF700:
-	.string	"S_CPOS_RAISE5"
-.LASF701:
-	.string	"S_CPOS_RAISE6"
-.LASF702:
-	.string	"S_CPOS_RAISE7"
-.LASF1507:
-	.string	"A_Punch"
-.LASF1390:
-	.string	"missilestate"
-.LASF189:
-	.string	"SPR_STIM"
-.LASF1417:
-	.string	"MF_JUSTATTACKED"
-.LASF736:
-	.string	"S_SARG_STND"
-.LASF961:
-	.string	"S_CYBER_DIE10"
-.LASF139:
-	.string	"SPR_BAL1"
-.LASF140:
-	.string	"SPR_BAL2"
-.LASF162:
-	.string	"SPR_BAL7"
-.LASF925:
-	.string	"S_BSPI_RAISE5"
-.LASF75:
-	.string	"sfx_bspdth"
-.LASF1155:
-	.string	"S_HEADSONSTICK"
-.LASF110:
-	.string	"sfx_skeact"
-.LASF1481:
-	.string	"A_FaceTarget"
-.LASF1137:
-	.string	"S_SHEL"
-.LASF612:
-	.string	"S_SKEL_RAISE1"
-.LASF127:
-	.string	"SPR_SHT2"
-.LASF266:
-	.string	"S_PUNCH1"
-.LASF267:
-	.string	"S_PUNCH2"
-.LASF268:
-	.string	"S_PUNCH3"
-.LASF269:
-	.string	"S_PUNCH4"
-.LASF270:
-	.string	"S_PUNCH5"
-.LASF617:
-	.string	"S_SKEL_RAISE6"
-.LASF265:
-	.string	"S_PUNCHUP"
-.LASF1490:
-	.string	"A_FireBFG"
-.LASF882:
-	.string	"S_SPID_DIE1"
-.LASF633:
-	.string	"S_FATT_RUN9"
-.LASF884:
-	.string	"S_SPID_DIE3"
-.LASF885:
-	.string	"S_SPID_DIE4"
-.LASF126:
-	.string	"SPR_SHTF"
-.LASF122:
-	.string	"SPR_SHTG"
-.LASF404:
-	.string	"S_IFOG01"
-.LASF405:
-	.string	"S_IFOG02"
-.LASF890:
-	.string	"S_SPID_DIE9"
-.LASF1132:
-	.string	"S_AMMO"
-.LASF1443:
-	.string	"A_BrainDie"
-.LASF963:
-	.string	"S_PAIN_RUN1"
-.LASF964:
-	.string	"S_PAIN_RUN2"
-.LASF965:
-	.string	"S_PAIN_RUN3"
-.LASF966:
-	.string	"S_PAIN_RUN4"
-.LASF248:
-	.string	"SPR_HDB1"
-.LASF249:
-	.string	"SPR_HDB2"
-.LASF250:
-	.string	"SPR_HDB3"
-.LASF251:
-	.string	"SPR_HDB4"
-.LASF252:
-	.string	"SPR_HDB5"
-.LASF253:
-	.string	"SPR_HDB6"
-.LASF1242:
-	.string	"MT_POSSESSED"
-.LASF298:
-	.string	"S_DSGUN3"
-.LASF299:
-	.string	"S_DSGUN4"
-.LASF318:
-	.string	"S_MISSILE"
-.LASF1146:
-	.string	"S_SHOT2"
-.LASF1410:
-	.string	"MF_SPECIAL"
-.LASF1213:
-	.string	"S_HANGTLOOKDN"
-.LASF690:
-	.string	"S_CPOS_XDIE1"
-.LASF692:
-	.string	"S_CPOS_XDIE3"
-.LASF1424:
-	.string	"MF_FLOAT"
-.LASF120:
-	.string	"actionf_t"
-.LASF115:
-	.string	"actionf_v"
-.LASF209:
-	.string	"SPR_MGUN"
-.LASF1254:
-	.string	"MT_SHADOWS"
-.LASF593:
-	.string	"S_SKEL_RUN10"
-.LASF594:
-	.string	"S_SKEL_RUN11"
-.LASF595:
-	.string	"S_SKEL_RUN12"
-.LASF261:
-	.string	"S_NULL"
-.LASF803:
-	.string	"S_BOSS_DIE1"
-.LASF804:
-	.string	"S_BOSS_DIE2"
-.LASF805:
-	.string	"S_BOSS_DIE3"
-.LASF806:
-	.string	"S_BOSS_DIE4"
-.LASF807:
-	.string	"S_BOSS_DIE5"
-.LASF808:
-	.string	"S_BOSS_DIE6"
-.LASF809:
-	.string	"S_BOSS_DIE7"
-.LASF973:
-	.string	"S_PAIN_PAIN"
-.LASF342:
-	.string	"S_BFG"
-.LASF1388:
-	.string	"painsound"
-.LASF988:
-	.string	"S_SSWV_STND2"
-.LASF210:
-	.string	"SPR_CSAW"
-.LASF1123:
-	.string	"S_PMAP"
-.LASF1129:
-	.string	"S_PVIS"
-.LASF1442:
-	.string	"A_BrainAwake"
-.LASF343:
-	.string	"S_BFGDOWN"
-.LASF1266:
-	.string	"MT_BOSSBRAIN"
-.LASF156:
-	.string	"SPR_SKEL"
-.LASF338:
-	.string	"S_PLASMA1"
-.LASF339:
-	.string	"S_PLASMA2"
-.LASF1203:
-	.string	"S_GTORCHSHRT"
-.LASF31:
-	.string	"sfx_dmpain"
-.LASF894:
-	.string	"S_BSPI_STND2"
-.LASF1404:
-	.string	"unsigned char"
-.LASF74:
-	.string	"sfx_spidth"
-.LASF154:
-	.string	"SPR_FATB"
-.LASF259:
-	.string	"NUMSPRITES"
-.LASF377:
-	.string	"S_BFGSHOT2"
-.LASF158:
-	.string	"SPR_FATT"
-.LASF61:
-	.string	"sfx_skeswg"
-.LASF1104:
-	.string	"S_SOUL2"
-.LASF1105:
-	.string	"S_SOUL3"
-.LASF1106:
-	.string	"S_SOUL4"
-.LASF696:
-	.string	"S_CPOS_RAISE1"
-.LASF1108:
-	.string	"S_SOUL6"
-.LASF864:
-	.string	"S_SPID_RUN1"
-.LASF865:
-	.string	"S_SPID_RUN2"
-.LASF866:
-	.string	"S_SPID_RUN3"
-.LASF867:
-	.string	"S_SPID_RUN4"
-.LASF868:
-	.string	"S_SPID_RUN5"
-.LASF869:
-	.string	"S_SPID_RUN6"
-.LASF870:
-	.string	"S_SPID_RUN7"
-.LASF871:
-	.string	"S_SPID_RUN8"
-.LASF872:
-	.string	"S_SPID_RUN9"
-.LASF1071:
-	.string	"S_BEXP3"
-.LASF1072:
-	.string	"S_BEXP4"
-.LASF19:
-	.string	"sfx_rlaunc"
-.LASF1160:
-	.string	"S_DEADSTICK"
-.LASF1497:
-	.string	"A_CloseShotgun2"
-.LASF1449:
-	.string	"A_CyberAttack"
-.LASF1510:
-	.string	"A_WeaponReady"
-.LASF1283:
-	.string	"MT_EXTRABFG"
-.LASF450:
-	.string	"S_POSS_DIE1"
-.LASF451:
-	.string	"S_POSS_DIE2"
-.LASF452:
-	.string	"S_POSS_DIE3"
-.LASF453:
-	.string	"S_POSS_DIE4"
-.LASF454:
-	.string	"S_POSS_DIE5"
-.LASF280:
-	.string	"S_SGUNDOWN"
-.LASF129:
-	.string	"SPR_CHGF"
-.LASF128:
-	.string	"SPR_CHGG"
-.LASF670:
-	.string	"S_CPOS_RUN2"
-.LASF673:
-	.string	"S_CPOS_RUN5"
-.LASF932:
-	.string	"S_ARACH_PLEX3"
-.LASF40:
-	.string	"sfx_telept"
-.LASF934:
-	.string	"S_ARACH_PLEX5"
-.LASF675:
-	.string	"S_CPOS_RUN7"
-.LASF239:
-	.string	"SPR_CEYE"
-.LASF981:
-	.string	"S_PAIN_RAISE1"
-.LASF982:
-	.string	"S_PAIN_RAISE2"
-.LASF983:
-	.string	"S_PAIN_RAISE3"
-.LASF984:
-	.string	"S_PAIN_RAISE4"
-.LASF985:
-	.string	"S_PAIN_RAISE5"
-.LASF618:
-	.string	"S_FATSHOT1"
-.LASF619:
-	.string	"S_FATSHOT2"
-.LASF93:
-	.string	"sfx_bdopn"
-.LASF196:
-	.string	"SPR_SUIT"
-.LASF846:
-	.string	"S_SKULL_STND"
-.LASF1416:
-	.string	"MF_JUSTHIT"
-.LASF5:
-	.string	"sfx_None"
-.LASF1494:
-	.string	"A_FireMissile"
-.LASF880:
-	.string	"S_SPID_PAIN"
-.LASF1378:
-	.string	"NUMMOBJTYPES"
-.LASF178:
-	.string	"SPR_BAR1"
-.LASF293:
-	.string	"S_DSGUN"
-.LASF1172:
-	.string	"S_CANDLESTIK"
-.LASF1462:
-	.string	"A_BossDeath"
-.LASF1228:
-	.string	"NUMSTATES"
-.LASF62:
-	.string	"sfx_pldeth"
-.LASF359:
-	.string	"S_TBALL2"
-.LASF572:
-	.string	"S_SMOKE1"
-.LASF573:
-	.string	"S_SMOKE2"
-.LASF574:
-	.string	"S_SMOKE3"
-.LASF575:
-	.string	"S_SMOKE4"
-.LASF576:
-	.string	"S_SMOKE5"
-.LASF795:
-	.string	"S_BOSS_RUN6"
-.LASF796:
-	.string	"S_BOSS_RUN7"
-.LASF797:
-	.string	"S_BOSS_RUN8"
-.LASF161:
-	.string	"SPR_HEAD"
-.LASF222:
-	.string	"SPR_POL1"
-.LASF218:
-	.string	"SPR_POL2"
-.LASF221:
-	.string	"SPR_POL3"
-.LASF220:
-	.string	"SPR_POL4"
-.LASF219:
-	.string	"SPR_POL5"
-.LASF223:
-	.string	"SPR_POL6"
-.LASF1067:
-	.string	"S_BAR1"
-.LASF37:
-	.string	"sfx_itemup"
-.LASF1239:
-	.string	"states"
-.LASF1284:
-	.string	"MT_MISC0"
-.LASF1153:
-	.string	"S_DEADTORSO"
-.LASF1421:
-	.string	"MF_PICKUP"
-.LASF1430:
-	.string	"MF_CORPSE"
-.LASF295:
-	.string	"S_DSGUNUP"
-.LASF100:
-	.string	"sfx_boscub"
-.LASF704:
-	.string	"S_TROO_STND2"
-.LASF1224:
-	.string	"S_TECH2LAMP"
-.LASF25:
-	.string	"sfx_doropn"
-.LASF1270:
-	.string	"MT_SPAWNFIRE"
-.LASF1245:
-	.string	"MT_FIRE"
-.LASF1234:
-	.string	"nextstate"
-.LASF801:
-	.string	"S_BOSS_PAIN"
-.LASF172:
-	.string	"SPR_SSWV"
-.LASF1415:
-	.string	"MF_AMBUSH"
-.LASF363:
-	.string	"S_RBALL1"
-.LASF364:
-	.string	"S_RBALL2"
-.LASF35:
-	.string	"sfx_pepain"
-.LASF1168:
-	.string	"S_TALLGRNCOL"
-.LASF72:
-	.string	"sfx_brsdth"
-.LASF8:
-	.string	"sfx_sgcock"
-.LASF1157:
-	.string	"S_HEADONASTICK"
-.LASF437:
-	.string	"S_POSS_RUN1"
-.LASF379:
-	.string	"S_BFGLAND2"
-.LASF380:
-	.string	"S_BFGLAND3"
-.LASF381:
-	.string	"S_BFGLAND4"
-.LASF382:
-	.string	"S_BFGLAND5"
-.LASF383:
-	.string	"S_BFGLAND6"
-.LASF443:
-	.string	"S_POSS_RUN7"
-.LASF444:
-	.string	"S_POSS_RUN8"
-.LASF426:
-	.string	"S_PLAY_XDIE1"
-.LASF427:
-	.string	"S_PLAY_XDIE2"
-.LASF428:
-	.string	"S_PLAY_XDIE3"
-.LASF429:
-	.string	"S_PLAY_XDIE4"
-.LASF430:
-	.string	"S_PLAY_XDIE5"
-.LASF431:
-	.string	"S_PLAY_XDIE6"
-.LASF432:
-	.string	"S_PLAY_XDIE7"
-.LASF433:
-	.string	"S_PLAY_XDIE8"
-.LASF85:
-	.string	"sfx_vilact"
-.LASF832:
-	.string	"S_BOS2_DIE1"
-.LASF833:
-	.string	"S_BOS2_DIE2"
-.LASF834:
-	.string	"S_BOS2_DIE3"
-.LASF835:
-	.string	"S_BOS2_DIE4"
-.LASF836:
-	.string	"S_BOS2_DIE5"
-.LASF837:
-	.string	"S_BOS2_DIE6"
-.LASF838:
-	.string	"S_BOS2_DIE7"
-.LASF1400:
-	.string	"flags"
-.LASF758:
-	.string	"S_SARG_RAISE2"
-.LASF759:
-	.string	"S_SARG_RAISE3"
-.LASF402:
-	.string	"S_TFOG10"
-.LASF760:
-	.string	"S_SARG_RAISE4"
-.LASF455:
-	.string	"S_POSS_XDIE1"
-.LASF456:
-	.string	"S_POSS_XDIE2"
-.LASF457:
-	.string	"S_POSS_XDIE3"
-.LASF458:
-	.string	"S_POSS_XDIE4"
-.LASF459:
-	.string	"S_POSS_XDIE5"
-.LASF460:
-	.string	"S_POSS_XDIE6"
-.LASF461:
-	.string	"S_POSS_XDIE7"
-.LASF462:
-	.string	"S_POSS_XDIE8"
-.LASF463:
-	.string	"S_POSS_XDIE9"
-.LASF1156:
-	.string	"S_GIBS"
-.LASF771:
-	.string	"S_HEAD_DIE1"
-.LASF772:
-	.string	"S_HEAD_DIE2"
-.LASF773:
-	.string	"S_HEAD_DIE3"
-.LASF774:
-	.string	"S_HEAD_DIE4"
-.LASF775:
-	.string	"S_HEAD_DIE5"
-.LASF776:
-	.string	"S_HEAD_DIE6"
-.LASF624:
-	.string	"S_FATT_STND2"
-.LASF1147:
-	.string	"S_COLU"
-.LASF274:
-	.string	"S_PISTOL1"
-.LASF275:
-	.string	"S_PISTOL2"
-.LASF276:
-	.string	"S_PISTOL3"
-.LASF277:
-	.string	"S_PISTOL4"
-.LASF613:
-	.string	"S_SKEL_RAISE2"
-.LASF614:
-	.string	"S_SKEL_RAISE3"
-.LASF615:
-	.string	"S_SKEL_RAISE4"
-.LASF616:
-	.string	"S_SKEL_RAISE5"
-.LASF44:
-	.string	"sfx_bgsit1"
-.LASF45:
-	.string	"sfx_bgsit2"
-.LASF930:
-	.string	"S_ARACH_PLEX"
-.LASF1086:
-	.string	"S_BON2C"
-.LASF1087:
-	.string	"S_BON2D"
-.LASF392:
-	.string	"S_TFOG01"
-.LASF393:
-	.string	"S_TFOG02"
-.LASF211:
-	.string	"SPR_LAUN"
-.LASF448:
-	.string	"S_POSS_PAIN"
-.LASF783:
-	.string	"S_BRBALL1"
-.LASF784:
-	.string	"S_BRBALL2"
-.LASF1248:
-	.string	"MT_SMOKE"
-.LASF1262:
-	.string	"MT_CYBORG"
-.LASF1024:
-	.string	"S_KEENSTND"
-.LASF1398:
-	.string	"damage"
-.LASF488:
-	.string	"S_SPOS_XDIE1"
-.LASF489:
-	.string	"S_SPOS_XDIE2"
-.LASF490:
-	.string	"S_SPOS_XDIE3"
-.LASF491:
-	.string	"S_SPOS_XDIE4"
-.LASF492:
-	.string	"S_SPOS_XDIE5"
-.LASF493:
-	.string	"S_SPOS_XDIE6"
-.LASF494:
-	.string	"S_SPOS_XDIE7"
-.LASF495:
-	.string	"S_SPOS_XDIE8"
-.LASF496:
-	.string	"S_SPOS_XDIE9"
-.LASF1434:
-	.string	"MF_SKULLFLY"
-.LASF33:
-	.string	"sfx_vipain"
-.LASF1455:
-	.string	"A_SkullAttack"
-.LASF1089:
-	.string	"S_BKEY"
-.LASF176:
-	.string	"SPR_ARM1"
-.LASF177:
-	.string	"SPR_ARM2"
-.LASF1244:
-	.string	"MT_VILE"
-.LASF24:
-	.string	"sfx_pstop"
-.LASF336:
-	.string	"S_PLASMADOWN"
-.LASF648:
-	.string	"S_FATT_PAIN2"
-.LASF1046:
-	.string	"S_BRAINEYESEE"
-.LASF583:
-	.string	"S_SKEL_STND2"
-.LASF936:
-	.string	"S_CYBER_STND2"
-.LASF1238:
-	.string	"state_t"
-.LASF780:
-	.string	"S_HEAD_RAISE4"
-.LASF1006:
-	.string	"S_SSWV_DIE2"
-.LASF1135:
-	.string	"S_CELL"
-.LASF1136:
-	.string	"S_CELP"
-.LASF1178:
-	.string	"S_EVILEYE"
-.LASF1204:
-	.string	"S_GTORCHSHRT2"
-.LASF1205:
-	.string	"S_GTORCHSHRT3"
-.LASF1206:
-	.string	"S_GTORCHSHRT4"
-.LASF103:
-	.string	"sfx_bosdth"
-.LASF637:
-	.string	"S_FATT_ATK1"
-.LASF638:
-	.string	"S_FATT_ATK2"
-.LASF541:
-	.string	"S_VILE_DIE10"
-.LASF131:
-	.string	"SPR_MISF"
-.LASF130:
-	.string	"SPR_MISG"
-.LASF143:
-	.string	"SPR_MISL"
-.LASF1095:
-	.string	"S_BSKULL"
-.LASF109:
-	.string	"sfx_keendt"
-.LASF516:
-	.string	"S_VILE_ATK1"
-.LASF517:
-	.string	"S_VILE_ATK2"
-.LASF518:
-	.string	"S_VILE_ATK3"
-.LASF519:
-	.string	"S_VILE_ATK4"
-.LASF520:
-	.string	"S_VILE_ATK5"
-.LASF521:
-	.string	"S_VILE_ATK6"
-.LASF195:
-	.string	"SPR_MEGA"
-.LASF263:
-	.string	"S_PUNCH"
-.LASF524:
-	.string	"S_VILE_ATK9"
-.LASF245:
-	.string	"SPR_SMBT"
-.LASF819:
-	.string	"S_BOS2_RUN1"
-.LASF820:
-	.string	"S_BOS2_RUN2"
-.LASF821:
-	.string	"S_BOS2_RUN3"
-.LASF822:
-	.string	"S_BOS2_RUN4"
-.LASF823:
-	.string	"S_BOS2_RUN5"
-.LASF824:
-	.string	"S_BOS2_RUN6"
-.LASF825:
-	.string	"S_BOS2_RUN7"
-.LASF826:
-	.string	"S_BOS2_RUN8"
-.LASF236:
-	.string	"SPR_TRE1"
-.LASF237:
-	.string	"SPR_TRE2"
-.LASF893:
-	.string	"S_BSPI_STND"
-.LASF20:
-	.string	"sfx_rxplod"
-.LASF1389:
-	.string	"meleestate"
-.LASF683:
-	.string	"S_CPOS_DIE1"
-.LASF244:
-	.string	"SPR_TRED"
-.LASF137:
-	.string	"SPR_BLUD"
-.LASF639:
-	.string	"S_FATT_ATK3"
-.LASF640:
-	.string	"S_FATT_ATK4"
-.LASF641:
-	.string	"S_FATT_ATK5"
-.LASF642:
-	.string	"S_FATT_ATK6"
-.LASF643:
-	.string	"S_FATT_ATK7"
-.LASF644:
-	.string	"S_FATT_ATK8"
-.LASF645:
-	.string	"S_FATT_ATK9"
-.LASF147:
-	.string	"SPR_TFOG"
-.LASF351:
-	.string	"S_BLOOD1"
-.LASF352:
-	.string	"S_BLOOD2"
-.LASF353:
-	.string	"S_BLOOD3"
-.LASF1235:
-	.string	"misc1"
-.LASF1236:
-	.string	"misc2"
-.LASF1143:
-	.string	"S_LAUN"
-.LASF403:
-	.string	"S_IFOG"
-.LASF150:
-	.string	"SPR_POSS"
-.LASF155:
-	.string	"SPR_FBXP"
-.LASF952:
-	.string	"S_CYBER_DIE1"
-.LASF953:
-	.string	"S_CYBER_DIE2"
-.LASF954:
-	.string	"S_CYBER_DIE3"
-.LASF955:
-	.string	"S_CYBER_DIE4"
-.LASF956:
-	.string	"S_CYBER_DIE5"
-.LASF957:
-	.string	"S_CYBER_DIE6"
-.LASF958:
-	.string	"S_CYBER_DIE7"
-.LASF830:
-	.string	"S_BOS2_PAIN"
-.LASF960:
-	.string	"S_CYBER_DIE9"
-.LASF55:
-	.string	"sfx_pesit"
-.LASF1230:
-	.string	"sprite"
-.LASF1377:
-	.string	"MT_MISC86"
-.LASF1311:
-	.string	"MT_MISC23"
-.LASF1173:
-	.string	"S_CANDELABRA"
-.LASF513:
-	.string	"S_VILE_RUN10"
-.LASF514:
-	.string	"S_VILE_RUN11"
-.LASF515:
-	.string	"S_VILE_RUN12"
-.LASF1133:
-	.string	"S_ROCK"
-.LASF282:
-	.string	"S_SGUN1"
-.LASF283:
-	.string	"S_SGUN2"
-.LASF284:
-	.string	"S_SGUN3"
-.LASF285:
-	.string	"S_SGUN4"
-.LASF286:
-	.string	"S_SGUN5"
-.LASF287:
-	.string	"S_SGUN6"
-.LASF288:
-	.string	"S_SGUN7"
-.LASF289:
-	.string	"S_SGUN8"
-.LASF290:
-	.string	"S_SGUN9"
-.LASF1379:
-	.string	"doomednum"
-.LASF279:
-	.string	"S_SGUN"
-.LASF1169:
-	.string	"S_SHRTGRNCOL"
-.LASF97:
-	.string	"sfx_flamst"
-.LASF854:
-	.string	"S_SKULL_PAIN"
-.LASF1500:
-	.string	"A_CheckReload"
-.LASF1269:
-	.string	"MT_SPAWNSHOT"
-.LASF1491:
-	.string	"A_BFGsound"
-.LASF578:
-	.string	"S_TRACER2"
-.LASF1177:
-	.string	"S_TECHPILLAR"
-.LASF582:
-	.string	"S_SKEL_STND"
-.LASF174:
-	.string	"SPR_BBRN"
-.LASF737:
-	.string	"S_SARG_STND2"
-.LASF90:
-	.string	"sfx_metal"
-.LASF483:
-	.string	"S_SPOS_DIE1"
-.LASF484:
-	.string	"S_SPOS_DIE2"
-.LASF485:
-	.string	"S_SPOS_DIE3"
-.LASF486:
-	.string	"S_SPOS_DIE4"
-.LASF487:
-	.string	"S_SPOS_DIE5"
-.LASF57:
-	.string	"sfx_sgtatk"
-.LASF1212:
-	.string	"S_HANGBNOBRAIN"
-.LASF1473:
-	.string	"A_StartFire"
-.LASF54:
-	.string	"sfx_mansit"
-.LASF746:
-	.string	"S_SARG_ATK1"
-.LASF32:
-	.string	"sfx_popain"
-.LASF748:
-	.string	"S_SARG_ATK3"
-.LASF337:
-	.string	"S_PLASMAUP"
-.LASF1408:
-	.string	"float"
-.LASF1232:
-	.string	"tics"
-.LASF1093:
-	.string	"S_YKEY"
-.LASF28:
-	.string	"sfx_swtchn"
-.LASF1394:
-	.string	"speed"
-.LASF306:
-	.string	"S_DSNR1"
-.LASF975:
-	.string	"S_PAIN_DIE1"
-.LASF29:
-	.string	"sfx_swtchx"
-.LASF979:
-	.string	"S_PAIN_DIE5"
-.LASF505:
-	.string	"S_VILE_RUN2"
-.LASF669:
-	.string	"S_CPOS_RUN1"
-.LASF51:
-	.string	"sfx_bspsit"
-.LASF671:
-	.string	"S_CPOS_RUN3"
-.LASF672:
-	.string	"S_CPOS_RUN4"
-.LASF116:
-	.string	"actionf_p1"
-.LASF117:
-	.string	"actionf_p2"
-.LASF207:
-	.string	"SPR_BPAK"
-.LASF676:
-	.string	"S_CPOS_RUN8"
-.LASF1073:
-	.string	"S_BEXP5"
-.LASF112:
-	.string	"sfx_skeatk"
-.LASF438:
-	.string	"S_POSS_RUN2"
-.LASF439:
-	.string	"S_POSS_RUN3"
-.LASF440:
-	.string	"S_POSS_RUN4"
-.LASF757:
-	.string	"S_SARG_RAISE1"
-.LASF441:
-	.string	"S_POSS_RUN5"
-.LASF118:
-	.string	"acp1"
-.LASF119:
-	.string	"acp2"
-.LASF761:
-	.string	"S_SARG_RAISE5"
-.LASF762:
-	.string	"S_SARG_RAISE6"
-.LASF64:
-	.string	"sfx_podth1"
-.LASF65:
-	.string	"sfx_podth2"
-.LASF66:
-	.string	"sfx_podth3"
-.LASF246:
-	.string	"SPR_SMGT"
-.LASF1487:
-	.string	"A_Pain"
-.LASF1037:
-	.string	"S_KEENPAIN"
-.LASF385:
-	.string	"S_BFGEXP2"
-.LASF386:
-	.string	"S_BFGEXP3"
-.LASF387:
-	.string	"S_BFGEXP4"
-.LASF316:
-	.string	"S_CHAINFLASH1"
-.LASF317:
-	.string	"S_CHAINFLASH2"
-.LASF937:
-	.string	"S_CYBER_RUN1"
-.LASF938:
-	.string	"S_CYBER_RUN2"
-.LASF939:
-	.string	"S_CYBER_RUN3"
-.LASF940:
-	.string	"S_CYBER_RUN4"
-.LASF941:
-	.string	"S_CYBER_RUN5"
-.LASF942:
-	.string	"S_CYBER_RUN6"
-.LASF943:
-	.string	"S_CYBER_RUN7"
-.LASF944:
-	.string	"S_CYBER_RUN8"
-.LASF1383:
-	.string	"seesound"
-.LASF1124:
-	.string	"S_PMAP2"
-.LASF1125:
-	.string	"S_PMAP3"
-.LASF1126:
-	.string	"S_PMAP4"
-.LASF1127:
-	.string	"S_PMAP5"
-.LASF1128:
-	.string	"S_PMAP6"
-.LASF1426:
-	.string	"MF_MISSILE"
-.LASF855:
-	.string	"S_SKULL_PAIN2"
-.LASF1387:
-	.string	"painchance"
-.LASF681:
-	.string	"S_CPOS_PAIN"
-.LASF1451:
-	.string	"A_BspiAttack"
-.LASF160:
-	.string	"SPR_SARG"
-.LASF986:
-	.string	"S_PAIN_RAISE6"
-.LASF1327:
-	.string	"MT_MISC36"
-.LASF790:
-	.string	"S_BOSS_RUN1"
-.LASF791:
-	.string	"S_BOSS_RUN2"
-.LASF792:
-	.string	"S_BOSS_RUN3"
-.LASF793:
-	.string	"S_BOSS_RUN4"
-.LASF794:
-	.string	"S_BOSS_RUN5"
-.LASF312:
-	.string	"S_CHAINUP"
-.LASF1511:
-	.string	"GNU C17 13.3.0 -mtune=generic -march=x86-64 -g -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection"
-.LASF931:
-	.string	"S_ARACH_PLEX2"
-.LASF1175:
-	.string	"S_TORCHTREE"
-.LASF987:
-	.string	"S_SSWV_STND"
-.LASF933:
-	.string	"S_ARACH_PLEX4"
-.LASF1419:
-	.string	"MF_NOGRAVITY"
-.LASF1034:
-	.string	"S_COMMKEEN10"
-.LASF1035:
-	.string	"S_COMMKEEN11"
-.LASF1036:
-	.string	"S_COMMKEEN12"
-.LASF951:
-	.string	"S_CYBER_PAIN"
-.LASF470:
-	.string	"S_SPOS_RUN1"
-.LASF228:
-	.string	"SPR_SMIT"
-.LASF472:
-	.string	"S_SPOS_RUN3"
-.LASF473:
-	.string	"S_SPOS_RUN4"
-.LASF474:
-	.string	"S_SPOS_RUN5"
-.LASF165:
-	.string	"SPR_SKUL"
-.LASF476:
-	.string	"S_SPOS_RUN7"
-.LASF477:
-	.string	"S_SPOS_RUN8"
-.LASF1134:
-	.string	"S_BROK"
-.LASF1381:
-	.string	"spawnhealth"
-.LASF264:
-	.string	"S_PUNCHDOWN"
-.LASF30:
-	.string	"sfx_plpain"
-.LASF1191:
-	.string	"S_GREENTORCH"
-.LASF330:
-	.string	"S_SAWDOWN"
-.LASF18:
-	.string	"sfx_sawhit"
-.LASF17:
-	.string	"sfx_sawful"
-.LASF1229:
-	.string	"statenum_t"
-.LASF1272:
-	.string	"MT_TROOPSHOT"
-.LASF1257:
-	.string	"MT_BRUISERSHOT"
-.LASF114:
-	.string	"NUMSFX"
-.LASF50:
-	.string	"sfx_spisit"
-.LASF418:
-	.string	"S_PLAY_PAIN2"
-.LASF16:
-	.string	"sfx_sawidl"
-.LASF813:
-	.string	"S_BOSS_RAISE4"
-.LASF814:
-	.string	"S_BOSS_RAISE5"
-.LASF1231:
-	.string	"frame"
-.LASF157:
-	.string	"SPR_MANF"
-.LASF668:
-	.string	"S_CPOS_STND2"
-.LASF481:
-	.string	"S_SPOS_PAIN"
-.LASF449:
-	.string	"S_POSS_PAIN2"
-.LASF1278:
-	.string	"MT_PUFF"
-.LASF321:
-	.string	"S_MISSILE1"
-.LASF322:
-	.string	"S_MISSILE2"
-.LASF323:
-	.string	"S_MISSILE3"
-.LASF697:
-	.string	"S_CPOS_RAISE2"
-.LASF698:
-	.string	"S_CPOS_RAISE3"
-.LASF699:
-	.string	"S_CPOS_RAISE4"
-.LASF1141:
-	.string	"S_MGUN"
-.LASF1256:
-	.string	"MT_BRUISER"
-.LASF206:
-	.string	"SPR_SBOX"
-.LASF1392:
-	.string	"xdeathstate"
-.LASF850:
-	.string	"S_SKULL_ATK1"
-.LASF851:
-	.string	"S_SKULL_ATK2"
-.LASF852:
-	.string	"S_SKULL_ATK3"
-.LASF853:
-	.string	"S_SKULL_ATK4"
-.LASF831:
-	.string	"S_BOS2_PAIN2"
-.LASF1405:
-	.string	"short unsigned int"
-.LASF1258:
-	.string	"MT_KNIGHT"
-.LASF1406:
-	.string	"signed char"
-.LASF1399:
-	.string	"activesound"
-.LASF482:
-	.string	"S_SPOS_PAIN2"
-.LASF88:
-	.string	"sfx_punch"
-.LASF646:
-	.string	"S_FATT_ATK10"
-.LASF243:
-	.string	"SPR_TGRN"
-.LASF1474:
-	.string	"A_VileAttack"
-.LASF1488:
-	.string	"A_Explode"
-.LASF1303:
-	.string	"MT_MEGA"
-.LASF145:
-	.string	"SPR_BFE1"
-.LASF146:
-	.string	"SPR_BFE2"
-.LASF1336:
-	.string	"MT_MISC45"
-.LASF1498:
-	.string	"A_LoadShotgun2"
-.LASF1265:
-	.string	"MT_KEEN"
-.LASF1471:
-	.string	"A_FireCrackle"
-.LASF1047:
-	.string	"S_BRAINEYE1"
-.LASF703:
-	.string	"S_TROO_STND"
-.LASF650:
-	.string	"S_FATT_DIE2"
-.LASF341:
-	.string	"S_PLASMAFLASH2"
-.LASF1403:
-	.string	"mobjinfo"
-.LASF1470:
-	.string	"A_Tracer"
-.LASF394:
-	.string	"S_TFOG2"
-.LASF395:
-	.string	"S_TFOG3"
-.LASF396:
-	.string	"S_TFOG4"
-.LASF397:
-	.string	"S_TFOG5"
-.LASF398:
-	.string	"S_TFOG6"
-.LASF399:
-	.string	"S_TFOG7"
-.LASF400:
-	.string	"S_TFOG8"
-.LASF401:
-	.string	"S_TFOG9"
-.LASF816:
-	.string	"S_BOSS_RAISE7"
-.LASF121:
-	.string	"SPR_TROO"
-.LASF1042:
-	.string	"S_BRAIN_DIE2"
-.LASF1472:
-	.string	"A_Fire"
-.LASF132:
-	.string	"SPR_SAWG"
-.LASF1435:
-	.string	"MF_NOTDMATCH"
-.LASF181:
-	.string	"SPR_BON1"
-.LASF182:
-	.string	"SPR_BON2"
-.LASF1411:
-	.string	"MF_SOLID"
-.LASF1170:
-	.string	"S_TALLREDCOL"
-.LASF1145:
-	.string	"S_SHOT"
-.LASF1001:
-	.string	"S_SSWV_ATK5"
-.LASF1150:
-	.string	"S_BLOODYTWITCH2"
-.LASF1151:
-	.string	"S_BLOODYTWITCH3"
-.LASF1152:
-	.string	"S_BLOODYTWITCH4"
-.LASF891:
-	.string	"S_SPID_DIE10"
-.LASF108:
-	.string	"sfx_keenpn"
-.LASF591:
-	.string	"S_SKEL_RUN8"
-.LASF1240:
-	.string	"sprnames"
-.LASF238:
-	.string	"SPR_ELEC"
-.LASF1039:
-	.string	"S_BRAIN"
-.LASF1260:
-	.string	"MT_SPIDER"
-.LASF1122:
-	.string	"S_SUIT"
-.LASF136:
-	.string	"SPR_BFGF"
-.LASF135:
-	.string	"SPR_BFGG"
-.LASF962:
-	.string	"S_PAIN_STND"
-.LASF48:
-	.string	"sfx_brssit"
-.LASF378:
-	.string	"S_BFGLAND"
-.LASF1068:
-	.string	"S_BAR2"
-.LASF1437:
-	.string	"MF_TRANSSHIFT"
-.LASF194:
-	.string	"SPR_PINS"
-.LASF658:
-	.string	"S_FATT_DIE10"
-.LASF1195:
-	.string	"S_REDTORCH"
-.LASF1276:
-	.string	"MT_BFG"
-.LASF442:
-	.string	"S_POSS_RUN6"
-.LASF59:
-	.string	"sfx_vilatk"
-.LASF152:
-	.string	"SPR_VILE"
-.LASF1452:
-	.string	"A_BabyMetal"
-.LASF1279:
-	.string	"MT_BLOOD"
-.LASF271:
-	.string	"S_PISTOL"
-.LASF503:
-	.string	"S_VILE_STND2"
-.LASF921:
-	.string	"S_BSPI_RAISE1"
-.LASF922:
-	.string	"S_BSPI_RAISE2"
-.LASF923:
-	.string	"S_BSPI_RAISE3"
-.LASF924:
-	.string	"S_BSPI_RAISE4"
-.LASF98:
-	.string	"sfx_getpow"
-.LASF926:
-	.string	"S_BSPI_RAISE6"
-.LASF927:
-	.string	"S_BSPI_RAISE7"
-.LASF1427:
-	.string	"MF_DROPPED"
-.LASF1237:
-	.string	"long int"
-.LASF1010:
-	.string	"S_SSWV_XDIE1"
-.LASF1011:
-	.string	"S_SSWV_XDIE2"
-.LASF1012:
-	.string	"S_SSWV_XDIE3"
-.LASF1013:
-	.string	"S_SSWV_XDIE4"
-.LASF1014:
-	.string	"S_SSWV_XDIE5"
-.LASF1015:
-	.string	"S_SSWV_XDIE6"
-.LASF1016:
-	.string	"S_SSWV_XDIE7"
-.LASF1017:
-	.string	"S_SSWV_XDIE8"
-.LASF1018:
-	.string	"S_SSWV_XDIE9"
-.LASF308:
-	.string	"S_DSGUNFLASH1"
-.LASF309:
-	.string	"S_DSGUNFLASH2"
-.LASF1310:
-	.string	"MT_MISC22"
-.LASF566:
-	.string	"S_FIRE25"
-.LASF83:
-	.string	"sfx_bspact"
-.LASF1346:
-	.string	"MT_MISC55"
-.LASF1098:
-	.string	"S_RSKULL2"
-.LASF873:
-	.string	"S_SPID_RUN10"
-.LASF874:
-	.string	"S_SPID_RUN11"
-.LASF875:
-	.string	"S_SPID_RUN12"
-.LASF1460:
-	.string	"A_CPosRefire"
-.LASF1445:
-	.string	"A_BrainPain"
-.LASF1512:
-	.string	"rcsid"
-.LASF38:
-	.string	"sfx_wpnup"
-.LASF1401:
-	.string	"raisestate"
-.LASF1476:
-	.string	"A_VileStart"
-.LASF324:
-	.string	"S_MISSILEFLASH1"
-.LASF325:
-	.string	"S_MISSILEFLASH2"
-.LASF326:
-	.string	"S_MISSILEFLASH3"
-.LASF327:
-	.string	"S_MISSILEFLASH4"
-.LASF187:
-	.string	"SPR_RSKU"
-.LASF58:
-	.string	"sfx_skepch"
-.LASF1463:
-	.string	"A_FatAttack3"
-.LASF684:
-	.string	"S_CPOS_DIE2"
-.LASF685:
-	.string	"S_CPOS_DIE3"
-.LASF686:
-	.string	"S_CPOS_DIE4"
-.LASF1428:
-	.string	"MF_SHADOW"
-.LASF687:
-	.string	"S_CPOS_DIE5"
-.LASF688:
-	.string	"S_CPOS_DIE6"
-.LASF689:
-	.string	"S_CPOS_DIE7"
-.LASF1130:
-	.string	"S_PVIS2"
-.LASF1271:
-	.string	"MT_BARREL"
-.LASF862:
-	.string	"S_SPID_STND"
-.LASF634:
-	.string	"S_FATT_RUN10"
-.LASF635:
-	.string	"S_FATT_RUN11"
-.LASF636:
-	.string	"S_FATT_RUN12"
-.LASF1208:
-	.string	"S_RTORCHSHRT2"
-.LASF1263:
-	.string	"MT_PAIN"
-.LASF747:
-	.string	"S_SARG_ATK2"
-.LASF1188:
-	.string	"S_BLUETORCH2"
-.LASF1402:
-	.string	"mobjinfo_t"
-.LASF1189:
-	.string	"S_BLUETORCH3"
-.LASF1190:
-	.string	"S_BLUETORCH4"
-.LASF247:
-	.string	"SPR_SMRT"
-.LASF349:
-	.string	"S_BFGFLASH1"
-.LASF350:
-	.string	"S_BFGFLASH2"
-.LASF883:
-	.string	"S_SPID_DIE2"
-.LASF164:
-	.string	"SPR_BOS2"
-.LASF886:
-	.string	"S_SPID_DIE5"
-.LASF887:
-	.string	"S_SPID_DIE6"
-.LASF101:
-	.string	"sfx_bossit"
-.LASF888:
-	.string	"S_SPID_DIE7"
-.LASF889:
-	.string	"S_SPID_DIE8"
-.LASF1438:
-	.string	"A_BrainExplode"
-.LASF1179:
-	.string	"S_EVILEYE2"
-.LASF1180:
-	.string	"S_EVILEYE3"
-.LASF1181:
-	.string	"S_EVILEYE4"
-.LASF354:
-	.string	"S_PUFF1"
-.LASF355:
-	.string	"S_PUFF2"
-.LASF356:
-	.string	"S_PUFF3"
-.LASF175:
-	.string	"SPR_BOSF"
-.LASF163:
-	.string	"SPR_BOSS"
-.LASF1275:
-	.string	"MT_PLASMA"
-.LASF113:
-	.string	"sfx_radio"
-.LASF908:
-	.string	"S_BSPI_ATK1"
-.LASF909:
-	.string	"S_BSPI_ATK2"
-.LASF910:
-	.string	"S_BSPI_ATK3"
-.LASF911:
-	.string	"S_BSPI_ATK4"
-.LASF1090:
-	.string	"S_BKEY2"
-.LASF1439:
-	.string	"A_SpawnFly"
-.LASF895:
-	.string	"S_BSPI_SIGHT"
-.LASF2:
-	.string	"long unsigned int"
-.LASF1041:
-	.string	"S_BRAIN_DIE1"
-.LASF898:
-	.string	"S_BSPI_RUN3"
-.LASF1043:
-	.string	"S_BRAIN_DIE3"
-.LASF1044:
-	.string	"S_BRAIN_DIE4"
-.LASF376:
-	.string	"S_BFGSHOT"
-.LASF1182:
-	.string	"S_FLOATSKULL"
-.LASF532:
-	.string	"S_VILE_DIE1"
-.LASF533:
-	.string	"S_VILE_DIE2"
-.LASF534:
-	.string	"S_VILE_DIE3"
-.LASF535:
-	.string	"S_VILE_DIE4"
-.LASF536:
-	.string	"S_VILE_DIE5"
-.LASF537:
-	.string	"S_VILE_DIE6"
-.LASF538:
-	.string	"S_VILE_DIE7"
-.LASF539:
-	.string	"S_VILE_DIE8"
-.LASF540:
-	.string	"S_VILE_DIE9"
-.LASF1412:
-	.string	"MF_SHOOTABLE"
-.LASF216:
-	.string	"SPR_SMT2"
-.LASF1092:
-	.string	"S_RKEY2"
-.LASF1063:
-	.string	"S_ARM1"
-.LASF1065:
-	.string	"S_ARM2"
-.LASF1158:
-	.string	"S_HEADCANDLES"
-.LASF87:
-	.string	"sfx_barexp"
-.LASF788:
-	.string	"S_BOSS_STND"
-.LASF82:
-	.string	"sfx_dmact"
-.LASF1461:
-	.string	"A_CPosAttack"
-.LASF768:
-	.string	"S_HEAD_PAIN"
-.LASF1458:
-	.string	"A_SargAttack"
-.LASF1247:
-	.string	"MT_TRACER"
-.LASF649:
-	.string	"S_FATT_DIE1"
-.LASF3:
-	.string	"char"
-.LASF651:
-	.string	"S_FATT_DIE3"
-.LASF652:
-	.string	"S_FATT_DIE4"
-.LASF653:
-	.string	"S_FATT_DIE5"
-.LASF654:
-	.string	"S_FATT_DIE6"
-.LASF655:
-	.string	"S_FATT_DIE7"
-.LASF656:
-	.string	"S_FATT_DIE8"
-.LASF657:
-	.string	"S_FATT_DIE9"
-.LASF724:
-	.string	"S_TROO_XDIE2"
-.LASF725:
-	.string	"S_TROO_XDIE3"
-.LASF726:
-	.string	"S_TROO_XDIE4"
-.LASF727:
-	.string	"S_TROO_XDIE5"
-.LASF728:
-	.string	"S_TROO_XDIE6"
-.LASF729:
-	.string	"S_TROO_XDIE7"
-.LASF730:
-	.string	"S_TROO_XDIE8"
-.LASF199:
-	.string	"SPR_CLIP"
-.LASF1171:
-	.string	"S_SHRTREDCOL"
-.LASF1493:
-	.string	"A_Saw"
-.LASF1467:
-	.string	"A_SkelMissile"
-.LASF1214:
-	.string	"S_HANGTSKULL"
-.LASF1485:
-	.string	"A_Fall"
-.LASF1506:
-	.string	"A_ReFire"
-.LASF999:
-	.string	"S_SSWV_ATK3"
-.LASF1000:
-	.string	"S_SSWV_ATK4"
-.LASF305:
-	.string	"S_DSGUN10"
-.LASF70:
-	.string	"sfx_cacdth"
-.LASF272:
-	.string	"S_PISTOLDOWN"
-.LASF233:
-	.string	"SPR_CAND"
-.LASF27:
-	.string	"sfx_stnmov"
-.LASF1253:
-	.string	"MT_SERGEANT"
-.LASF22:
-	.string	"sfx_firxpl"
-.LASF1161:
-	.string	"S_LIVESTICK"
-.LASF1101:
-	.string	"S_STIM"
-.LASF754:
-	.string	"S_SARG_DIE4"
-.LASF764:
-	.string	"S_HEAD_RUN1"
-.LASF419:
-	.string	"S_PLAY_DIE1"
-.LASF420:
-	.string	"S_PLAY_DIE2"
-.LASF421:
-	.string	"S_PLAY_DIE3"
-.LASF11:
-	.string	"sfx_dbcls"
-.LASF423:
-	.string	"S_PLAY_DIE5"
-.LASF424:
-	.string	"S_PLAY_DIE6"
-.LASF425:
-	.string	"S_PLAY_DIE7"
-.LASF435:
-	.string	"S_POSS_STND"
-.LASF391:
-	.string	"S_TFOG"
-.LASF1331:
-	.string	"MT_MISC40"
-.LASF1332:
-	.string	"MT_MISC41"
-.LASF1496:
-	.string	"A_FireCGun"
-.LASF1333:
-	.string	"MT_MISC42"
-.LASF751:
-	.string	"S_SARG_DIE1"
-.LASF1334:
-	.string	"MT_MISC43"
-.LASF752:
-	.string	"S_SARG_DIE2"
-.LASF753:
-	.string	"S_SARG_DIE3"
-.LASF14:
-	.string	"sfx_bfg"
-.LASF1052:
-	.string	"S_SPAWNFIRE1"
-.LASF1053:
-	.string	"S_SPAWNFIRE2"
-.LASF1054:
-	.string	"S_SPAWNFIRE3"
-.LASF1055:
-	.string	"S_SPAWNFIRE4"
-.LASF1056:
-	.string	"S_SPAWNFIRE5"
-.LASF1057:
-	.string	"S_SPAWNFIRE6"
-.LASF1058:
-	.string	"S_SPAWNFIRE7"
-.LASF1059:
-	.string	"S_SPAWNFIRE8"
-.LASF723:
-	.string	"S_TROO_XDIE1"
-.LASF1216:
-	.string	"S_HANGTNOBRAIN"
-.LASF371:
-	.string	"S_PLASEXP2"
-.LASF372:
-	.string	"S_PLASEXP3"
-.LASF373:
-	.string	"S_PLASEXP4"
-.LASF374:
-	.string	"S_PLASEXP5"
-.LASF1200:
-	.string	"S_BTORCHSHRT2"
-.LASF1201:
-	.string	"S_BTORCHSHRT3"
-.LASF1202:
-	.string	"S_BTORCHSHRT4"
-.LASF77:
-	.string	"sfx_kntdth"
-.LASF504:
-	.string	"S_VILE_RUN1"
-.LASF294:
-	.string	"S_DSGUNDOWN"
-.LASF506:
-	.string	"S_VILE_RUN3"
-.LASF507:
-	.string	"S_VILE_RUN4"
-.LASF508:
-	.string	"S_VILE_RUN5"
-.LASF509:
-	.string	"S_VILE_RUN6"
-.LASF510:
-	.string	"S_VILE_RUN7"
-.LASF511:
-	.string	"S_VILE_RUN8"
-.LASF512:
-	.string	"S_VILE_RUN9"
-.LASF755:
-	.string	"S_SARG_DIE5"
-.LASF756:
-	.string	"S_SARG_DIE6"
-.LASF1440:
-	.string	"A_SpawnSound"
-.LASF69:
-	.string	"sfx_sgtdth"
-.LASF597:
-	.string	"S_SKEL_FIST2"
-.LASF596:
-	.string	"S_SKEL_FIST1"
-.LASF73:
-	.string	"sfx_cybdth"
-.LASF598:
-	.string	"S_SKEL_FIST3"
-.LASF599:
-	.string	"S_SKEL_FIST4"
-.LASF335:
-	.string	"S_PLASMA"
-.LASF1114:
-	.string	"S_PINS"
-.LASF34:
-	.string	"sfx_mnpain"
-.LASF1468:
-	.string	"A_SkelFist"
-.LASF1187:
-	.string	"S_BLUETORCH"
-.LASF625:
-	.string	"S_FATT_RUN1"
-.LASF626:
-	.string	"S_FATT_RUN2"
-.LASF627:
-	.string	"S_FATT_RUN3"
-.LASF628:
-	.string	"S_FATT_RUN4"
-.LASF629:
-	.string	"S_FATT_RUN5"
-.LASF630:
-	.string	"S_FATT_RUN6"
-.LASF631:
-	.string	"S_FATT_RUN7"
-.LASF632:
-	.string	"S_FATT_RUN8"
-.LASF1163:
-	.string	"S_MEAT2"
-.LASF1164:
-	.string	"S_MEAT3"
-.LASF1165:
-	.string	"S_MEAT4"
-.LASF1166:
-	.string	"S_MEAT5"
-.LASF278:
-	.string	"S_PISTOLFLASH"
-.LASF498:
-	.string	"S_SPOS_RAISE2"
-.LASF499:
-	.string	"S_SPOS_RAISE3"
-.LASF500:
-	.string	"S_SPOS_RAISE4"
-.LASF501:
-	.string	"S_SPOS_RAISE5"
-.LASF190:
-	.string	"SPR_MEDI"
-.LASF192:
-	.string	"SPR_PINV"
-.LASF1176:
-	.string	"S_BIGTREE"
-.LASF79:
-	.string	"sfx_skedth"
-.LASF1040:
-	.string	"S_BRAIN_PAIN"
-.LASF311:
-	.string	"S_CHAINDOWN"
-.LASF1423:
-	.string	"MF_SLIDE"
-.LASF530:
-	.string	"S_VILE_PAIN"
-.LASF577:
-	.string	"S_TRACER"
-.LASF1450:
-	.string	"A_Hoof"
-.LASF1503:
-	.string	"A_FireShotgun"
-.LASF997:
-	.string	"S_SSWV_ATK1"
-.LASF998:
-	.string	"S_SSWV_ATK2"
-.LASF527:
-	.string	"S_VILE_HEAL1"
-.LASF528:
-	.string	"S_VILE_HEAL2"
-.LASF529:
-	.string	"S_VILE_HEAL3"
-.LASF1002:
-	.string	"S_SSWV_ATK6"
-.LASF95:
-	.string	"sfx_itmbk"
-.LASF184:
-	.string	"SPR_RKEY"
-.LASF1148:
-	.string	"S_STALAG"
-.LASF863:
-	.string	"S_SPID_STND2"
-.LASF1479:
-	.string	"A_Scream"
-.LASF1344:
-	.string	"MT_MISC53"
-.LASF1149:
-	.string	"S_BLOODYTWITCH"
-.LASF1218:
-	.string	"S_SMALLPOOL"
-.LASF1347:
-	.string	"MT_MISC56"
-.LASF647:
-	.string	"S_FATT_PAIN"
-.LASF411:
-	.string	"S_PLAY_RUN1"
-.LASF412:
-	.string	"S_PLAY_RUN2"
-.LASF413:
-	.string	"S_PLAY_RUN3"
-.LASF414:
-	.string	"S_PLAY_RUN4"
-.LASF1139:
-	.string	"S_BPAK"
-.LASF1409:
-	.string	"double"
-.LASF179:
-	.string	"SPR_BEXP"
-.LASF715:
-	.string	"S_TROO_ATK3"
-.LASF1418:
-	.string	"MF_SPAWNCEILING"
-.LASF138:
-	.string	"SPR_PUFF"
-.LASF1025:
-	.string	"S_COMMKEEN"
-.LASF23:
-	.string	"sfx_pstart"
-.LASF1480:
-	.string	"A_PosAttack"
-.LASF817:
-	.string	"S_BOS2_STND"
-.LASF144:
-	.string	"SPR_BFS1"
-.LASF1048:
-	.string	"S_SPAWN1"
-.LASF1049:
-	.string	"S_SPAWN2"
-.LASF1050:
-	.string	"S_SPAWN3"
-.LASF1051:
-	.string	"S_SPAWN4"
-.LASF1221:
-	.string	"S_TECHLAMP2"
-.LASF1222:
-	.string	"S_TECHLAMP3"
-.LASF1223:
-	.string	"S_TECHLAMP4"
-.LASF1261:
-	.string	"MT_BABY"
-.LASF1501:
-	.string	"A_FireShotgun2"
-.LASF1162:
-	.string	"S_LIVESTICK2"
-.LASF1302:
-	.string	"MT_MISC16"
-.LASF1207:
-	.string	"S_RTORCHSHRT"
-.LASF1307:
-	.string	"MT_MISC19"
-.LASF166:
-	.string	"SPR_SPID"
-.LASF763:
-	.string	"S_HEAD_STND"
-.LASF1249:
-	.string	"MT_FATSO"
-.LASF738:
-	.string	"S_SARG_RUN1"
-.LASF739:
-	.string	"S_SARG_RUN2"
-.LASF741:
-	.string	"S_SARG_RUN4"
-.LASF742:
-	.string	"S_SARG_RUN5"
-.LASF743:
-	.string	"S_SARG_RUN6"
-.LASF744:
-	.string	"S_SARG_RUN7"
-.LASF745:
-	.string	"S_SARG_RUN8"
-.LASF1285:
-	.string	"MT_MISC1"
-.LASF1286:
-	.string	"MT_MISC2"
-.LASF1287:
-	.string	"MT_MISC3"
-.LASF1288:
-	.string	"MT_MISC4"
-.LASF1289:
-	.string	"MT_MISC5"
-.LASF1290:
-	.string	"MT_MISC6"
-.LASF1291:
-	.string	"MT_MISC7"
-.LASF1292:
-	.string	"MT_MISC8"
-.LASF1293:
-	.string	"MT_MISC9"
-.LASF328:
-	.string	"S_SAW"
-.LASF80:
-	.string	"sfx_posact"
-.LASF417:
-	.string	"S_PLAY_PAIN"
-.LASF369:
-	.string	"S_PLASBALL2"
-.LASF173:
-	.string	"SPR_KEEN"
-.LASF1003:
-	.string	"S_SSWV_PAIN"
-.LASF1386:
-	.string	"painstate"
-.LASF1038:
-	.string	"S_KEENPAIN2"
-.LASF525:
-	.string	"S_VILE_ATK10"
-.LASF526:
-	.string	"S_VILE_ATK11"
-.LASF1004:
-	.string	"S_SSWV_PAIN2"
-.LASF1371:
-	.string	"MT_MISC80"
-.LASF1393:
-	.string	"deathsound"
-.LASF1078:
-	.string	"S_BON1A"
-.LASF1079:
-	.string	"S_BON1B"
-.LASF1080:
-	.string	"S_BON1C"
-.LASF1081:
-	.string	"S_BON1D"
-.LASF1082:
-	.string	"S_BON1E"
-.LASF1457:
-	.string	"A_HeadAttack"
-.LASF193:
-	.string	"SPR_PSTR"
-.LASF1309:
-	.string	"MT_MISC21"
-.LASF749:
-	.string	"S_SARG_PAIN"
-.LASF1304:
-	.string	"MT_CLIP"
-.LASF208:
-	.string	"SPR_BFUG"
-.LASF1359:
-	.string	"MT_MISC68"
-.LASF1074:
-	.string	"S_BBAR1"
-.LASF1075:
-	.string	"S_BBAR2"
-.LASF1076:
-	.string	"S_BBAR3"
-.LASF262:
-	.string	"S_LIGHTDONE"
-.LASF913:
-	.string	"S_BSPI_PAIN2"
-.LASF713:
-	.string	"S_TROO_ATK1"
-.LASF714:
-	.string	"S_TROO_ATK2"
-.LASF91:
-	.string	"sfx_chgun"
-.LASF857:
-	.string	"S_SKULL_DIE2"
-.LASF858:
-	.string	"S_SKULL_DIE3"
-.LASF859:
-	.string	"S_SKULL_DIE4"
-.LASF860:
-	.string	"S_SKULL_DIE5"
-.LASF861:
-	.string	"S_SKULL_DIE6"
-.LASF212:
-	.string	"SPR_PLAS"
-.LASF1084:
-	.string	"S_BON2A"
-.LASF1085:
-	.string	"S_BON2B"
-.LASF125:
-	.string	"SPR_PISF"
-.LASF124:
-	.string	"SPR_PISG"
-.LASF1088:
-	.string	"S_BON2E"
-.LASF1314:
-	.string	"MT_CHAINGUN"
-.LASF360:
-	.string	"S_TBALLX1"
-.LASF361:
-	.string	"S_TBALLX2"
-.LASF362:
-	.string	"S_TBALLX3"
-.LASF422:
-	.string	"S_PLAY_DIE4"
-.LASF170:
-	.string	"SPR_CYBR"
-.LASF1251:
-	.string	"MT_CHAINGUY"
-.LASF41:
-	.string	"sfx_posit1"
-.LASF42:
-	.string	"sfx_posit2"
-.LASF43:
-	.string	"sfx_posit3"
-.LASF856:
-	.string	"S_SKULL_DIE1"
-.LASF107:
-	.string	"sfx_ssdth"
-.LASF1219:
-	.string	"S_BRAINSTEM"
-.LASF89:
-	.string	"sfx_hoof"
-.LASF149:
-	.string	"SPR_PLAY"
-.LASF1422:
-	.string	"MF_NOCLIP"
-.LASF1482:
-	.string	"A_Chase"
-.LASF56:
-	.string	"sfx_sklatk"
-.LASF1444:
-	.string	"A_BrainScream"
-.LASF1159:
-	.string	"S_HEADCANDLES2"
-.LASF1281:
-	.string	"MT_IFOG"
-.LASF1477:
-	.string	"A_VileChase"
-.LASF240:
-	.string	"SPR_FSKU"
-.LASF475:
-	.string	"S_SPOS_RUN6"
-.LASF331:
-	.string	"S_SAWUP"
-.LASF1064:
-	.string	"S_ARM1A"
-.LASF667:
-	.string	"S_CPOS_STND"
-.LASF1138:
-	.string	"S_SBOX"
-.LASF1466:
-	.string	"A_FatRaise"
-.LASF1325:
-	.string	"MT_MISC34"
-.LASF370:
-	.string	"S_PLASEXP"
-.LASF36:
-	.string	"sfx_slop"
-.LASF1154:
-	.string	"S_DEADBOTTOM"
-.LASF1211:
-	.string	"S_HANGNOGUTS"
-.LASF1475:
-	.string	"A_VileTarget"
-.LASF1385:
-	.string	"attacksound"
-.LASF1115:
-	.string	"S_PINS2"
-.LASF1116:
-	.string	"S_PINS3"
-.LASF1117:
-	.string	"S_PINS4"
-.LASF969:
-	.string	"S_PAIN_ATK1"
-.LASF970:
-	.string	"S_PAIN_ATK2"
-.LASF971:
-	.string	"S_PAIN_ATK3"
-.LASF972:
-	.string	"S_PAIN_ATK4"
-.LASF1469:
-	.string	"A_SkelWhoosh"
-.LASF281:
-	.string	"S_SGUNUP"
-.LASF1447:
-	.string	"A_PainDie"
-.LASF1420:
-	.string	"MF_DROPOFF"
-.LASF234:
-	.string	"SPR_CBRA"
-.LASF1391:
-	.string	"deathstate"
-.LASF1066:
-	.string	"S_ARM2A"
-.LASF935:
-	.string	"S_CYBER_STND"
-.LASF1094:
-	.string	"S_YKEY2"
-.LASF1233:
-	.string	"action"
-.LASF1384:
-	.string	"reactiontime"
-.LASF548:
-	.string	"S_FIRE7"
-.LASF549:
-	.string	"S_FIRE8"
-.LASF789:
-	.string	"S_BOSS_STND2"
-.LASF86:
-	.string	"sfx_noway"
-.LASF332:
-	.string	"S_SAW1"
-.LASF333:
-	.string	"S_SAW2"
-.LASF334:
-	.string	"S_SAW3"
-.LASF1077:
-	.string	"S_BON1"
-.LASF1083:
-	.string	"S_BON2"
-.LASF329:
-	.string	"S_SAWB"
-.LASF717:
-	.string	"S_TROO_PAIN2"
-.LASF1267:
-	.string	"MT_BOSSSPIT"
-.LASF542:
-	.string	"S_FIRE1"
-.LASF543:
-	.string	"S_FIRE2"
-.LASF544:
-	.string	"S_FIRE3"
-.LASF545:
-	.string	"S_FIRE4"
-.LASF546:
-	.string	"S_FIRE5"
-.LASF547:
-	.string	"S_FIRE6"
-.LASF104:
-	.string	"sfx_manatk"
-.LASF202:
-	.string	"SPR_BROK"
-.LASF550:
-	.string	"S_FIRE9"
-.LASF1335:
-	.string	"MT_MISC44"
-.LASF674:
-	.string	"S_CPOS_RUN6"
-.LASF1337:
-	.string	"MT_MISC46"
-.LASF1338:
-	.string	"MT_MISC47"
-.LASF200:
-	.string	"SPR_AMMO"
-.LASF1339:
-	.string	"MT_MISC48"
-.LASF1340:
-	.string	"MT_MISC49"
-.LASF848:
-	.string	"S_SKULL_RUN1"
-.LASF849:
-	.string	"S_SKULL_RUN2"
-.LASF1215:
-	.string	"S_HANGTLOOKUP"
-.LASF1413:
-	.string	"MF_NOSECTOR"
-.LASF310:
-	.string	"S_CHAIN"
-.LASF340:
-	.string	"S_PLASMAFLASH1"
-.LASF296:
-	.string	"S_DSGUN1"
-.LASF297:
-	.string	"S_DSGUN2"
-.LASF191:
-	.string	"SPR_SOUL"
-.LASF151:
-	.string	"SPR_SPOS"
-.LASF300:
-	.string	"S_DSGUN5"
-.LASF301:
-	.string	"S_DSGUN6"
-.LASF302:
-	.string	"S_DSGUN7"
-.LASF303:
-	.string	"S_DSGUN8"
-.LASF304:
-	.string	"S_DSGUN9"
-.LASF468:
-	.string	"S_SPOS_STND"
-.LASF171:
-	.string	"SPR_PAIN"
-.LASF84:
-	.string	"sfx_bspwlk"
-.LASF1096:
-	.string	"S_BSKULL2"
-.LASF76:
-	.string	"sfx_vildth"
-.LASF345:
-	.string	"S_BFG1"
-.LASF346:
-	.string	"S_BFG2"
-.LASF347:
-	.string	"S_BFG3"
-.LASF348:
-	.string	"S_BFG4"
-.LASF260:
-	.string	"spritenum_t"
-.LASF307:
-	.string	"S_DSNR2"
-.LASF847:
-	.string	"S_SKULL_STND2"
-.LASF1110:
-	.string	"S_PINV2"
-.LASF1111:
-	.string	"S_PINV3"
-.LASF740:
-	.string	"S_SARG_RUN3"
-.LASF1225:
-	.string	"S_TECH2LAMP2"
-.LASF1226:
-	.string	"S_TECH2LAMP3"
-.LASF1227:
-	.string	"S_TECH2LAMP4"
-.LASF1431:
-	.string	"MF_INFLOAT"
-.LASF123:
-	.string	"SPR_PUNG"
-.LASF691:
-	.string	"S_CPOS_XDIE2"
-.LASF60:
-	.string	"sfx_claw"
-.LASF693:
-	.string	"S_CPOS_XDIE4"
-.LASF694:
-	.string	"S_CPOS_XDIE5"
-.LASF695:
-	.string	"S_CPOS_XDIE6"
-.LASF876:
-	.string	"S_SPID_ATK1"
-.LASF877:
-	.string	"S_SPID_ATK2"
-.LASF878:
-	.string	"S_SPID_ATK3"
-.LASF879:
-	.string	"S_SPID_ATK4"
-.LASF600:
-	.string	"S_SKEL_MISS1"
-.LASF601:
-	.string	"S_SKEL_MISS2"
-.LASF602:
-	.string	"S_SKEL_MISS3"
-.LASF603:
-	.string	"S_SKEL_MISS4"
-.LASF357:
-	.string	"S_PUFF4"
-.LASF1097:
-	.string	"S_RSKULL"
-.LASF929:
-	.string	"S_ARACH_PLAZ2"
-.LASF1341:
-	.string	"MT_MISC50"
-.LASF777:
-	.string	"S_HEAD_RAISE1"
-.LASF1376:
-	.string	"MT_MISC85"
-.LASF778:
-	.string	"S_HEAD_RAISE2"
-.LASF779:
-	.string	"S_HEAD_RAISE3"
-.LASF186:
-	.string	"SPR_BSKU"
-.LASF781:
-	.string	"S_HEAD_RAISE5"
-.LASF782:
-	.string	"S_HEAD_RAISE6"
-.LASF1446:
-	.string	"A_KeenDie"
-.LASF1319:
-	.string	"MT_SUPERSHOTGUN"
-.LASF197:
-	.string	"SPR_PMAP"
-.LASF1045:
-	.string	"S_BRAINEYE"
-.LASF198:
-	.string	"SPR_PVIS"
-.LASF1277:
-	.string	"MT_ARACHPLAZ"
-.LASF1429:
-	.string	"MF_NOBLOOD"
-.LASF522:
-	.string	"S_VILE_ATK7"
-.LASF523:
-	.string	"S_VILE_ATK8"
-.LASF464:
-	.string	"S_POSS_RAISE1"
-.LASF465:
-	.string	"S_POSS_RAISE2"
-.LASF466:
-	.string	"S_POSS_RAISE3"
-.LASF467:
-	.string	"S_POSS_RAISE4"
-.LASF1508:
-	.string	"A_Raise"
-.LASF319:
-	.string	"S_MISSILEDOWN"
-.LASF1509:
-	.string	"A_Lower"
-.LASF1183:
-	.string	"S_FLOATSKULL2"
-.LASF1184:
-	.string	"S_FLOATSKULL3"
-.LASF10:
-	.string	"sfx_dbopn"
-.LASF1118:
-	.string	"S_MEGA"
-.LASF798:
-	.string	"S_BOSS_ATK1"
-.LASF799:
-	.string	"S_BOSS_ATK2"
-.LASF800:
-	.string	"S_BOSS_ATK3"
-.LASF256:
-	.string	"SPR_BRS1"
-.LASF605:
-	.string	"S_SKEL_PAIN2"
-.LASF1142:
-	.string	"S_CSAW"
-.LASF1465:
-	.string	"A_FatAttack1"
-.LASF1464:
-	.string	"A_FatAttack2"
-.LASF785:
-	.string	"S_BRBALLX1"
-.LASF786:
-	.string	"S_BRBALLX2"
-.LASF787:
-	.string	"S_BRBALLX3"
-.LASF915:
-	.string	"S_BSPI_DIE2"
-.LASF916:
-	.string	"S_BSPI_DIE3"
-.LASF917:
-	.string	"S_BSPI_DIE4"
-.LASF918:
-	.string	"S_BSPI_DIE5"
-.LASF919:
-	.string	"S_BSPI_DIE6"
-.LASF920:
-	.string	"S_BSPI_DIE7"
-.LASF606:
-	.string	"S_SKEL_DIE1"
-.LASF471:
-	.string	"S_SPOS_RUN2"
-.LASF1453:
-	.string	"A_SpidRefire"
-.LASF974:
-	.string	"S_PAIN_PAIN2"
-.LASF609:
-	.string	"S_SKEL_DIE4"
-.LASF6:
-	.string	"sfx_pistol"
-.LASF205:
-	.string	"SPR_SHEL"
-.LASF1360:
-	.string	"MT_MISC69"
-.LASF257:
-	.string	"SPR_TLMP"
-.LASF1489:
-	.string	"A_BFGSpray"
-.LASF1425:
-	.string	"MF_TELEPORT"
-.LASF436:
-	.string	"S_POSS_STND2"
-.LASF1318:
-	.string	"MT_SHOTGUN"
-.LASF1243:
-	.string	"MT_SHOTGUY"
-.LASF1220:
-	.string	"S_TECHLAMP"
-.LASF1264:
-	.string	"MT_WOLFSS"
-.LASF818:
-	.string	"S_BOS2_STND2"
-.LASF313:
-	.string	"S_CHAIN1"
-.LASF314:
-	.string	"S_CHAIN2"
-.LASF315:
-	.string	"S_CHAIN3"
-.LASF366:
-	.string	"S_RBALLX2"
-.LASF102:
-	.string	"sfx_bospn"
-.LASF242:
-	.string	"SPR_TBLU"
-.LASF1441:
-	.string	"A_BrainSpit"
-.LASF469:
-	.string	"S_SPOS_STND2"
-.LASF4:
-	.string	"unsigned int"
-.LASF1456:
-	.string	"A_BruisAttack"
-.LASF7:
-	.string	"sfx_shotgn"
-.LASF47:
-	.string	"sfx_cacsit"
-.LASF67:
-	.string	"sfx_bgdth1"
-.LASF68:
-	.string	"sfx_bgdth2"
-.LASF445:
-	.string	"S_POSS_ATK1"
-.LASF446:
-	.string	"S_POSS_ATK2"
-.LASF447:
-	.string	"S_POSS_ATK3"
-.LASF1362:
-	.string	"MT_MISC71"
-.LASF96:
-	.string	"sfx_flame"
-.LASF1209:
-	.string	"S_RTORCHSHRT3"
-.LASF1210:
-	.string	"S_RTORCHSHRT4"
-.LASF1112:
-	.string	"S_PINV4"
-.LASF1407:
-	.string	"short int"
-.LASF1368:
-	.string	"MT_MISC77"
-.LASF1369:
-	.string	"MT_MISC78"
-.LASF1370:
-	.string	"MT_MISC79"
-.LASF1259:
-	.string	"MT_SKULL"
-.LASF1246:
-	.string	"MT_UNDEAD"
-.LASF434:
-	.string	"S_PLAY_XDIE9"
-.LASF607:
-	.string	"S_SKEL_DIE2"
-.LASF608:
-	.string	"S_SKEL_DIE3"
-.LASF153:
-	.string	"SPR_FIRE"
-.LASF610:
-	.string	"S_SKEL_DIE5"
-.LASF611:
-	.string	"S_SKEL_DIE6"
-.LASF1448:
-	.string	"A_PainAttack"
-.LASF1217:
-	.string	"S_COLONGIBS"
-.LASF1483:
-	.string	"A_Look"
-.LASF1495:
-	.string	"A_GunFlash"
-.LASF258:
-	.string	"SPR_TLP2"
-.LASF368:
-	.string	"S_PLASBALL"
-.LASF63:
-	.string	"sfx_pdiehi"
-.LASF214:
-	.string	"SPR_SGN2"
-.LASF167:
-	.string	"SPR_BSPI"
-.LASF169:
-	.string	"SPR_APBX"
-.LASF1294:
-	.string	"MT_MISC10"
-.LASF1295:
-	.string	"MT_MISC11"
-.LASF1296:
-	.string	"MT_MISC12"
-.LASF1298:
-	.string	"MT_MISC13"
-.LASF1300:
-	.string	"MT_MISC14"
-.LASF1301:
-	.string	"MT_MISC15"
-.LASF892:
-	.string	"S_SPID_DIE11"
-.LASF1305:
-	.string	"MT_MISC17"
-.LASF1306:
-	.string	"MT_MISC18"
-.LASF1131:
-	.string	"S_CLIP"
-.LASF1395:
-	.string	"radius"
-.LASF1268:
-	.string	"MT_BOSSTARGET"
-.LASF52:
-	.string	"sfx_kntsit"
-.LASF1433:
-	.string	"MF_COUNTITEM"
-	.section	.debug_line_str,"MS",@progbits,1
-.LASF1:
-	.string	"/home/astrid/Documents/enseignements/DOOM/linuxdoom-1.10"
-.LASF0:
-	.string	"info.c"
 	.ident	"GCC: (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0"
 	.section	.note.GNU-stack,"",@progbits
 	.section	.note.gnu.property,"a"
