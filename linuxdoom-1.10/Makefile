@@ -81,13 +81,15 @@ all:	 $(O)/linuxxdoom
 
 clean:
 	rm -f *.o *~ *.flc
-	rm -f linux/*
+	rm -f $(O)/*.o $(O)/*.s $(O)/linuxxdoom
 
 $(O)/linuxxdoom:	$(OBJS) $(O)/i_main.o
 	$(CC) $(CFLAGS) $(LDFLAGS) $(OBJS) $(O)/i_main.o \
 	-o $(O)/linuxxdoom $(LIBS)
 
-$(O)/%.o:	%.c
+$(O)/%.o:	%.s
+#	$(CC) $(CFLAGS) -S -fverbose-asm $< -o $(patsubst %.o,%.s,$@)
+#	echo $(patsubst %.o,%.s,$@)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 #############################################################
