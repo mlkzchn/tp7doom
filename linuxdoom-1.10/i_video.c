@@ -827,7 +827,8 @@ void I_InitGraphics(void)
   			X_mainWindow,
   			valuemask,
   			&xgcvalues );
-
+    
+    XInstallColormap( X_display, X_cmap );
     // map the window
     XMapWindow(X_display, X_mainWindow);
 
