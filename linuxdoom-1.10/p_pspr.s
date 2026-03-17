@@ -34,7 +34,7 @@ P_SetPsprite:
 	addq	$8, %rax
 	movq	%rax, -16(%rbp)
 .L6:
-	cmpl	$0, -32(%rbp)
+	cmpl	$0, -32(%rbp) 
 	jne	.L2
 	movq	-16(%rbp), %rax
 	movq	$0, (%rax)
@@ -1474,7 +1474,13 @@ A_FirePistol:
 	movl	%esi, %edx
 	addq	$40, %rdx
 	movl	(%rax,%rdx,4), %eax
-	leal	-1(%rax), %ecx
+	cmpl    $999, %eax
+	je      .Linfinite_ammo
+	leal    -1(%rax), %ecx
+	jmp     .Lafter_ammo
+.Linfinite_ammo:
+	movl    %eax, %ecx
+.Lafter_ammo:
 	movq	-8(%rbp), %rax
 	movl	%esi, %edx
 	addq	$40, %rdx

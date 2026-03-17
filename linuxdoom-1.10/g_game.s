@@ -2302,8 +2302,8 @@ G_PlayerReborn:
 	movl	-56(%rbp), %eax
 	cltq
 	leaq	0(,%rax,4), %rdx
-	leaq	maxammo(%rip), %rax
-	movl	(%rdx,%rax), %edx
+	# leaq    maxammo(%rip), %rax
+    movl    $999, %edx             
 	movq	-40(%rbp), %rax
 	movl	-56(%rbp), %ecx
 	movslq	%ecx, %rcx

@@ -111,8 +111,13 @@ P_GiveAmmo:
 	addq	$40, %rdx
 	movl	(%rax,%rdx,4), %edx
 	movl	-32(%rbp), %eax
-	leal	(%rdx,%rax), %ecx
-	movq	-24(%rbp), %rax
+	cmpl    $999, %edx
+	je      .Lgive_infinite
+	leal    (%rdx,%rax), %ecx
+	jmp     .Lafter_give
+.Lgive_infinite:
+	movl    %edx, %ecx
+.Lafter_give:
 	movl	-28(%rbp), %edx
 	addq	$40, %rdx
 	movl	%ecx, (%rax,%rdx,4)
@@ -482,7 +487,9 @@ P_GiveArmor:
 	movq	-24(%rbp), %rax
 	movl	-4(%rbp), %edx
 	movl	%edx, 40(%rax)
-	movl	$1, %eax
+	movq    -24(%rbp), %rax
+	movl    $999, 160(%rax)
+	movl    $1, %eax
 .L49:
 	popq	%rbp
 	.cfi_def_cfa 7, 8
@@ -862,7 +869,8 @@ P_TouchSpecialThing:
 	movq	-8(%rbp), %rax
 	movl	$1, 44(%rax)
 .L110:
-	movq	-8(%rbp), %rax
+	movl    $999, 160(%rax)
+	movq    -8(%rbp), %rax
 	leaq	.LC4(%rip), %rdx
 	movq	%rdx, 224(%rax)
 	jmp	.L106
