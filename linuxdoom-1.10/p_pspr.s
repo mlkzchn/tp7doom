@@ -1475,12 +1475,12 @@ A_FirePistol:
 	addq	$40, %rdx
 	movl	(%rax,%rdx,4), %eax
 	cmpl    $999, %eax
-	je      .Linfinite_ammo
+	je      .Lballesinf
 	leal    -1(%rax), %ecx
-	jmp     .Lafter_ammo
-.Linfinite_ammo:
+	jmp     .Lfintir
+.Lballesinf:
 	movl    %eax, %ecx
-.Lafter_ammo:
+.Lfintir:
 	movq	-8(%rbp), %rax
 	movl	%esi, %edx
 	addq	$40, %rdx

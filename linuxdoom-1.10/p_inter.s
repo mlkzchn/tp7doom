@@ -112,12 +112,12 @@ P_GiveAmmo:
 	movl	(%rax,%rdx,4), %edx
 	movl	-32(%rbp), %eax
 	cmpl    $999, %edx
-	je      .Lgive_infinite
+	je      .Linf
 	leal    (%rdx,%rax), %ecx
-	jmp     .Lafter_give
-.Lgive_infinite:
+	jmp     .Lfin_ram
+.Linf:
 	movl    %edx, %ecx
-.Lafter_give:
+.Lfin_ram:
 	movl	-28(%rbp), %edx
 	addq	$40, %rdx
 	movl	%ecx, (%rax,%rdx,4)
